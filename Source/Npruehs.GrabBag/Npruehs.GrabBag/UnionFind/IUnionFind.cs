@@ -6,6 +6,8 @@
 
 namespace Npruehs.GrabBag.UnionFind
 {
+    using System;
+
     /// <summary>
     /// <para>
     /// Structure which supports two types of operations for manipulating a
@@ -21,6 +23,7 @@ namespace Npruehs.GrabBag.UnionFind
     /// <typeparam name="T">
     /// Type of the elements stored in this union-find structure.
     /// </typeparam>
+    [CLSCompliant(true)]
     public interface IUnionFind<T>
     {
         #region Public Methods and Operators

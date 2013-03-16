@@ -6,12 +6,15 @@
 
 namespace Npruehs.GrabBag.UnionFind
 {
+    using System;
+
     /// <summary>
     /// Node of <i>Robert Endre Tarjan</i>'s union-find structure.
     /// </summary>
     /// <typeparam name="T">
     /// Type of the item held by this union-find node.
     /// </typeparam>
+    [CLSCompliant(true)]
     public class UnionFindNode<T>
     {
         #region Constructors and Destructors

@@ -16,6 +16,7 @@ namespace Npruehs.GrabBag.UnionFind
     /// <typeparam name="T">
     /// Type of the elements of the union-find universe.
     /// </typeparam>
+    [CLSCompliant(true)]
     public class UnionFind<T> : IUnionFind<T>
     {
         #region Fields
