@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag", "Npruehs.GrabBag\Npruehs.GrabBag.csproj", "{CA4E6C3F-2AEB-4314-988F-11EB998B79E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.Tests", "Npruehs.GrabBag.Tests\Npruehs.GrabBag.Tests.csproj", "{45075441-0D4E-4066-B893-95A9838EEC44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA4E6C3F-2AEB-4314-988F-11EB998B79E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4E6C3F-2AEB-4314-988F-11EB998B79E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4E6C3F-2AEB-4314-988F-11EB998B79E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4E6C3F-2AEB-4314-988F-11EB998B79E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45075441-0D4E-4066-B893-95A9838EEC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45075441-0D4E-4066-B893-95A9838EEC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45075441-0D4E-4066-B893-95A9838EEC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45075441-0D4E-4066-B893-95A9838EEC44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
