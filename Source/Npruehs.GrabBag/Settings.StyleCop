@@ -3,7 +3,9 @@
     <StringProperty Name="MergeSettingsFiles">NoMerge</StringProperty>
     <CollectionProperty Name="RecognizedWords">
       <Value>Endre</Value>
-      <Value>Tarjan's</Value>
+	  <Value>Fredman</Value>
+	  <Value>Tarjan</Value>
+	  <Value>Tarjan's</Value>
     </CollectionProperty>
   </GlobalSettings>
   <Analyzers>
@@ -38,6 +40,13 @@
       <AnalyzerSettings>
         <StringProperty Name="CompanyName">Nick Pruehs</StringProperty>
         <StringProperty Name="Copyright">Copyright 2013 Nick Pruehs.</StringProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+	<Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
+      <AnalyzerSettings>
+        <CollectionProperty Name="Hungarian">
+          <Value>to</Value>
+        </CollectionProperty>
       </AnalyzerSettings>
     </Analyzer>
     <Analyzer AnalyzerId="StyleCop.CSharp.ReadabilityRules">
