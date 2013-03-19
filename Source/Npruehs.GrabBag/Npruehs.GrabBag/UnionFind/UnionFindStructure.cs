@@ -77,7 +77,7 @@ namespace Npruehs.GrabBag.UnionFind
         /// <param name="w">
         /// An element in the second set to merge.
         /// </param>
-        public void Union(UnionFindNode<T> v, UnionFindNode<T> w)
+        public void Unite(UnionFindNode<T> v, UnionFindNode<T> w)
         {
             var rootV = this.Find(v);
             var rootW = this.Find(w);
