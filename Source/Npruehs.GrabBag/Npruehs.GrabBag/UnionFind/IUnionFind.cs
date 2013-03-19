@@ -57,7 +57,7 @@ namespace Npruehs.GrabBag.UnionFind
         /// <param name="w">
         /// An element in the second set to merge.
         /// </param>
-        void Unite(T v, T w);
+        void Union(T v, T w);
 
         #endregion
     }

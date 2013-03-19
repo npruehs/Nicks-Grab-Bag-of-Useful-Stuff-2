@@ -76,12 +76,12 @@ namespace Npruehs.GrabBag.Tests
         /// sets and checking their canonical elements for equality.
         /// </summary>
         [Test]
-        public void UniteFind()
+        public void UnionFind()
         {
             this.unionFind.MakeSet(this.itemA);
             this.unionFind.MakeSet(this.itemB);
 
-            this.unionFind.Unite(this.itemA, this.itemB);
+            this.unionFind.Union(this.itemA, this.itemB);
 
             var findA = this.unionFind.Find(this.itemA);
             var findB = this.unionFind.Find(this.itemB);
@@ -90,25 +90,25 @@ namespace Npruehs.GrabBag.Tests
         }
 
         /// <summary>
-        /// Tries to calling unite in the union-find structure with an unknown first item.
+        /// Tries to calling union in the union-find structure with an unknown first item.
         /// </summary>
         [Test]
         [ExpectedException(typeof(InvalidOperationException))]
-        public void UniteUnknownFirstItem()
+        public void UnionUnknownFirstItem()
         {
             this.unionFind.MakeSet(this.itemB);
-            this.unionFind.Unite(this.itemA, this.itemB);
+            this.unionFind.Union(this.itemA, this.itemB);
         }
 
         /// <summary>
-        /// Tries to calling unite in the union-find structure with an unknown second item.
+        /// Tries to calling union in the union-find structure with an unknown second item.
         /// </summary>
         [Test]
         [ExpectedException(typeof(InvalidOperationException))]
-        public void UniteUnknownSecondItem()
+        public void UnionUnknownSecondItem()
         {
             this.unionFind.MakeSet(this.itemA);
-            this.unionFind.Unite(this.itemA, this.itemB);
+            this.unionFind.Union(this.itemA, this.itemB);
         }
 
         #endregion

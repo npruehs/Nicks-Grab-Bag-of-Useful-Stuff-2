@@ -29,7 +29,7 @@ namespace Npruehs.GrabBag.UnionFind
         private readonly Dictionary<T, UnionFindNode<T>> nodes = new Dictionary<T, UnionFindNode<T>>();
 
         /// <summary>
-        /// Unite-find structure handling unions and finds.
+        /// Union-find structure handling unions and finds.
         /// </summary>
         private readonly UnionFindStructure<T> unionFind = new UnionFindStructure<T>();
 
@@ -97,7 +97,7 @@ namespace Npruehs.GrabBag.UnionFind
         /// <param name="second">
         /// An element in the second set to merge.
         /// </param>
-        public void Unite(T first, T second)
+        public void Union(T first, T second)
         {
             UnionFindNode<T> nodeFirst;
 
@@ -112,7 +112,7 @@ namespace Npruehs.GrabBag.UnionFind
 
             if (this.nodes.TryGetValue(second, out nodeSecond))
             {
-                this.unionFind.Unite(nodeFirst, nodeSecond);
+                this.unionFind.Union(nodeFirst, nodeSecond);
             }
             else
             {
