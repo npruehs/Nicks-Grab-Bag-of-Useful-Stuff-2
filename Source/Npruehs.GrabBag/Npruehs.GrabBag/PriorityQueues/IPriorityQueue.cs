@@ -25,20 +25,19 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// </summary>
         bool Empty { get; }
 
+        /// <summary>
+        /// Number of elements of this priority queue.
+        /// </summary>
+        int Size { get; }
+
         #endregion
 
         #region Public Methods and Operators
 
         /// <summary>
-        /// Decreases the key of the specified item in this priority queue to the passed non-negative real number.
+        /// Clears this priority queue, removing all items.
         /// </summary>
-        /// <param name="item">
-        /// Item to decrease the key of.
-        /// </param>
-        /// <param name="newKey">
-        /// New key of the item.
-        /// </param>
-        void DecreaseKeyTo(T item, double newKey);
+        void Clear();
 
         /// <summary>
         /// Decreases the key of the specified item in this priority queue by subtracting
@@ -57,6 +56,17 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// This priority queue is empty.
         /// </exception>
         void DecreaseKey(T item, double delta);
+
+        /// <summary>
+        /// Decreases the key of the specified item in this priority queue to the passed non-negative real number.
+        /// </summary>
+        /// <param name="item">
+        /// Item to decrease the key of.
+        /// </param>
+        /// <param name="newKey">
+        /// New key of the item.
+        /// </param>
+        void DecreaseKeyTo(T item, double newKey);
 
         /// <summary>
         /// Deletes the specified item from this priority queue.
