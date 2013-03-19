@@ -21,7 +21,7 @@ namespace Npruehs.GrabBag.PriorityQueues
         #region Public Properties
 
         /// <summary>
-        /// Whether this heap is empty, or not.
+        /// Whether this priority queue is empty, or not.
         /// </summary>
         bool Empty { get; }
 
@@ -30,7 +30,7 @@ namespace Npruehs.GrabBag.PriorityQueues
         #region Public Methods and Operators
 
         /// <summary>
-        /// Decreases the key of the specified item in this heap to the passed non-negative real number.
+        /// Decreases the key of the specified item in this priority queue to the passed non-negative real number.
         /// </summary>
         /// <param name="item">
         /// Item to decrease the key of.
@@ -41,19 +41,19 @@ namespace Npruehs.GrabBag.PriorityQueues
         void DecreaseKeyTo(T item, double newKey);
 
         /// <summary>
-        /// Deletes the item with the minimum key in this heap and returns it.
+        /// Deletes the item with the minimum key in this priority queue and returns it.
         /// </summary>
-        /// <returns>Item with the minimum key in this heap.</returns>
+        /// <returns>Item with the minimum key in this priority queue.</returns>
         T DeleteMin();
 
         /// <summary>
-        /// Returns the item with the minimum key in this heap.
+        /// Returns the item with the minimum key in this priority queue.
         /// </summary>
-        /// <returns>Item with the minimum key in this heap.</returns>
+        /// <returns>Item with the minimum key in this priority queue.</returns>
         T FindMin();
 
         /// <summary>
-        /// Inserts the passed item with the specified key into this heap.
+        /// Inserts the passed item with the specified key into this priority queue.
         /// </summary>
         /// <param name="item">
         /// Item to insert.

@@ -25,14 +25,9 @@ namespace Npruehs.GrabBag.PriorityQueues
     /// <typeparam name="T">
     /// Type of the items held by this Fibonacci heap.
     /// </typeparam>
-    public class FibonacciHeap<T> : IPriorityQueue<T>
+    public class FibonacciHeap<T>
     {
         #region Fields
-
-        /// <summary>
-        /// Items of this Fibonacci heap.
-        /// </summary>
-        private readonly Dictionary<T, FibonacciHeapItem<T>> items = new Dictionary<T, FibonacciHeapItem<T>>();
 
         /// <summary>
         /// Root containing the item with the minimum key in this heap.
@@ -88,7 +83,7 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// <exception cref="InvalidOperationException">
         /// This heap is empty.
         /// </exception>
-        public void DecreaseKeyItem(FibonacciHeapItem<T> item, double delta)
+        public void DecreaseKey(FibonacciHeapItem<T> item, double delta)
         {
             if (delta < 0)
             {
@@ -137,43 +132,9 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// <exception cref="InvalidOperationException">
         /// This heap is empty.
         /// </exception>
-        /// <exception cref="InvalidOperationException">
-        /// <paramref name="item"/> is not an item of this heap.
-        /// </exception>
-        public void DecreaseKeyTo(T item, double newKey)
+        public void DecreaseKeyTo(FibonacciHeapItem<T> item, double newKey)
         {
-            FibonacciHeapItem<T> heapItem;
-
-            this.items.TryGetValue(item, out heapItem);
-
-            if (heapItem == null)
-            {
-                throw new InvalidOperationException(
-                    string.Format("Unknown item: {0}. Use Insert for adding new elements to this fibonacci heap.", item));
-            }
-
-            this.DecreaseKeyToItem(heapItem, newKey);
-        }
-
-        /// <summary>
-        /// Decreases the key of the specified item in this heap to the passed
-        /// non-negative real number.
-        /// </summary>
-        /// <param name="item">
-        /// Item to decrease the key of.
-        /// </param>
-        /// <param name="newKey">
-        /// New item key.
-        /// </param>
-        /// <exception cref="ArgumentOutOfRangeException">
-        /// The resulting key would be greater than the current one.
-        /// </exception>
-        /// <exception cref="InvalidOperationException">
-        /// This heap is empty.
-        /// </exception>
-        public void DecreaseKeyToItem(FibonacciHeapItem<T> item, double newKey)
-        {
-            this.DecreaseKeyItem(item, item.Key - newKey);
+            this.DecreaseKey(item, item.Key - newKey);
         }
 
         /// <summary>
@@ -185,7 +146,7 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// <exception cref="InvalidOperationException">
         /// This heap is empty.
         /// </exception>
-        public void DeleteItem(FibonacciHeapItem<T> item)
+        public void Delete(FibonacciHeapItem<T> item)
         {
             if (this.Empty)
             {
@@ -200,7 +161,7 @@ namespace Npruehs.GrabBag.PriorityQueues
                 // x is originally a root - just remove it from the list of roots.
                 if (x == this.minimumNode)
                 {
-                    this.DeleteMinItem();
+                    this.DeleteMin();
                     return;
                 }
 
@@ -235,19 +196,7 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// <exception cref="InvalidOperationException">
         /// This heap is empty.
         /// </exception>
-        public T DeleteMin()
-        {
-            return this.DeleteMinItem().Item;
-        }
-
-        /// <summary>
-        /// Deletes the item with the minimum key in this heap and returns it.
-        /// </summary>
-        /// <returns>Item with the minimum key in this heap.</returns>
-        /// <exception cref="InvalidOperationException">
-        /// This heap is empty.
-        /// </exception>
-        public FibonacciHeapItem<T> DeleteMinItem()
+        public FibonacciHeapItem<T> DeleteMin()
         {
             if (this.Empty)
             {
@@ -375,19 +324,7 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// <exception cref="InvalidOperationException">
         /// This heap is empty.
         /// </exception>
-        public T FindMin()
-        {
-            return this.FindMinItem().Item;
-        }
-
-        /// <summary>
-        /// Returns the item with the minimum key in this heap.
-        /// </summary>
-        /// <returns>Item with the minimum key in this heap.</returns>
-        /// <exception cref="InvalidOperationException">
-        /// This heap is empty.
-        /// </exception>
-        public FibonacciHeapItem<T> FindMinItem()
+        public FibonacciHeapItem<T> FindMin()
         {
             if (this.Empty)
             {
@@ -406,39 +343,10 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// <param name="key">
         /// Key of the item to insert.
         /// </param>
-        /// <exception cref="InvalidOperationException">
-        /// <paramref name="item"/> has already been added to this heap.
-        /// </exception>
-        public void Insert(T item, double key)
-        {
-            var heapItem = this.InsertItem(item, key);
-
-            if (!this.items.ContainsKey(item))
-            {
-                this.items.Add(item, heapItem);
-            }
-            else
-            {
-                throw new InvalidOperationException(
-                    string.Format(
-                        "This Fibonacci heap already contains the item {0}. The dictionary mapping items to Fibonacci heap items doesn't allow adding the same item more than once. Use InsertItem for working on the Fibonacci Heap items yourself.", 
-                        item));
-            }
-        }
-
-        /// <summary>
-        /// Inserts the passed item with the specified key into this heap.
-        /// </summary>
-        /// <param name="item">
-        /// Item to insert.
-        /// </param>
-        /// <param name="key">
-        /// Key of the item to insert.
-        /// </param>
         /// <returns>
         /// Container that holds the passed item.
         /// </returns>
-        public FibonacciHeapItem<T> InsertItem(T item, double key)
+        public FibonacciHeapItem<T> Insert(T item, double key)
         {
             // Construct a new container for the passed item.
             var newItem = new FibonacciHeapItem<T>(item, key);
