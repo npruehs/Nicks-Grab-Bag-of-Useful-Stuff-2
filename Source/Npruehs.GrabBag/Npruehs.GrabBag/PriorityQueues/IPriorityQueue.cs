@@ -41,6 +41,35 @@ namespace Npruehs.GrabBag.PriorityQueues
         void DecreaseKeyTo(T item, double newKey);
 
         /// <summary>
+        /// Decreases the key of the specified item in this priority queue by subtracting
+        /// the passed non-negative real number <c>delta</c>.
+        /// </summary>
+        /// <param name="item">
+        /// Item to decrease the key of.
+        /// </param>
+        /// <param name="delta">
+        /// Non-negative real number to be subtracted from the item's key.
+        /// </param>
+        /// <exception cref="ArgumentOutOfRangeException">
+        /// <paramref name="delta"/> is negative.
+        /// </exception>
+        /// <exception cref="InvalidOperationException">
+        /// This priority queue is empty.
+        /// </exception>
+        void DecreaseKey(T item, double delta);
+
+        /// <summary>
+        /// Deletes the specified item from this priority queue.
+        /// </summary>
+        /// <param name="item">
+        /// Item to delete.
+        /// </param>
+        /// <exception cref="InvalidOperationException">
+        /// This priority queue is empty.
+        /// </exception>
+        void Delete(T item);
+
+        /// <summary>
         /// Deletes the item with the minimum key in this priority queue and returns it.
         /// </summary>
         /// <returns>Item with the minimum key in this priority queue.</returns>

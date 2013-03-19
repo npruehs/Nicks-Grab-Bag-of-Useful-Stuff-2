@@ -80,6 +80,28 @@ namespace Npruehs.GrabBag.PriorityQueues
         }
 
         /// <summary>
+        /// Decreases the key of the specified item in this priority queue by subtracting
+        /// the passed non-negative real number <c>delta</c>.
+        /// </summary>
+        /// <param name="item">
+        /// Item to decrease the key of.
+        /// </param>
+        /// <param name="delta">
+        /// Non-negative real number to be subtracted from the item's key.
+        /// </param>
+        /// <exception cref="ArgumentOutOfRangeException">
+        /// <paramref name="delta"/> is negative.
+        /// </exception>
+        /// <exception cref="InvalidOperationException">
+        /// This priority queue is empty.
+        /// </exception>
+        public void DecreaseKey(T item, double delta)
+        {
+            var heapItem = this.GetHeapItem(item);
+            this.heap.DecreaseKey(heapItem, delta);
+        }
+
+        /// <summary>
         /// Decreases the key of the specified item in this priority queue to the passed
         /// non-negative real number.
         /// </summary>
@@ -100,17 +122,23 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// </exception>
         public void DecreaseKeyTo(T item, double newKey)
         {
-            FibonacciHeapItem<T> heapItem;
-
-            this.items.TryGetValue(item, out heapItem);
-
-            if (heapItem == null)
-            {
-                throw new InvalidOperationException(
-                    string.Format("Unknown item: {0}. Use Insert for adding new elements to this priority queue.", item));
-            }
-
+            var heapItem = this.GetHeapItem(item);
             this.heap.DecreaseKeyTo(heapItem, newKey);
+        }
+
+        /// <summary>
+        /// Deletes the specified item from this priority queue.
+        /// </summary>
+        /// <param name="item">
+        /// Item to delete.
+        /// </param>
+        /// <exception cref="InvalidOperationException">
+        /// This priority queue is empty.
+        /// </exception>
+        public void Delete(T item)
+        {
+            var heapItem = this.GetHeapItem(item);
+            this.heap.Delete(heapItem);
         }
 
         /// <summary>
@@ -164,6 +192,37 @@ namespace Npruehs.GrabBag.PriorityQueues
                         "This priority queue already contains the item {0}. The dictionary mapping items to priority queue items doesn't allow adding the same item more than once. Use the FibonacciHeap class for working on the Fibonacci heap items yourself.", 
                         item));
             }
+        }
+
+        #endregion
+
+        #region Methods
+
+        /// <summary>
+        /// Gets the Fibonacci heap item the passed item is mapped to.
+        /// </summary>
+        /// <param name="item">
+        /// Item to get the Fibonacci heap item of.
+        /// </param>
+        /// <returns>
+        /// Fibonacci heap item the passed item is mapped to.
+        /// </returns>
+        /// <exception cref="InvalidOperationException">
+        /// <paramref name="item"/> is not in this priority queue.
+        /// </exception>
+        private FibonacciHeapItem<T> GetHeapItem(T item)
+        {
+            FibonacciHeapItem<T> heapItem;
+
+            this.items.TryGetValue(item, out heapItem);
+
+            if (heapItem == null)
+            {
+                throw new InvalidOperationException(
+                    string.Format("Unknown item: {0}. Use Insert for adding new elements to this priority queue.", item));
+            }
+
+            return heapItem;
         }
 
         #endregion
