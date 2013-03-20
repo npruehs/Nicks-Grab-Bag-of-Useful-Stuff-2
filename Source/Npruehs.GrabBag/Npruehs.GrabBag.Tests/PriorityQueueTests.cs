@@ -6,6 +6,8 @@
 
 namespace Npruehs.GrabBag.Tests
 {
+    using System;
+
     using Npruehs.GrabBag.PriorityQueues;
 
     using NUnit.Framework;
@@ -76,6 +78,17 @@ namespace Npruehs.GrabBag.Tests
         }
 
         /// <summary>
+        /// Tests increasing the key of an item.
+        /// </summary>
+        [Test]
+        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void DecreaseKeyNegative()
+        {
+            this.priorityQueue.Insert(this.itemA, this.keyA);
+            this.priorityQueue.DecreaseKey(this.itemA, -2.0);
+        }
+
+        /// <summary>
         /// Tests adding two items, decreasing the key of the greater one, and retrieving it as minimum.
         /// </summary>
         [Test]
@@ -121,6 +134,16 @@ namespace Npruehs.GrabBag.Tests
         }
 
         /// <summary>
+        /// Tests deleting the minimum of an empty heap.
+        /// </summary>
+        [Test]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void DeleteMinEmptyHeap()
+        {
+            this.priorityQueue.DeleteMin();
+        }
+
+        /// <summary>
         /// Tests whether priority queues are initially empty.
         /// </summary>
         [Test]
@@ -141,6 +164,16 @@ namespace Npruehs.GrabBag.Tests
             var min = this.priorityQueue.FindMin();
 
             Assert.AreEqual(this.itemA, min);
+        }
+
+        /// <summary>
+        /// Tests retrieving the minimum of an empty heap.
+        /// </summary>
+        [Test]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void FindMinEmptyHeap()
+        {
+            this.priorityQueue.FindMin();
         }
 
         /// <summary>
