@@ -6,6 +6,8 @@
 
 namespace Npruehs.GrabBag.PriorityQueues
 {
+    using System;
+
     /// <summary>
     /// Container for an item that can be inserted into a Fibonacci heap.
     /// Provides a pointer to its heap position and a key for comparing it to
@@ -14,6 +16,7 @@ namespace Npruehs.GrabBag.PriorityQueues
     /// <typeparam name="T">
     /// Type of the items held by the Fibonacci heap.
     /// </typeparam>
+    [CLSCompliant(true)]
     public class FibonacciHeapItem<T>
     {
         #region Constructors and Destructors

@@ -25,6 +25,7 @@ namespace Npruehs.GrabBag.PriorityQueues
     /// <typeparam name="T">
     /// Type of the items held by this Fibonacci heap.
     /// </typeparam>
+    [CLSCompliant(true)]
     public class FibonacciHeap<T>
     {
         #region Fields
