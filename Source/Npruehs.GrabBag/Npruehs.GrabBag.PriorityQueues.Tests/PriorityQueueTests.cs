@@ -4,7 +4,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------
 
-namespace Npruehs.GrabBag.Tests
+namespace Npruehs.GrabBag.PriorityQueues.Tests
 {
     using System;
 

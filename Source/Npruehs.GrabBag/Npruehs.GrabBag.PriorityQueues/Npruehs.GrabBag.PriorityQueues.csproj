@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{45075441-0D4E-4066-B893-95A9838EEC44}</ProjectGuid>
+    <ProjectGuid>{A9748629-6A1C-40F4-99AB-B3A7351C12B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Npruehs.GrabBag.Tests</RootNamespace>
-    <AssemblyName>Npruehs.GrabBag.Tests</AssemblyName>
+    <RootNamespace>Npruehs.GrabBag.PriorityQueues</RootNamespace>
+    <AssemblyName>Npruehs.GrabBag.PriorityQueues</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,10 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework, Version=2.6.0.12051, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Vendor\NUnit-2.6.2\bin\framework\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,15 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PriorityQueueTests.cs" />
+    <Compile Include="FibonacciHeap.cs" />
+    <Compile Include="FibonacciHeapItem.cs" />
+    <Compile Include="IPriorityQueue.cs" />
+    <Compile Include="PriorityQueue.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnionFindTests.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Npruehs.GrabBag\Npruehs.GrabBag.csproj">
-      <Project>{CA4E6C3F-2AEB-4314-988F-11EB998B79E5}</Project>
-      <Name>Npruehs.GrabBag</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -11,11 +11,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Npruehs.GrabBag")]
-[assembly: AssemblyDescription("Nick's Grab Bag of Useful Stuff")]
+[assembly: AssemblyTitle("Npruehs.GrabBag.UnionFind")]
+[assembly: AssemblyDescription("Nick's Grab Bag of Useful Stuff - Union-Find")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nick Pruehs")]
-[assembly: AssemblyProduct("Npruehs.GrabBag")]
+[assembly: AssemblyProduct("Npruehs.GrabBag.UnionFind")]
 [assembly: AssemblyCopyright("Copyright 2013 Nick Pruehs")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -26,7 +26,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c26f6fa7-0efa-4baa-95e8-4abad8a2b6ee")]
+[assembly: Guid("3683696e-0b59-4a54-b55b-a2c5a2c73431")]
 
 // Version information for an assembly consists of the following four values:
 //      Major Version
