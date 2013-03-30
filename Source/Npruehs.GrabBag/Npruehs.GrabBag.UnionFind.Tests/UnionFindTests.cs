@@ -7,8 +7,7 @@
 namespace Npruehs.GrabBag.UnionFind.Tests
 {
     using System;
-
-    using Npruehs.GrabBag.UnionFind;
+    using System.Linq;
 
     using NUnit.Framework;
 
@@ -47,6 +46,21 @@ namespace Npruehs.GrabBag.UnionFind.Tests
         public void FindUnknownItem()
         {
             this.unionFind.Find(this.itemA);
+        }
+
+        /// <summary>
+        /// Tests iterating through the union-find structure and getting all elements.
+        /// </summary>
+        [Test]
+        public void Iterator()
+        {
+            this.unionFind.MakeSet(this.itemA);
+            this.unionFind.MakeSet(this.itemB);
+
+            var allItems = this.unionFind.ToList();
+
+            Assert.Contains(this.itemA, allItems);
+            Assert.Contains(this.itemB, allItems);
         }
 
         /// <summary>

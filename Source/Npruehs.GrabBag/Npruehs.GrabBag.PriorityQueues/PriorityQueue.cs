@@ -7,6 +7,7 @@
 namespace Npruehs.GrabBag.PriorityQueues
 {
     using System;
+    using System.Collections;
     using System.Collections.Generic;
 
     /// <summary>
@@ -166,6 +167,15 @@ namespace Npruehs.GrabBag.PriorityQueues
         }
 
         /// <summary>
+        /// Returns an enumerator that can iterate through this priority queue.
+        /// </summary>
+        /// <returns>Enumerator that can be used to iterate through this priority queue.</returns>
+        public IEnumerator<T> GetEnumerator()
+        {
+            return this.items.Keys.GetEnumerator();
+        }
+
+        /// <summary>
         /// Inserts the passed item with the specified key into this priority queue.
         /// </summary>
         /// <param name="item">
@@ -192,6 +202,19 @@ namespace Npruehs.GrabBag.PriorityQueues
                         "This priority queue already contains the item {0}. The dictionary mapping items to priority queue items doesn't allow adding the same item more than once. Use the FibonacciHeap class for working on the Fibonacci heap items yourself.", 
                         item));
             }
+        }
+
+        #endregion
+
+        #region Explicit Interface Methods
+
+        /// <summary>
+        /// Returns an enumerator that can iterate through this priority queue.
+        /// </summary>
+        /// <returns>Enumerator that can be used to iterate through this priority queue.</returns>
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
         }
 
         #endregion

@@ -7,8 +7,7 @@
 namespace Npruehs.GrabBag.PriorityQueues.Tests
 {
     using System;
-
-    using Npruehs.GrabBag.PriorityQueues;
+    using System.Linq;
 
     using NUnit.Framework;
 
@@ -174,6 +173,21 @@ namespace Npruehs.GrabBag.PriorityQueues.Tests
         public void FindMinEmptyHeap()
         {
             this.priorityQueue.FindMin();
+        }
+
+        /// <summary>
+        /// Tests iterating through the priority queue and getting all elements.
+        /// </summary>
+        [Test]
+        public void Iterator()
+        {
+            this.priorityQueue.Insert(this.itemA, this.keyA);
+            this.priorityQueue.Insert(this.itemB, this.keyB);
+
+            var allItems = this.priorityQueue.ToList();
+
+            Assert.Contains(this.itemA, allItems);
+            Assert.Contains(this.itemB, allItems);
         }
 
         /// <summary>

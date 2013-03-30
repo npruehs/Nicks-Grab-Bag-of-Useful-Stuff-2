@@ -7,6 +7,7 @@
 namespace Npruehs.GrabBag.UnionFind
 {
     using System;
+    using System.Collections.Generic;
 
     /// <summary>
     /// <para>
@@ -24,7 +25,7 @@ namespace Npruehs.GrabBag.UnionFind
     /// Type of the elements stored in this union-find structure.
     /// </typeparam>
     [CLSCompliant(true)]
-    public interface IUnionFind<T>
+    public interface IUnionFind<T> : IEnumerable<T>
     {
         #region Public Methods and Operators
 

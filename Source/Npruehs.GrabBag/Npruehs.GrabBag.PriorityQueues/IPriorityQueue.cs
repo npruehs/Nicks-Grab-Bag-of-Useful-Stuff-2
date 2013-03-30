@@ -7,6 +7,7 @@
 namespace Npruehs.GrabBag.PriorityQueues
 {
     using System;
+    using System.Collections.Generic;
 
     /// <summary>
     /// Priority queue which allows inserting items with real
@@ -16,7 +17,7 @@ namespace Npruehs.GrabBag.PriorityQueues
     /// Type of the items held by this priority queue.
     /// </typeparam>
     [CLSCompliant(true)]
-    public interface IPriorityQueue<T>
+    public interface IPriorityQueue<T> : IEnumerable<T>
     {
         #region Public Properties
 

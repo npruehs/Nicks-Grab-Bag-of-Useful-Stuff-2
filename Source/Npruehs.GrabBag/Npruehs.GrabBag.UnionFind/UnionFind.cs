@@ -7,6 +7,7 @@
 namespace Npruehs.GrabBag.UnionFind
 {
     using System;
+    using System.Collections;
     using System.Collections.Generic;
 
     /// <summary>
@@ -65,6 +66,15 @@ namespace Npruehs.GrabBag.UnionFind
         }
 
         /// <summary>
+        /// Returns an enumerator that can iterate through this union-find structure.
+        /// </summary>
+        /// <returns>Enumerator that can be used to iterate through this union-find structure.</returns>
+        public IEnumerator<T> GetEnumerator()
+        {
+            return this.nodes.Keys.GetEnumerator();
+        }
+
+        /// <summary>
         /// Adds a new singleton set containing the passed item.
         /// </summary>
         /// <param name="item">
@@ -120,6 +130,19 @@ namespace Npruehs.GrabBag.UnionFind
                     string.Format(
                         "Unknown item: {0}. Use MakeSet for adding new elements to this union-find universe.", second));
             }
+        }
+
+        #endregion
+
+        #region Explicit Interface Methods
+
+        /// <summary>
+        /// Returns an enumerator that can iterate through this union-find structure.
+        /// </summary>
+        /// <returns>Enumerator that can be used to iterate through this union-find structure.</returns>
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
         }
 
         #endregion
