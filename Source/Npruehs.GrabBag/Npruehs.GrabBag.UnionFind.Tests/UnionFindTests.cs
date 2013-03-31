@@ -75,6 +75,16 @@ namespace Npruehs.GrabBag.UnionFind.Tests
         }
 
         /// <summary>
+        /// Tests adding null to the union-find structure.
+        /// </summary>
+        [Test]
+        [ExpectedException(typeof(ArgumentNullException))]
+        public void MakeSetNull()
+        {
+            this.unionFind.MakeSet(null);
+        }
+
+        /// <summary>
         /// Sets up the union-find structure for all unit tests.
         /// </summary>
         [SetUp]

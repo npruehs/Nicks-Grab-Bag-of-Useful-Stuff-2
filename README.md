@@ -42,11 +42,6 @@ a unit test yourself for helping me fix the issue as soon as possible. Invalid
 arguments or states are communicated by clear exception messages that help you
 isolate the problem.
 
-Finally, there's an API documentation available for each namespace that has been
-generated with Sandcastle and allows you to navigate through the classes and
-methods even if you're using the compiled library instead of forking the
-repository and referencing the code itself.
-
 Special thanks go to [Alexander Graefenstein](http://www.ginie.eu),
 [Denis Vaz Alves](http://www.xing.com/profile/Denis_VazAlves) and
 [Christian Oeing](http://oeing.eu) for the permission to share the code we've
