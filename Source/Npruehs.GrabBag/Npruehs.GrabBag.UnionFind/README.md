@@ -3,8 +3,8 @@ Union-Find
 
 Union-find structures provide two operations for manipulating disjoint sets:
 
-* _find(x)_ finds the unique set containing the element x.
-* _union(A, B)_ combines the sets A and B into a new set.
+* _Find(x)_ finds the unique set containing the element x.
+* _Union(A, B)_ combines the sets A and B into a new set.
 
 This implementation is based on _Efficiency of a Good But Not Linear Set Union
 Algorithm_ by _Robert Endre Tarjan_. Given a union-find universe with _n_
@@ -19,8 +19,8 @@ same element more than once. In other words, you're unable to add two objects
 
 Additionally, you're not allowed to add `null` elements to the structure.
 
-The implementation extends the `IEnumerable<T>` interface, enabling you to
-iterate through structure with `foreach`.
+The implementation implements the `IEnumerable<T>` interface, enabling you to
+iterate through the structure with `foreach`.
 
 Union-find structures are useful in many contexts, including the computation of
 minimum spanning trees.
