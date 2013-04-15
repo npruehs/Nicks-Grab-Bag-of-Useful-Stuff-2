@@ -44,14 +44,14 @@ unionFind.MakeSet(itemA);
 unionFind.MakeSet(itemB);
 ```
 
-Merging the two sets we just created is done with _union_. Note that the
+Merging the two sets we just created is done with `Union`. Note that the
 method requires you to pass the canonical elements of the sets:
 
 ```csharp
 unionFind.Union(itemA, itemB);
 ```
 
-The canonical element of a set can be accessed by calling _find_. Note that
+The canonical element of a set can be accessed by calling `Find`. Note that
 the question "Are v and w in the same set?" can be reduced to
 `find(v) == find(w)`.
 

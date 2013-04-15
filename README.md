@@ -37,10 +37,11 @@ namespace instead and handle the storage of its items yourself - and put them in
 an array, for example.
 
 Code quality is ensured by a load of unit tests for all features. If you should
-encounter a bug anyway, feel free to file a bug report at Github and/or provide
-a unit test yourself for helping me fix the issue as soon as possible. Invalid
-arguments or states are communicated by clear exception messages that help you
-isolate the problem.
+encounter a bug anyway, feel free to
+[file a bug report](https://github.com/npruehs/Nicks-Grab-Bag-of-Useful-Stuff-2/issues)
+at Github and/or provide a unit test yourself for helping me fix the issue as
+soon as possible. Invalid arguments or states are communicated by clear
+exception messages that help you isolate the problem.
 
 Special thanks go to [Alexander Graefenstein](http://www.ginie.eu),
 [Denis Vaz Alves](http://www.xing.com/profile/Denis_VazAlves) and

@@ -28,4 +28,46 @@ iterate through heaps with `foreach`.
 Fast heaps are incredibly helpful for speeding up pathfinding algorithms such as
 Dijkstra and A*.
 
+Usage
+-----
 
+Say you want to store strings in a priority queue. For creating a new priority
+queue, just call its default constructor:
+
+```csharp
+IPriorityQueue<string> priorityQueue = new PriorityQueue<string>();
+```
+
+Adding new items is done with the `Insert` method:
+
+```csharp
+var itemA = "a";
+var itemB = "b";
+
+priorityQueue.Insert(itemA, 1.0);
+priorityQueue.Insert(itemB, 4.0);
+```
+
+Now, you can use `DecreaseKey` to change the key of any priority queue item.
+Note that you may not pass negative numbers to that method, which would
+effectively increase the item key instead.
+
+```csharp
+priorityQueue.DecreaseKey(itemB, 2.0);
+
+// Throws ArgumentOutOfRangeException.
+priorityQueue.DecreaseKey(itemB, -1.0);
+```
+
+Additionally, you access and/or remove the minimum heap item:
+
+```csharp
+var min = this.priorityQueue.FindMin();
+```
+
+```csharp
+var min = this.priorityQueue.DeleteMin();
+```
+
+Obviously, calling `FindMin` or `DeleteMin` on empty heaps results in an
+`InvalidOperationException`.
