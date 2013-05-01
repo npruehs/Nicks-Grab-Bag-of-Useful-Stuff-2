@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.UnionFind.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.2DPacking", "Npruehs.GrabBag.2DPacking\Npruehs.GrabBag.2DPacking.csproj", "{DDE173C6-6EB7-46F2-8641-46C1CD971E09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.Math", "Npruehs.GrabBag.Math\Npruehs.GrabBag.Math.csproj", "{D69F49B8-FD67-4EF8-87C9-0584DEA48799}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{DDE173C6-6EB7-46F2-8641-46C1CD971E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE173C6-6EB7-46F2-8641-46C1CD971E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE173C6-6EB7-46F2-8641-46C1CD971E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69F49B8-FD67-4EF8-87C9-0584DEA48799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69F49B8-FD67-4EF8-87C9-0584DEA48799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69F49B8-FD67-4EF8-87C9-0584DEA48799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69F49B8-FD67-4EF8-87C9-0584DEA48799}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
