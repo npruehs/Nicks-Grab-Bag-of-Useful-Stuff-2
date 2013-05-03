@@ -256,17 +256,10 @@ namespace Npruehs.GrabBag.Math.Vectors
         /// </returns>
         public static Vector3F Lerp(Vector3F v1, Vector3F v2, float l)
         {
-            if (l <= 0.0f)
-            {
-                return v1;
-            }
-
-            if (l >= 1.0f)
-            {
-                return v2;
-            }
-
-            return v1 + (l * (v2 - v1));
+            var lerpX = Math2.Lerp(v1.x, v2.x, l);
+            var lerpY = Math2.Lerp(v1.y, v2.y, l);
+            var lerpZ = Math2.Lerp(v1.z, v2.z, l);
+            return new Vector3F(lerpX, lerpY, lerpZ);
         }
 
         /// <summary>
