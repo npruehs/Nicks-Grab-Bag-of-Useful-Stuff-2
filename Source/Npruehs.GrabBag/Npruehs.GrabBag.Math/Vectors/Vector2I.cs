@@ -4,7 +4,7 @@
 // </copyright>
 // 
 // --------------------------------------------------------------------------------
-namespace Npruehs.GrabBag.Math
+namespace Npruehs.GrabBag.Math.Vectors
 {
     using System;
 
