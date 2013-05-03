@@ -409,7 +409,7 @@ namespace Npruehs.GrabBag.Math.Geometry
         /// <returns>
         /// <c>true</c>, if this rectangle intersects <paramref name="other"/>, and <c>false</c> otherwise.
         /// </returns>
-        public bool IntersectsWith(RectangleF other)
+        public bool Intersects(RectangleF other)
         {
             return (this.Right > other.Left && this.Left < other.Right)
                    && (this.Bottom > other.Top && this.Top < other.Bottom);

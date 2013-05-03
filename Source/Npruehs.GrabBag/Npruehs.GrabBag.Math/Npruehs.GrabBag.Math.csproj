@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Geometry\BoxF.cs" />
     <Compile Include="Geometry\RectangleI.cs" />
     <Compile Include="Geometry\RectangleF.cs" />
     <Compile Include="Vectors\Vector2I.cs" />
