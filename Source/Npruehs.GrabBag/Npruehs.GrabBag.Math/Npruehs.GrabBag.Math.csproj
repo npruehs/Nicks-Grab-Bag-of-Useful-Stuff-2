@@ -40,12 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Geometry\RectangleI.cs" />
+    <Compile Include="Geometry\RectangleF.cs" />
     <Compile Include="Vectors\Vector2I.cs" />
     <Compile Include="Math2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vectors\Vector2F.cs" />
     <Compile Include="Vectors\Vector3F.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
