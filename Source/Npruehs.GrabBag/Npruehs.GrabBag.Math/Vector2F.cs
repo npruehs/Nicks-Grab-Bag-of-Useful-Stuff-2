@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------
-// <copyright company="Nick Pruehs" file="Vector3F.cs">
+// <copyright company="Nick Pruehs" file="Vector2F.cs">
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
 // 
@@ -9,22 +9,22 @@ namespace Npruehs.GrabBag.Math
     using System;
 
     /// <summary>
-    /// Vector in three-dimensional space with floating point components. Note that vectors are immutable.
+    /// Vector in two-dimensional space with floating point components. Note that vectors are immutable.
     /// </summary>
     [CLSCompliant(true)]
-    public struct Vector3F : IEquatable<Vector3F>
+    public struct Vector2F : IEquatable<Vector2F>
     {
         #region Static Fields
 
         /// <summary>
         /// Vector with all components set to one.
         /// </summary>
-        public static readonly Vector3F One = new Vector3F(1.0f, 1.0f, 1.0f);
+        public static readonly Vector2F One = new Vector2F(1.0f, 1.0f);
 
         /// <summary>
         /// Null vector.
         /// </summary>
-        public static readonly Vector3F Zero = new Vector3F();
+        public static readonly Vector2F Zero = new Vector2F();
 
         #endregion
 
@@ -40,11 +40,6 @@ namespace Npruehs.GrabBag.Math
         /// </summary>
         private readonly float y;
 
-        /// <summary>
-        /// Z-component of this vector.
-        /// </summary>
-        private readonly float z;
-
         #endregion
 
         #region Constructors and Destructors
@@ -58,15 +53,11 @@ namespace Npruehs.GrabBag.Math
         /// <param name="y">
         /// Y-component of the new vector.
         /// </param>
-        /// <param name="z">
-        /// Z-component of the new vector.
-        /// </param>
-        public Vector3F(float x, float y, float z)
+        public Vector2F(float x, float y)
             : this()
         {
             this.x = x;
             this.y = y;
-            this.z = z;
         }
 
         #endregion
@@ -91,7 +82,7 @@ namespace Npruehs.GrabBag.Math
         {
             get
             {
-                return (this.x * this.x) + (this.y * this.y) + (this.z * this.z);
+                return (this.x * this.x) + (this.y * this.y);
             }
         }
 
@@ -117,17 +108,6 @@ namespace Npruehs.GrabBag.Math
             }
         }
 
-        /// <summary>
-        /// Gets the z-component of this vector.
-        /// </summary>
-        public float Z
-        {
-            get
-            {
-                return this.z;
-            }
-        }
-
         #endregion
 
         #region Public Methods and Operators
@@ -144,28 +124,9 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Sum of the passed vectors.
         /// </returns>
-        public static Vector3F Add(Vector3F v1, Vector3F v2)
+        public static Vector2F Add(Vector2F v1, Vector2F v2)
         {
             return v1 + v2;
-        }
-
-        /// <summary>
-        /// Computes the cross product of the passed vectors. See 
-        /// http://en.wikipedia.org/wiki/Cross_product for details.
-        /// </summary>
-        /// <param name="v1">
-        /// First vector to compute the cross product of.
-        /// </param>
-        /// <param name="v2">
-        /// Second vector to compute the cross product of.
-        /// </param>
-        /// <returns>
-        /// Cross product of the passed vectors.
-        /// </returns>
-        public static Vector3F Cross(Vector3F v1, Vector3F v2)
-        {
-            return new Vector3F(
-                (v1.y * v2.z) - (v1.z * v2.y), (v1.z * v2.x) - (v1.x * v2.z), (v1.x * v2.y) - (v1.y * v2.x));
         }
 
         /// <summary>
@@ -180,13 +141,13 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Euclidean distance between the two passed points.
         /// </returns>
-        public static float Distance(Vector3F v1, Vector3F v2)
+        public static float Distance(Vector2F v1, Vector2F v2)
         {
             return Math2.Sqrt(DistanceSquared(v1, v2));
         }
 
         /// <summary>
-        /// Computes the squared Euclidean distance between the points at <paramref name="v1"/> and <paramref name="v2"/>. Faster than <see cref="Distance(Vector3F, Vector3F)"/>.
+        /// Computes the squared Euclidean distance between the points at <paramref name="v1"/> and <paramref name="v2"/>. Faster than <see cref="Distance(Vector2F, Vector2F)"/>.
         /// </summary>
         /// <param name="v1">
         /// First point to compute the squared distance of.
@@ -197,12 +158,11 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Squared Euclidean distance between the two passed points.
         /// </returns>
-        public static float DistanceSquared(Vector3F v1, Vector3F v2)
+        public static float DistanceSquared(Vector2F v1, Vector2F v2)
         {
             var distX = v1.x - v2.x;
             var distY = v1.y - v2.y;
-            var distZ = v1.z - v2.z;
-            return (distX * distX) + (distY * distY) + (distZ * distZ);
+            return (distX * distX) + (distY * distY);
         }
 
         /// <summary>
@@ -217,7 +177,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Vector divided by the specified scalar.
         /// </returns>
-        public static Vector3F Divide(Vector3F v, float f)
+        public static Vector2F Divide(Vector2F v, float f)
         {
             return v / f;
         }
@@ -234,9 +194,9 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Dot product of the two passed vectors.
         /// </returns>
-        public static float Dot(Vector3F v1, Vector3F v2)
+        public static float Dot(Vector2F v1, Vector2F v2)
         {
-            return (v1.x * v2.x) + (v1.y * v2.y) + (v1.z * v2.z);
+            return (v1.x * v2.x) + (v1.y * v2.y);
         }
 
         /// <summary>
@@ -254,7 +214,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Linear interpolation between the two passed vectors.
         /// </returns>
-        public static Vector3F Lerp(Vector3F v1, Vector3F v2, float l)
+        public static Vector2F Lerp(Vector2F v1, Vector2F v2, float l)
         {
             if (l <= 0.0f)
             {
@@ -281,7 +241,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Product of the vector and the scalar.
         /// </returns>
-        public static Vector3F Multiply(Vector3F v, float f)
+        public static Vector2F Multiply(Vector2F v, float f)
         {
             return f * v;
         }
@@ -298,7 +258,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Product of the vector and the scalar.
         /// </returns>
-        public static Vector3F Multiply(float f, Vector3F v)
+        public static Vector2F Multiply(float f, Vector2F v)
         {
             return f * v;
         }
@@ -313,7 +273,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Normalized passed vector.
         /// </returns>
-        public static Vector3F Normalize(Vector3F v)
+        public static Vector2F Normalize(Vector2F v)
         {
             var lengthSquared = v.LengthSquared;
             if (lengthSquared == 0 || lengthSquared == 1)
@@ -323,7 +283,7 @@ namespace Npruehs.GrabBag.Math
 
             var lengthInverse = 1.0f / Math2.Sqrt(lengthSquared);
 
-            return new Vector3F(v.x * lengthInverse, v.y * lengthInverse, v.z * lengthInverse);
+            return new Vector2F(v.x * lengthInverse, v.y * lengthInverse);
         }
 
         /// <summary>
@@ -338,7 +298,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Difference of both vectors.
         /// </returns>
-        public static Vector3F Subtract(Vector3F v1, Vector3F v2)
+        public static Vector2F Subtract(Vector2F v1, Vector2F v2)
         {
             return v1 - v2;
         }
@@ -355,9 +315,9 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Sum of the passed vectors.
         /// </returns>
-        public static Vector3F operator +(Vector3F v1, Vector3F v2)
+        public static Vector2F operator +(Vector2F v1, Vector2F v2)
         {
-            return new Vector3F(v1.x + v2.x, v1.y + v2.y, v1.z + v2.z);
+            return new Vector2F(v1.x + v2.x, v1.y + v2.y);
         }
 
         /// <summary>
@@ -372,9 +332,9 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Vector divided by the specified scalar.
         /// </returns>
-        public static Vector3F operator /(Vector3F v, float f)
+        public static Vector2F operator /(Vector2F v, float f)
         {
-            return new Vector3F(v.x / f, v.y / f, v.z / f);
+            return new Vector2F(v.x / f, v.y / f);
         }
 
         /// <summary>
@@ -389,7 +349,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// <c>true</c>, if both vectors are equal, and <c>false</c> otherwise.
         /// </returns>
-        public static bool operator ==(Vector3F v1, Vector3F v2)
+        public static bool operator ==(Vector2F v1, Vector2F v2)
         {
             return v1.Equals(v2);
         }
@@ -406,7 +366,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// <c>true</c>, if the vectors are not equal, and <c>false</c> otherwise.
         /// </returns>
-        public static bool operator !=(Vector3F v1, Vector3F v2)
+        public static bool operator !=(Vector2F v1, Vector2F v2)
         {
             return !(v1 == v2);
         }
@@ -423,7 +383,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Product of the vector and the scalar.
         /// </returns>
-        public static Vector3F operator *(Vector3F v, float f)
+        public static Vector2F operator *(Vector2F v, float f)
         {
             return f * v;
         }
@@ -440,9 +400,9 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Product of the vector and the scalar.
         /// </returns>
-        public static Vector3F operator *(float f, Vector3F v)
+        public static Vector2F operator *(float f, Vector2F v)
         {
-            return new Vector3F(v.x * f, v.y * f, v.z * f);
+            return new Vector2F(v.x * f, v.y * f);
         }
 
         /// <summary>
@@ -457,9 +417,9 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Difference of both vectors.
         /// </returns>
-        public static Vector3F operator -(Vector3F v1, Vector3F v2)
+        public static Vector2F operator -(Vector2F v1, Vector2F v2)
         {
-            return new Vector3F(v1.x - v2.x, v1.y - v2.y, v1.z - v2.z);
+            return new Vector2F(v1.x - v2.x, v1.y - v2.y);
         }
 
         /// <summary>
@@ -471,24 +431,9 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Sum of both vectors.
         /// </returns>
-        public Vector3F Add(Vector3F v)
+        public Vector2F Add(Vector2F v)
         {
             return Add(this, v);
-        }
-
-        /// <summary>
-        /// Computes the cross product of the passed vector and this one. See 
-        /// http://en.wikipedia.org/wiki/Cross_product for details.
-        /// </summary>
-        /// <param name="v">
-        /// Vector to compute the cross product of.
-        /// </param>
-        /// <returns>
-        /// Cross product of the both vectors.
-        /// </returns>
-        public Vector3F Cross(Vector3F v)
-        {
-            return Cross(this, v);
         }
 
         /// <summary>
@@ -500,13 +445,13 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Euclidean distance between the two points.
         /// </returns>
-        public float Distance(Vector3F v)
+        public float Distance(Vector2F v)
         {
             return Distance(this, v);
         }
 
         /// <summary>
-        /// Computes the squared Euclidean distance between the points denoted by this vector and <paramref name="v"/>. Faster than <see cref="Distance(Vector3F)"/>.
+        /// Computes the squared Euclidean distance between the points denoted by this vector and <paramref name="v"/>. Faster than <see cref="Distance(Vector2F)"/>.
         /// </summary>
         /// <param name="v">
         /// Point to compute the squared distance to.
@@ -514,7 +459,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Squared Euclidean distance between the two points.
         /// </returns>
-        public float DistanceSquared(Vector3F v)
+        public float DistanceSquared(Vector2F v)
         {
             return DistanceSquared(this, v);
         }
@@ -528,7 +473,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Vector divided by the specified scalar.
         /// </returns>
-        public Vector3F Divide(float f)
+        public Vector2F Divide(float f)
         {
             return Divide(this, f);
         }
@@ -542,7 +487,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Dot product of the two vectors.
         /// </returns>
-        public float Dot(Vector3F v)
+        public float Dot(Vector2F v)
         {
             return Dot(this, v);
         }
@@ -563,7 +508,7 @@ namespace Npruehs.GrabBag.Math
                 return false;
             }
 
-            return obj is Vector3F && this.Equals((Vector3F)obj);
+            return obj is Vector2F && this.Equals((Vector2F)obj);
         }
 
         /// <summary>
@@ -575,9 +520,9 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// <c>true</c>, if both vectors are equal, and <c>false</c> otherwise.
         /// </returns>
-        public bool Equals(Vector3F other)
+        public bool Equals(Vector2F other)
         {
-            return this.x.Equals(other.x) && this.y.Equals(other.y) && this.z.Equals(other.z);
+            return this.x.Equals(other.x) && this.y.Equals(other.y);
         }
 
         /// <summary>
@@ -592,7 +537,6 @@ namespace Npruehs.GrabBag.Math
             {
                 var hashCode = this.x.GetHashCode();
                 hashCode = (hashCode * 397) ^ this.y.GetHashCode();
-                hashCode = (hashCode * 397) ^ this.z.GetHashCode();
                 return hashCode;
             }
         }
@@ -609,7 +553,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Linear interpolation between the two vectors.
         /// </returns>
-        public Vector3F Lerp(Vector3F v, float l)
+        public Vector2F Lerp(Vector2F v, float l)
         {
             return Lerp(this, v, l);
         }
@@ -623,7 +567,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Product of this vector and the scalar.
         /// </returns>
-        public Vector3F Multiply(float f)
+        public Vector2F Multiply(float f)
         {
             return Multiply(f, this);
         }
@@ -635,7 +579,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Normalized vector.
         /// </returns>
-        public Vector3F Normalize()
+        public Vector2F Normalize()
         {
             return Normalize(this);
         }
@@ -649,7 +593,7 @@ namespace Npruehs.GrabBag.Math
         /// <returns>
         /// Difference of both vectors.
         /// </returns>
-        public Vector3F Subtract(Vector3F v)
+        public Vector2F Subtract(Vector2F v)
         {
             return Subtract(this, v);
         }
@@ -662,7 +606,7 @@ namespace Npruehs.GrabBag.Math
         /// </returns>
         public override string ToString()
         {
-            return string.Format("({0}, {1}, {2})", this.x, this.y, this.z);
+            return string.Format("({0}, {1})", this.x, this.y);
         }
 
         #endregion
