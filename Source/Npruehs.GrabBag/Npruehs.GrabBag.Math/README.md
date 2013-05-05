@@ -13,7 +13,7 @@ x- and y-coordinates, for example. Thus, other parts of this Grab Bag follow
 that advice, and you can do so as well. The vector structs are immutable and
 feature a lot of convenient operator overloads.
 
-> John Carmack @ID_AA_Carmack 9:15 PM - 5 Mar 13
+> __John Carmack @ID_AA_Carmack 9:15 PM - 5 Mar 13__
 
 > I advocate the use of an idVec2i type for all two integer element tasks over
 discrete x/y, width/height, etc. A lot of code is improved.
