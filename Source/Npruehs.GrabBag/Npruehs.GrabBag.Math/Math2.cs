@@ -90,7 +90,7 @@ namespace Npruehs.GrabBag.Math
 
         /// <summary>
         /// Converts the specified angle in degrees to radians for passing them
-        /// to the .NET <see cref="Math"/> angle functions.
+        /// to the .NET <see cref="Math"/> trigonometric functions.
         /// </summary>
         /// <param name="degrees">
         /// Degrees to convert to radians.

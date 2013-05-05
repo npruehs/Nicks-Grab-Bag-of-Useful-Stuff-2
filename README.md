@@ -55,6 +55,12 @@ Below you can find an overview of the contents of this Grab Bag. For more
 details please refer to the README files located in the respective namespace
 folders.
 
+### Math
+
+Utitiliy classes for many math operations, like vector structs and geometry
+classes.
+
+
 ### Priority Queues
 
 Priority Queues (or heaps) consist of a set of items, each with a real-valued
