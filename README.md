@@ -57,7 +57,7 @@ folders.
 
 ### Math
 
-Utitiliy classes for many math operations, like vector structs and geometry
+Utility classes for many math operations, like vector structs and geometry
 classes.
 
 

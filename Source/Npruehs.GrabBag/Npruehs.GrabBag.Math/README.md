@@ -1,7 +1,7 @@
 Math
 ====
 
-The `Npruehs.GrabBag.Math` namespace contains utitiliy classes for many
+The `Npruehs.GrabBag.Math` namespace contains utility classes for many
 math operations.
 
 `Math2` is a useful extension of the .NET `System.Math` class, providing
