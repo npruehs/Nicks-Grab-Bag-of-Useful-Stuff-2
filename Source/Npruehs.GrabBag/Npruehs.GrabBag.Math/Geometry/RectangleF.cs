@@ -96,6 +96,14 @@ namespace Npruehs.GrabBag.Math.Geometry
             this.Size = size;
         }
 
+        /// <summary>
+        /// Constructs a new rectangle without position or size.
+        /// </summary>
+        public RectangleF()
+            : this(0f, 0f, 0f, 0f)
+        {
+        }
+
         #endregion
 
         #region Public Properties
@@ -424,6 +432,24 @@ namespace Npruehs.GrabBag.Math.Geometry
         public override string ToString()
         {
             return string.Format("Position: {0}, Size: {1}", this.Position, this.Size);
+        }
+
+        /// <summary>
+        /// Creates the union of this rectangle of the passed other one.
+        /// </summary>
+        /// <param name="other">
+        /// Rectangle to unite with.
+        /// </param>
+        public void Union(RectangleF other)
+        {
+            var mostRight = Math.Max(this.Right, other.Right);
+            var mostTop = Math.Max(this.Top, other.Top);
+
+            this.X = Math.Min(this.X, other.X);
+            this.Y = Math.Min(this.Y, other.Y);
+
+            this.Width = mostRight - this.X;
+            this.Height = mostTop - this.Y;
         }
 
         #endregion
