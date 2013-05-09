@@ -4,6 +4,7 @@
     <CollectionProperty Name="RecognizedWords">
       <Value>Endre</Value>
 	  <Value>Fredman</Value>
+	  <Value>Stee</Value>
 	  <Value>Tarjan</Value>
 	  <Value>Tarjan's</Value>
     </CollectionProperty>
