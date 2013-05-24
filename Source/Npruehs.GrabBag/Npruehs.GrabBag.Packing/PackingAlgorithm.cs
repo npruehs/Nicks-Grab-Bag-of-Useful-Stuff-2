@@ -1,18 +1,20 @@
-﻿// --------------------------------------------------------------------------------
-// <copyright company="Nick Pruehs" file="PackingAlgorithm.cs">
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="PackingAlgorithm.cs" company="Nick Pruehs">
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
-// 
-// --------------------------------------------------------------------------------
-namespace Npruehs.GrabBag._2DPacking
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace Npruehs.GrabBag.Packing
 {
     using System;
+    using System.Collections;
     using System.Collections.Generic;
+    using System.Linq;
 
     /// <summary>
     /// 2D packing algorithm.
     /// </summary>
-    public abstract class PackingAlgorithm
+    public abstract class PackingAlgorithm : IEnumerable<PackingItem>
     {
         #region Constructors and Destructors
 
@@ -52,9 +54,47 @@ namespace Npruehs.GrabBag._2DPacking
         /// </returns>
         public abstract float FindSolution(float stripWidth, ICollection<PackingItem> items);
 
+        /// <summary>
+        ///     Gets an enumerator for all items of the algorithm solution.
+        /// </summary>
+        /// <returns>Enumerator for all items of the algorithm solution.</returns>
+        public IEnumerator<PackingItem> GetEnumerator()
+        {
+            return this.Levels.SelectMany(level => level.Items).GetEnumerator();
+        }
+
+        #endregion
+
+        #region Explicit Interface Methods
+
+        /// <summary>
+        ///     Gets an enumerator for all items of the algorithm solution.
+        /// </summary>
+        /// <returns>Enumerator for all items of the algorithm solution.</returns>
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
+        }
+
         #endregion
 
         #region Methods
+
+        /// <summary>
+        /// Adds a new level with the specified y-position to the algorithm solution.
+        /// </summary>
+        /// <param name="y">
+        /// Y-coordinate of the position of the new level.
+        /// </param>
+        /// <returns>
+        /// New level.
+        /// </returns>
+        protected PackingLevel AddLevel(float y)
+        {
+            var level = new PackingLevel(y);
+            this.Levels.Add(level);
+            return level;
+        }
 
         /// <summary>
         /// Computes the value of the current solution, that is the maximum
@@ -79,12 +119,6 @@ namespace Npruehs.GrabBag._2DPacking
             return value;
         }
 
-        protected PackingLevel AddLevel(float y)
-        {
-            PackingLevel level = new PackingLevel(y);
-            this.Levels.Add(level);
-            return level;
-        }
         #endregion
     }
 }

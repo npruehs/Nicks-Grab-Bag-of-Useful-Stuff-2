@@ -1,18 +1,23 @@
-﻿// --------------------------------------------------------------------------------
-// <copyright company="Nick Pruehs" file="EpsteinVanStee.cs">
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="EpsteinVanStee.cs" company="Nick Pruehs">
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
-// 
-// --------------------------------------------------------------------------------
-namespace Npruehs.GrabBag._2DPacking
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace Npruehs.GrabBag.Packing.Algorithms
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
 
     /// <summary>
-    /// 1.5OPT + 3
-    /// 
+    /// <para>
+    /// Implementation of the packing algorithm presented in "This Side Up!" by
+    /// Leah Epstein and Rob van Stee in 2006.
+    /// </para>
+    /// <para>
+    /// Packs n items in  O(n log n) time, generating an 1.5OPT + 3 solution.
+    /// </para>
     /// </summary>
     public class EpsteinVanStee : PackingAlgorithm
     {
@@ -21,12 +26,12 @@ namespace Npruehs.GrabBag._2DPacking
         /// <summary>
         /// Maximum width and height of the items processed by Epstein/van Stee.
         /// </summary>
-        private const float AssumedMaximumItemWidthAndHeight = 1.0f;
+        public const float AssumedMaximumItemWidthAndHeight = 1.0f;
 
         /// <summary>
         /// Strip width Epstein/van Stee assumes.
         /// </summary>
-        private const float AssumedStripWidth = 1.0f;
+        public const float AssumedStripWidth = 1.0f;
 
         /// <summary>
         /// Minimum height of a <i>big item</i>.
@@ -63,17 +68,17 @@ namespace Npruehs.GrabBag._2DPacking
         #region Public Methods and Operators
 
         /// <summary>
+        /// Finds a solution for the passed packing problem instance data.
         /// </summary>
         /// <param name="stripWidth">
+        /// Width of the strip the items have to be packed into.
         /// </param>
         /// <param name="items">
+        /// Items that have to be packed.
         /// </param>
         /// <returns>
+        /// Maximum strip height that has been used.
         /// </returns>
-        /// <exception cref="ArgumentOutOfRangeException">
-        /// </exception>
-        /// <exception cref="ArgumentException">
-        /// </exception>
         public override float FindSolution(float stripWidth, ICollection<PackingItem> items)
         {
             // Check strip width.
@@ -96,7 +101,7 @@ namespace Npruehs.GrabBag._2DPacking
 
                 if ((height > AssumedMaximumItemWidthAndHeight) || (width > AssumedMaximumItemWidthAndHeight))
                 {
-                    throw new ArgumentException(
+                    throw new ArgumentOutOfRangeException(
                         string.Format(
                             "This algorithm assumes item " + "widths and heights of at most {0}.", 
                             AssumedMaximumItemWidthAndHeight));
@@ -130,8 +135,8 @@ namespace Npruehs.GrabBag._2DPacking
             items = new List<PackingItem>(items.Except(bigItems));
             items = new List<PackingItem>(items.Except(verySmallItems));
 
-            // TODO Sort big items by decreasing width.
-            bigItems.Sort();
+            // Sort big items by decreasing width.
+            bigItems = bigItems.OrderByDescending(item => item.Rectangle.Width).ToList();
 
             // Remember the height of the strip used for the big items only.
             float h1 = 0;
@@ -160,6 +165,11 @@ namespace Npruehs.GrabBag._2DPacking
                 }
             }
 
+            if (h2 <= 0f)
+            {
+                h2 = h1;
+            }
+
             // 2. Pack very small items into a substrip, if possible.
 
             // Remember the height of the substrip for step 3.
@@ -168,7 +178,7 @@ namespace Npruehs.GrabBag._2DPacking
             if (h2 < h1)
             {
                 // Pack items that have widths in (0, 1/6] inside substrip of width 1/3 using FFDH.
-                var ffdh = new FFDH();
+                var ffdh = new FirstFitDecreasingHeight();
                 substripHeight = ffdh.FindSolution(SubstripWidth, verySmallItems, h1 - h2);
 
                 // Make substrip start at height h1', at the right side of the strip.
@@ -265,7 +275,8 @@ namespace Npruehs.GrabBag._2DPacking
                 // (b) Place the unpacked items of width in (1/3, 1/2] in two stacks.
 
                 // Get unpacked items of width in (1/3, 1/2].
-                var greaterThanOneThird = items.Where(item => item.Rectangle.Width > ItemWidthForTwostrippacking).ToList();
+                var greaterThanOneThird =
+                    items.Where(item => item.Rectangle.Width > ItemWidthForTwostrippacking).ToList();
 
                 items = items.Except(greaterThanOneThird).ToList();
 
@@ -307,7 +318,7 @@ namespace Npruehs.GrabBag._2DPacking
                 var finalStackY = Math.Max(currentLevelLeftY, currentLevelRightY);
 
                 // Pack the unpacked items of width in (1/6, 1/3] using FFDH.
-                var ffdh = new FFDH();
+                var ffdh = new FirstFitDecreasingHeight();
                 ffdh.FindSolution(AssumedStripWidth, items);
 
                 // Adapt the y-coordinates of all items.
@@ -334,7 +345,7 @@ namespace Npruehs.GrabBag._2DPacking
                 // 4. Else: Place all remaining items above height h1 with FFDH.
                 items = items.Union(verySmallItems).ToList();
 
-                var ffdh = new FFDH();
+                var ffdh = new FirstFitDecreasingHeight();
                 ffdh.FindSolution(AssumedStripWidth, items);
 
                 // Adapt the y-coordinates of all items.

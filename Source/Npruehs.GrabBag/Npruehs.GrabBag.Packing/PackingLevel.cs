@@ -1,10 +1,10 @@
-﻿// --------------------------------------------------------------------------------
-// <copyright company="Nick Pruehs" file="PackingLevel.cs">
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="PackingLevel.cs" company="Nick Pruehs">
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
-// 
-// --------------------------------------------------------------------------------
-namespace Npruehs.GrabBag._2DPacking
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace Npruehs.GrabBag.Packing
 {
     using System.Collections.Generic;
 
