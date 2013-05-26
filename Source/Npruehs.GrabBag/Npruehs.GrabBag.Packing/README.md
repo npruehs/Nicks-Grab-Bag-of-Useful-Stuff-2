@@ -5,7 +5,8 @@ We consider the problem of two-dimensional strip packing: The input is a set
 of items, in this case rectangles. The goal is to pack all items into a strip
 of unlimited height, minimizing the maximum height used, in such a way that
 the sides of all items are aligned with the sides the strip. The quality of
-strip packing algorithms is measured in terms of the optimal solution.
+strip packing algorithms is measured in terms of the
+[optimal solution](http://en.wikipedia.org/wiki/Approximation_algorithms#Performance_guarantees).
 
 In this implementation, items that have to be packed are represented by
 rectangles. While the initial position of these rectangles doesn't 
@@ -19,7 +20,7 @@ items.Add(new PackingItem(1, 0.5f, 0.4f));
 items.Add(new PackingItem(2, 0.4f, 0.8f));
 ```
 
-Given a stip width, each algorithm is able to find a solution for an
+Given a strip width, each algorithm is able to find a solution for an
 arbitrary list of items. Some of the algorithms, such as the Epstein/van Stee,
 rotate items in order to approximate a better solution.
 
