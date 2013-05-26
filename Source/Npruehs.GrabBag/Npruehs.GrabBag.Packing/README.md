@@ -1,14 +1,11 @@
 2D Packing
 ==========
 
-TODO: Describe packing problems in general.
-
-* _item_
-* _strip_
-* _solution_
-* _levels_
-* _solution quality_
-
+We consider the problem of two-dimensional strip packing: The input is a set
+of items, in this case rectangles. The goal is to pack all items into a strip
+of unlimited height, minimizing the maximum height used, in such a way that
+the sides of all items are aligned with the sides the strip. The quality of
+strip packing algorithms is measured in terms of the optimal solution.
 
 In this implementation, items that have to be packed are represented by
 rectangles. While the initial position of these rectangles doesn't 
