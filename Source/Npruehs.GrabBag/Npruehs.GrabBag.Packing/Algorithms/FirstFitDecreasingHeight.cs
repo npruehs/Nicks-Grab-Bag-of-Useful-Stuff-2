@@ -16,6 +16,9 @@ namespace Npruehs.GrabBag.Packing.Algorithms
     /// <para>
     /// Packs n items in  O(n log n) time, generating an 1.7OPT + 1 solution.
     /// </para>
+    /// <para>
+    /// This algorithm doesn't rotate any items.
+    /// </para>
     /// </summary>
     public class FirstFitDecreasingHeight : PackingAlgorithm
     {

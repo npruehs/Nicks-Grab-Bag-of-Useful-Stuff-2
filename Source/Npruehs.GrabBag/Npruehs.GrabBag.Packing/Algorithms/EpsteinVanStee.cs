@@ -18,6 +18,9 @@ namespace Npruehs.GrabBag.Packing.Algorithms
     /// <para>
     /// Packs n items in  O(n log n) time, generating an 1.5OPT + 3 solution.
     /// </para>
+    /// <para>
+    /// This algorithm rotates items for approximating a better solution.
+    /// </para>
     /// </summary>
     public class EpsteinVanStee : PackingAlgorithm
     {
