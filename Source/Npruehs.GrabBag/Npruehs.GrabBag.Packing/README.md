@@ -7,6 +7,8 @@ of unlimited height, minimizing the maximum height used, in such a way that
 the sides of all items are aligned with the sides the strip. The quality of
 strip packing algorithms is measured in terms of the
 [optimal solution](http://en.wikipedia.org/wiki/Approximation_algorithms#Performance_guarantees).
+Applications include cutting objects out of a strip of material minimizing the
+waste.
 
 In this implementation, items that have to be packed are represented by
 rectangles. While the initial position of these rectangles doesn't 
