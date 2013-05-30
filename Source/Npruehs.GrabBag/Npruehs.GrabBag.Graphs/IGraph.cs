@@ -10,9 +10,22 @@ namespace Npruehs.GrabBag.Graphs
     using System.Collections.Generic;
 
     /// <summary>
-    /// The Graph interface.
+    /// <para>
+    /// Unweighted graph G = (V, E) where V denotes the set of
+    /// vertices and E the set of edges between these vertices.
+    /// </para>
+    /// <para>
+    /// Implementing classes can be used for representing either directed or
+    /// undirected graphs (calling <see cref="AddEdge(Vertex,Vertex)"/> and
+    /// <see cref="AddDirectedEdge(Vertex,Vertex)"/>, respectively).
+    /// </para>
+    /// <para>
+    /// Whether multi-graphs and loops are supported depends on the actual
+    /// implementation.
+    /// </para>
     /// </summary>
     /// <typeparam name="Vertex">
+    /// Type of the vertices of this graph.
     /// </typeparam>
     [CLSCompliant(true)]
     public interface IGraph<Vertex>
@@ -20,12 +33,12 @@ namespace Npruehs.GrabBag.Graphs
         #region Public Properties
 
         /// <summary>
-        /// Gets the edge count.
+        /// Number of edges between the vertices of this graph.
         /// </summary>
         int EdgeCount { get; }
 
         /// <summary>
-        /// Gets the vertex count.
+        /// Number of vertices of this graph.
         /// </summary>
         int VertexCount { get; }
 
@@ -34,60 +47,61 @@ namespace Npruehs.GrabBag.Graphs
         #region Public Methods and Operators
 
         /// <summary>
-        /// The add directed edge.
+        /// Adds a directed edge between two vertices in this graph.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge.
         /// </param>
         void AddDirectedEdge(Vertex source, Vertex target);
 
         /// <summary>
-        /// The add edge.
+        /// Adds an undirected edge between two vertices in this graph.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// First vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Second vertex of the edge.
         /// </param>
         void AddEdge(Vertex source, Vertex target);
 
         /// <summary>
-        /// The adjacent vertices.
+        /// Gets the adjacent vertices of the specified vertex in this graph.
         /// </summary>
         /// <param name="vertex">
-        /// The vertex.
+        /// Vertex to get the neighbors of.
         /// </param>
         /// <returns>
-        /// The <see cref="IEnumerable"/>.
+        /// Neighbors of the given vertex.
         /// </returns>
         IEnumerable<Vertex> AdjacentVertices(Vertex vertex);
 
         /// <summary>
-        /// The degree.
+        /// Returns the degree of the given vertex,
+        /// the number of adjacent vertices.
         /// </summary>
         /// <param name="vertex">
-        /// The vertex.
+        /// Vertex to get the degree of.
         /// </param>
         /// <returns>
-        /// The <see cref="int"/>.
+        /// Degree of the vertex.
         /// </returns>
         int Degree(Vertex vertex);
 
         /// <summary>
-        /// The has edge.
+        /// Checks if there is an edge between two vertices of this graph.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge to check.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge to check.
         /// </param>
         /// <returns>
-        /// The <see cref="bool"/>.
+        /// True if there is an edge, and false otherwise.
         /// </returns>
         bool HasEdge(Vertex source, Vertex target);
 

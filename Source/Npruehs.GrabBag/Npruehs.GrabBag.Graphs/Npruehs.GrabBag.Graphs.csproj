@@ -42,6 +42,7 @@
     <Compile Include="GraphF.cs" />
     <Compile Include="GraphI.cs" />
     <Compile Include="IGraph.cs" />
+    <Compile Include="IntVertex.cs" />
     <Compile Include="IVertex.cs" />
     <Compile Include="IWeightedGraph.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

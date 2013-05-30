@@ -9,7 +9,7 @@ namespace Npruehs.GrabBag.Graphs
     using System;
 
     /// <summary>
-    /// The Vertex interface.
+    /// Interface for graph vertices.
     /// </summary>
     [CLSCompliant(true)]
     public interface IVertex
@@ -17,7 +17,7 @@ namespace Npruehs.GrabBag.Graphs
         #region Public Properties
 
         /// <summary>
-        /// Gets the index.
+        /// Index of this vertex.
         /// </summary>
         int Index { get; }
 

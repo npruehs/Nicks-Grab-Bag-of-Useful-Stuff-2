@@ -11,7 +11,27 @@ namespace Npruehs.GrabBag.Graphs
     using System.Linq;
 
     /// <summary>
-    /// The graph f.
+    /// <para>
+    /// Implementation of a graph G = (V, E) where V denotes the set of
+    /// vertices and E the set of edges with real edge weights between these vertices.
+    /// </para>
+    /// <para>
+    /// The edges E of the graph are stored as adjacency list, making this
+    /// implementation fast at enumerating vertex neighbors, but slow at
+    /// accessing specific edges for dense graphs (which have many edges
+    /// between each pair of vertices).
+    /// </para>
+    /// <para>
+    /// This implementation can be used for representing either directed or
+    /// undirected graphs (calling <see cref="AddEdge(Vertex,Vertex)" /> and
+    /// <see cref="AddDirectedEdge(Vertex,Vertex)" />, respectively).
+    /// </para>
+    /// <para>
+    /// // TODO Check multigraph and loops.
+    /// This implementation allows adding multiple edges between two vertices,
+    /// thus being feasible for modeling multi-graphs. Also, it allows creating
+    /// loops, edges whose source and target vertex are identical.
+    /// </para>
     /// </summary>
     [CLSCompliant(true)]
     public class GraphF : IWeightedGraph<int, float>
@@ -19,12 +39,12 @@ namespace Npruehs.GrabBag.Graphs
         #region Fields
 
         /// <summary>
-        /// The graph.
+        /// Graph implementation method calls are delegated to.
         /// </summary>
         private readonly Graph<IntVertex, float> graph;
 
         /// <summary>
-        /// The vertices.
+        /// Vertices of this graph.
         /// </summary>
         private readonly IntVertex[] vertices;
 
@@ -33,10 +53,10 @@ namespace Npruehs.GrabBag.Graphs
         #region Constructors and Destructors
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="GraphF"/> class.
+        /// Creates a new graph without edges.
         /// </summary>
         /// <param name="vertexCount">
-        /// The vertex count.
+        /// Number of vertices of the new graph.
         /// </param>
         public GraphF(int vertexCount)
         {
@@ -55,7 +75,7 @@ namespace Npruehs.GrabBag.Graphs
         #region Public Properties
 
         /// <summary>
-        /// Gets the edge count.
+        /// Number of edges between the vertices of this graph.
         /// </summary>
         public int EdgeCount
         {
@@ -66,7 +86,7 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// Gets the vertex count.
+        /// Number of vertices of this graph.
         /// </summary>
         public int VertexCount
         {
@@ -81,30 +101,30 @@ namespace Npruehs.GrabBag.Graphs
         #region Public Methods and Operators
 
         /// <summary>
-        /// The add directed edge.
+        /// Adds a directed edge with the specified weight between two vertices in this graph in O(1).
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge.
         /// </param>
-        /// <param name="edge">
-        /// The edge.
+        /// <param name="edgeWeight">
+        /// Weight of the edge to add.
         /// </param>
-        public void AddDirectedEdge(int source, int target, float edge)
+        public void AddDirectedEdge(int source, int target, float edgeWeight)
         {
-            this.graph.AddDirectedEdge(this.vertices[source], this.vertices[target], edge);
+            this.graph.AddDirectedEdge(this.vertices[source], this.vertices[target], edgeWeight);
         }
 
         /// <summary>
-        /// The add directed edge.
+        /// Adds a directed edge with weight 1 between two vertices in this graph in O(1).
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge.
         /// </param>
         public void AddDirectedEdge(int source, int target)
         {
@@ -112,30 +132,30 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// The add edge.
+        /// Adds an undirected edge with the specified weight between two vertices in this graph in O(1).
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// First vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Second vertex of the edge.
         /// </param>
-        /// <param name="edge">
-        /// The edge.
+        /// <param name="edgeWeight">
+        /// Weight of the edge to add.
         /// </param>
-        public void AddEdge(int source, int target, float edge)
+        public void AddEdge(int source, int target, float edgeWeight)
         {
-            this.graph.AddEdge(this.vertices[source], this.vertices[target], edge);
+            this.graph.AddEdge(this.vertices[source], this.vertices[target], edgeWeight);
         }
 
         /// <summary>
-        /// The add edge.
+        /// Adds an undirected edge with weight 1 between two vertices in this graph in O(1).
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// First vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Second vertex of the edge.
         /// </param>
         public void AddEdge(int source, int target)
         {
@@ -143,28 +163,30 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// The adjacent vertices.
+        /// Gets the adjacent vertices of the specified vertex in this graph in O(1).
         /// </summary>
         /// <param name="vertex">
-        /// The vertex.
+        /// Vertex to get the neighbors of.
         /// </param>
         /// <returns>
-        /// The <see cref="IEnumerable"/>.
+        /// Neighbors of the given vertex.
         /// </returns>
         public IEnumerable<int> AdjacentVertices(int vertex)
         {
+            // TODO: Return list.
             IEnumerable<IntVertex> adjacentVertices = this.graph.AdjacentVertices(this.vertices[vertex]);
             return adjacentVertices.Select(intVertex => intVertex.Index);
         }
 
         /// <summary>
-        /// The degree.
+        /// Returns the degree of the given vertex,
+        /// the number of adjacent vertices, in O(1).
         /// </summary>
         /// <param name="vertex">
-        /// The vertex.
+        /// Vertex to get the degree of.
         /// </param>
         /// <returns>
-        /// The <see cref="int"/>.
+        /// Degree of the vertex.
         /// </returns>
         public int Degree(int vertex)
         {
@@ -172,16 +194,18 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// The get edge.
+        /// Gets the weight of the first edge between the specified vertices
+        /// in O(n), where n is the number of adjacent vertices of the first one.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge to get the weight of.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge to get the weight of.
         /// </param>
         /// <returns>
-        /// The <see cref="float"/>.
+        /// Weight of the first edge between the two vertices, if there is one,
+        /// and 0 otherwise.
         /// </returns>
         public float GetEdge(int source, int target)
         {
@@ -189,16 +213,18 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// The has edge.
+        /// Checks if there is an edge between two vertices of this
+        /// graph in O(n), where n is the number of adjacent vertices
+        /// of the first one.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge to check.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge to check.
         /// </param>
         /// <returns>
-        /// The <see cref="bool"/>.
+        /// True if there is an edge, and false otherwise.
         /// </returns>
         public bool HasEdge(int source, int target)
         {
@@ -206,49 +232,20 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// The incident edges.
+        /// Gets the weights of all edges that are incident to the specified vertex.
         /// </summary>
         /// <param name="vertex">
-        /// The vertex.
+        /// Vertex to get the weights of the incident edges of.
         /// </param>
         /// <returns>
-        /// The <see cref="IEnumerable"/>.
+        /// Weights of the incident edges of the specified vertex.
         /// </returns>
         public IEnumerable<float> IncidentEdges(int vertex)
         {
+            // TODO Return list.
             return this.graph.IncidentEdges(this.vertices[vertex]);
         }
 
         #endregion
-
-        /// <summary>
-        /// The int vertex.
-        /// </summary>
-        private class IntVertex : IVertex
-        {
-            #region Constructors and Destructors
-
-            /// <summary>
-            /// Initializes a new instance of the <see cref="IntVertex"/> class.
-            /// </summary>
-            /// <param name="index">
-            /// The index.
-            /// </param>
-            public IntVertex(int index)
-            {
-                this.Index = index;
-            }
-
-            #endregion
-
-            #region Public Properties
-
-            /// <summary>
-            /// Gets the index.
-            /// </summary>
-            public int Index { get; private set; }
-
-            #endregion
-        }
     }
 }

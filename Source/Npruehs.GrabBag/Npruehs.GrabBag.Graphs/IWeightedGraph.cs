@@ -10,11 +10,25 @@ namespace Npruehs.GrabBag.Graphs
     using System.Collections.Generic;
 
     /// <summary>
-    /// The WeightedGraph interface.
+    /// <para>
+    /// Weighted graph G = (V, E) where V denotes the set of
+    /// vertices and E the set of edges between these vertices.
+    /// </para>
+    /// <para>
+    /// Implementing classes can be used for representing either directed or
+    /// undirected graphs (calling <see cref="AddEdge(Vertex,Vertex)"/> and
+    /// <see cref="AddDirectedEdge(Vertex,Vertex)"/>, respectively).
+    /// </para>
+    /// <para>
+    /// Whether multi-graphs and loops are supported depends on the actual
+    /// implementation.
+    /// </para>
     /// </summary>
     /// <typeparam name="Vertex">
+    /// Type of the vertices of this graph.
     /// </typeparam>
     /// <typeparam name="Edge">
+    /// Type of the edges of this graph.
     /// </typeparam>
     [CLSCompliant(true)]
     public interface IWeightedGraph<Vertex, Edge> : IGraph<Vertex>
@@ -22,55 +36,56 @@ namespace Npruehs.GrabBag.Graphs
         #region Public Methods and Operators
 
         /// <summary>
-        /// The add directed edge.
+        /// Adds the specified directed edge between two vertices in this graph.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge.
         /// </param>
         /// <param name="edge">
-        /// The edge.
+        /// Edge to add.
         /// </param>
         void AddDirectedEdge(Vertex source, Vertex target, Edge edge);
 
         /// <summary>
-        /// The add edge.
+        /// Adds the specified undirected edge between two vertices in this graph.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// First vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Second vertex of the edge.
         /// </param>
         /// <param name="edge">
-        /// The edge.
+        /// Edge to add.
         /// </param>
         void AddEdge(Vertex source, Vertex target, Edge edge);
 
         /// <summary>
-        /// The get edge.
+        /// Gets the first edge between the specified vertices.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge to get.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge to get.
         /// </param>
         /// <returns>
-        /// The <see cref="Edge"/>.
+        /// First edge between the two vertices, if there is one,
+        /// and default edge otherwise.
         /// </returns>
         Edge GetEdge(Vertex source, Vertex target);
 
         /// <summary>
-        /// The incident edges.
+        /// Gets all edges that are incident to the specified vertex.
         /// </summary>
         /// <param name="vertex">
-        /// The vertex.
+        /// Vertex to get the incident edges of.
         /// </param>
         /// <returns>
-        /// The <see cref="IEnumerable"/>.
+        /// Incident edges of the specified vertex.
         /// </returns>
         IEnumerable<Edge> IncidentEdges(Vertex vertex);
 

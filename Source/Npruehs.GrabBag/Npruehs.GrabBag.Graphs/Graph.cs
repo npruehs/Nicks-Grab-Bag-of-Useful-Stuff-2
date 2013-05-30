@@ -11,11 +11,39 @@ namespace Npruehs.GrabBag.Graphs
     using System.Linq;
 
     /// <summary>
-    /// The graph.
+    /// <para>
+    /// Implementation of a graph G = (V, E) where V denotes the set of
+    /// vertices and E the set of edges between these vertices.
+    /// </para>
+    /// <para>
+    /// The edges E of the graph are stored as adjacency list, making this
+    /// implementation fast at enumerating vertex neighbors, but slow at
+    /// accessing specific edges for dense graphs (which have many edges
+    /// between each pair of vertices).
+    /// </para>
+    /// <para>
+    /// This implementation can be used for representing either directed or
+    /// undirected graphs (calling <see cref="AddEdge(Vertex,Vertex)"/> and
+    /// <see cref="AddDirectedEdge(Vertex,Vertex)"/>, respectively).
+    /// </para>
+    /// <para>
+    /// The weight of the edges between vertices depends on the specified edge
+    /// type. Calling <see cref="AddEdge(Vertex,Vertex)"/> without specifying
+    /// an edge creates a default edge between both vertices, usually resulting
+    /// in an unweighted graph.
+    /// </para>
+    /// <para>
+    /// // TODO Check multigraph and loops.
+    /// This implementation allows adding multiple edges between two vertices,
+    /// thus being feasible for modeling multi-graphs. Also, it allows creating
+    /// loops, edges whose source and target vertex are identical.
+    /// </para>
     /// </summary>
     /// <typeparam name="Vertex">
+    /// Type of the vertices of this graph.
     /// </typeparam>
     /// <typeparam name="Edge">
+    /// Type of the edges of this graph.
     /// </typeparam>
     [CLSCompliant(true)]
     public class Graph<Vertex, Edge> : IWeightedGraph<Vertex, Edge>
@@ -24,7 +52,7 @@ namespace Npruehs.GrabBag.Graphs
         #region Fields
 
         /// <summary>
-        /// The adjacency list.
+        /// Neighbors of all vertices of this graph.
         /// </summary>
         private readonly List<Vertex>[] adjacencyList;
 
@@ -53,10 +81,7 @@ namespace Npruehs.GrabBag.Graphs
         #region Constructors and Destructors
 
         /// <summary>
-        /// Default constructor for this implementation of
-        /// directed graphs.
-        /// Initially there are no edges.
-        /// Vertex indices are assumed to be unique and in [0 .. vertices.Count - 1].
+        /// Creates a new graph without edges.
         /// </summary>
         /// <param name="vertices">
         /// Vertices of the new graph.
@@ -71,7 +96,7 @@ namespace Npruehs.GrabBag.Graphs
             // Set vertices.
             this.vertices = vertices.ToList();
             this.vertexCount = this.vertices.Count;
-            
+
             // Check vertex indices.
             var vertexIndices = new HashSet<int>();
 
@@ -81,8 +106,8 @@ namespace Npruehs.GrabBag.Graphs
                 {
                     throw new ArgumentException(
                         string.Format(
-                            "For a set of {0} vertices, vertex indices have to be between 0 and {1}",
-                            this.vertexCount,
+                            "For a set of {0} vertices, vertex indices have to be between 0 and {1}", 
+                            this.vertexCount, 
                             this.vertexCount - 1));
                 }
 
@@ -95,20 +120,16 @@ namespace Npruehs.GrabBag.Graphs
                 vertexIndices.Add(vertex.Index);
             }
 
-            // Construct new arrays to hold the lists for the edges and
-            // edge weights between the vertices of this graph.
+            // Initially there are no edges.
             this.edges = new List<Edge>[this.vertexCount];
             this.adjacencyList = new List<Vertex>[this.vertexCount];
 
             for (int i = 0; i < this.vertexCount; i++)
             {
-                // Construct new lists for the edges and
-                // edge weights between the vertices of this graph.
                 this.edges[i] = new List<Edge>();
                 this.adjacencyList[i] = new List<Vertex>();
             }
 
-            // Initially there are no edges.
             this.edgeCount = 0;
         }
 
@@ -165,17 +186,16 @@ namespace Npruehs.GrabBag.Graphs
         #region Public Methods and Operators
 
         /// <summary>
-        /// Adds one edge between two vertices in this graph in O(1),
-        /// weighted with the given value.
+        /// Adds the specified directed edge between two vertices in this graph in O(1).
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge.
         /// </param>
         /// <param name="edge">
-        /// The edge.
+        /// Edge to add.
         /// </param>
         public void AddDirectedEdge(Vertex source, Vertex target, Edge edge)
         {
@@ -186,13 +206,13 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// The add directed edge.
+        /// Adds the default directed edge between two vertices in this graph in O(1).
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge.
         /// </param>
         public void AddDirectedEdge(Vertex source, Vertex target)
         {
@@ -200,13 +220,13 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// The add edge.
+        /// Adds the default undirected edge between two vertices in this graph in O(1).
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// First vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Second vertex of the edge.
         /// </param>
         public void AddEdge(Vertex source, Vertex target)
         {
@@ -214,17 +234,16 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// Adds two edges between two vertices in this graph in O(1),
-        /// weighted with the given value.
+        /// Adds the specified undirected edge between two vertices in this graph in O(1).
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// First vertex of the edge.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Second vertex of the edge.
         /// </param>
         /// <param name="edge">
-        /// The edge.
+        /// Edge to add.
         /// </param>
         public void AddEdge(Vertex source, Vertex target, Edge edge)
         {
@@ -233,14 +252,13 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// Returns a list containing the adjacent
-        /// vertices of a given vertex in this graph in O(1).
+        /// Gets the adjacent vertices of the specified vertex in this graph in O(1).
         /// </summary>
         /// <param name="vertex">
-        /// The vertex.
+        /// Vertex to get the neighbors of.
         /// </param>
         /// <returns>
-        /// List with the neighbors of the given vertex.
+        /// Neighbors of the given vertex.
         /// </returns>
         public IEnumerable<Vertex> AdjacentVertices(Vertex vertex)
         {
@@ -249,10 +267,10 @@ namespace Npruehs.GrabBag.Graphs
 
         /// <summary>
         /// Returns the degree of the given vertex,
-        /// in other words the number of adjacent vertices, in O(1).
+        /// the number of adjacent vertices, in O(1).
         /// </summary>
         /// <param name="vertex">
-        /// The vertex.
+        /// Vertex to get the degree of.
         /// </param>
         /// <returns>
         /// Degree of the vertex.
@@ -263,32 +281,32 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// Gets the weight of the edge between the specified vertices in O(n),
-        /// where n is the number of adjacent vertices of the first one.
+        /// Gets the first edge between the specified vertices
+        /// in O(n), where n is the number of adjacent vertices of the first one.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge to get.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge to get.
         /// </param>
         /// <returns>
-        /// Edge weight of the edge between the two vertices, if there is one,
-        /// and -1 otherwise.
+        /// First edge between the two vertices, if there is one,
+        /// and default edge otherwise.
         /// </returns>
         public Edge GetEdge(Vertex source, Vertex target)
         {
-            // Look at the list of neighbors of the first node and get
-            // the list index of the second node there.
+            // Look at the list of neighbors of the first vertex and get
+            // the list index of the second vertex there.
             int listIndex = this.adjacencyList[source.Index].IndexOf(target);
 
-            // If there is no edge between the specified vertices, return -1.
+            // If there is no edge between the specified vertices, return default edge.
             if (listIndex < 0)
             {
                 return default(Edge);
             }
 
-            // Return the weight at the same index in the list of weights.
+            // Return the edge at the same index in the list of edges.
             return this.edges[source.Index][listIndex];
         }
 
@@ -298,10 +316,10 @@ namespace Npruehs.GrabBag.Graphs
         /// of the first one.
         /// </summary>
         /// <param name="source">
-        /// The source.
+        /// Source vertex of the edge to check.
         /// </param>
         /// <param name="target">
-        /// The target.
+        /// Target vertex of the edge to check.
         /// </param>
         /// <returns>
         /// True if there is an edge, and false otherwise.
@@ -312,13 +330,13 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
-        /// The incident edges.
+        /// Gets all edges that are incident to the specified vertex.
         /// </summary>
         /// <param name="vertex">
-        /// The vertex.
+        /// Vertex to get the incident edges of.
         /// </param>
         /// <returns>
-        /// The <see cref="IEnumerable"/>.
+        /// Incident edges of the specified vertex.
         /// </returns>
         public IEnumerable<Edge> IncidentEdges(Vertex vertex)
         {
