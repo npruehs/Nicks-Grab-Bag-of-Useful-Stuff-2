@@ -22,6 +22,7 @@ namespace Npruehs.GrabBag.Packing.Algorithms
     /// This algorithm rotates items for approximating a better solution.
     /// </para>
     /// </summary>
+    [CLSCompliant(true)]
     public class EpsteinVanStee : PackingAlgorithm
     {
         #region Constants

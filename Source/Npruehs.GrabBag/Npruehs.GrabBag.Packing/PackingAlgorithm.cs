@@ -14,6 +14,7 @@ namespace Npruehs.GrabBag.Packing
     /// <summary>
     /// 2D packing algorithm.
     /// </summary>
+    [CLSCompliant(true)]
     public abstract class PackingAlgorithm : IEnumerable<PackingItem>
     {
         #region Constructors and Destructors

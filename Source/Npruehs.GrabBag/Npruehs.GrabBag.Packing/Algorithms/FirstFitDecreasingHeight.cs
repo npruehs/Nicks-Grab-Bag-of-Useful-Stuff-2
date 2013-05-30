@@ -6,6 +6,7 @@
 
 namespace Npruehs.GrabBag.Packing.Algorithms
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
 
@@ -20,6 +21,7 @@ namespace Npruehs.GrabBag.Packing.Algorithms
     /// This algorithm doesn't rotate any items.
     /// </para>
     /// </summary>
+    [CLSCompliant(true)]
     public class FirstFitDecreasingHeight : PackingAlgorithm
     {
         #region Public Methods and Operators

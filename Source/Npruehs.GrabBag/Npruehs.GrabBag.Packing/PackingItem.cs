@@ -13,6 +13,7 @@ namespace Npruehs.GrabBag.Packing
     /// <summary>
     /// Item to be packed into a strip with a fixed width.
     /// </summary>
+    [CLSCompliant(true)]
     public class PackingItem : IEquatable<PackingItem>
     {
         #region Constructors and Destructors

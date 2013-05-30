@@ -6,12 +6,14 @@
 
 namespace Npruehs.GrabBag.Packing
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
     /// Strip level of a solution to a specific instance of a 2D packing problem.
     /// Contains one or more items that have been packed here, as well as their respective positions.
     /// </summary>
+    [CLSCompliant(true)]
     public class PackingLevel
     {
         #region Constructors and Destructors
