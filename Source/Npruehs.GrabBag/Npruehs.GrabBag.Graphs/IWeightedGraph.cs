@@ -16,22 +16,22 @@ namespace Npruehs.GrabBag.Graphs
     /// </para>
     /// <para>
     /// Implementing classes can be used for representing either directed or
-    /// undirected graphs (calling <see cref="AddEdge(Vertex,Vertex)"/> and
-    /// <see cref="AddDirectedEdge(Vertex,Vertex)"/>, respectively).
+    /// undirected graphs (calling <see cref="AddEdge(TVertex, TVertex, TEdge)"/> and
+    /// <see cref="AddDirectedEdge(TVertex, TVertex, TEdge)"/>, respectively).
     /// </para>
     /// <para>
     /// Whether multi-graphs and loops are supported depends on the actual
     /// implementation.
     /// </para>
     /// </summary>
-    /// <typeparam name="Vertex">
+    /// <typeparam name="TVertex">
     /// Type of the vertices of this graph.
     /// </typeparam>
-    /// <typeparam name="Edge">
+    /// <typeparam name="TEdge">
     /// Type of the edges of this graph.
     /// </typeparam>
     [CLSCompliant(true)]
-    public interface IWeightedGraph<Vertex, Edge> : IGraph<Vertex>
+    public interface IWeightedGraph<TVertex, TEdge> : IGraph<TVertex>
     {
         #region Public Methods and Operators
 
@@ -47,7 +47,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <param name="edge">
         /// Edge to add.
         /// </param>
-        void AddDirectedEdge(Vertex source, Vertex target, Edge edge);
+        void AddDirectedEdge(TVertex source, TVertex target, TEdge edge);
 
         /// <summary>
         /// Adds the specified undirected edge between two vertices in this graph.
@@ -61,7 +61,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <param name="edge">
         /// Edge to add.
         /// </param>
-        void AddEdge(Vertex source, Vertex target, Edge edge);
+        void AddEdge(TVertex source, TVertex target, TEdge edge);
 
         /// <summary>
         /// Gets the first edge between the specified vertices.
@@ -76,7 +76,7 @@ namespace Npruehs.GrabBag.Graphs
         /// First edge between the two vertices, if there is one,
         /// and default edge otherwise.
         /// </returns>
-        Edge GetEdge(Vertex source, Vertex target);
+        TEdge GetEdge(TVertex source, TVertex target);
 
         /// <summary>
         /// Gets all edges that are incident to the specified vertex.
@@ -87,7 +87,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Incident edges of the specified vertex.
         /// </returns>
-        IEnumerable<Edge> IncidentEdges(Vertex vertex);
+        IEnumerable<TEdge> IncidentEdges(TVertex vertex);
 
         #endregion
     }

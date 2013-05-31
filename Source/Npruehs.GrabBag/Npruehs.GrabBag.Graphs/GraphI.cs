@@ -23,8 +23,8 @@ namespace Npruehs.GrabBag.Graphs
     /// </para>
     /// <para>
     /// This implementation can be used for representing either directed or
-    /// undirected graphs (calling <see cref="AddEdge(Vertex,Vertex)" /> and
-    /// <see cref="AddDirectedEdge(Vertex,Vertex)" />, respectively).
+    /// undirected graphs (calling <see cref="AddEdge(int, int)" /> and
+    /// <see cref="AddDirectedEdge(int, int)" />, respectively).
     /// </para>
     /// <para>
     /// // TODO Check multigraph and loops.
@@ -173,7 +173,6 @@ namespace Npruehs.GrabBag.Graphs
         /// </returns>
         public IEnumerable<int> AdjacentVertices(int vertex)
         {
-            // TODO Return list.
             IEnumerable<IntVertex> adjacentVertices = this.graph.AdjacentVertices(this.vertices[vertex]);
             return adjacentVertices.Select(intVertex => intVertex.Index);
         }
@@ -242,7 +241,6 @@ namespace Npruehs.GrabBag.Graphs
         /// </returns>
         public IEnumerable<int> IncidentEdges(int vertex)
         {
-            // TODO Return list.
             return this.graph.IncidentEdges(this.vertices[vertex]);
         }
 

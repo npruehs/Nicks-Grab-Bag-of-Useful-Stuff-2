@@ -23,12 +23,12 @@ namespace Npruehs.GrabBag.Graphs
     /// </para>
     /// <para>
     /// This implementation can be used for representing either directed or
-    /// undirected graphs (calling <see cref="AddEdge(Vertex,Vertex)"/> and
-    /// <see cref="AddDirectedEdge(Vertex,Vertex)"/>, respectively).
+    /// undirected graphs (calling <see cref="AddEdge(TVertex,TVertex)"/> and
+    /// <see cref="AddDirectedEdge(TVertex,TVertex)"/>, respectively).
     /// </para>
     /// <para>
     /// The weight of the edges between vertices depends on the specified edge
-    /// type. Calling <see cref="AddEdge(Vertex,Vertex)"/> without specifying
+    /// type. Calling <see cref="AddEdge(TVertex,TVertex)"/> without specifying
     /// an edge creates a default edge between both vertices, usually resulting
     /// in an unweighted graph.
     /// </para>
@@ -39,27 +39,27 @@ namespace Npruehs.GrabBag.Graphs
     /// loops, edges whose source and target vertex are identical.
     /// </para>
     /// </summary>
-    /// <typeparam name="Vertex">
+    /// <typeparam name="TVertex">
     /// Type of the vertices of this graph.
     /// </typeparam>
-    /// <typeparam name="Edge">
+    /// <typeparam name="TEdge">
     /// Type of the edges of this graph.
     /// </typeparam>
     [CLSCompliant(true)]
-    public class Graph<Vertex, Edge> : IWeightedGraph<Vertex, Edge>
-        where Vertex : IVertex
+    public class Graph<TVertex, TEdge> : IWeightedGraph<TVertex, TEdge>
+        where TVertex : IVertex
     {
         #region Fields
 
         /// <summary>
         /// Neighbors of all vertices of this graph.
         /// </summary>
-        private readonly List<Vertex>[] adjacencyList;
+        private readonly List<TVertex>[] adjacencyList;
 
         /// <summary>
         /// Edges between the vertices of this graph.
         /// </summary>
-        private readonly List<Edge>[] edges;
+        private readonly List<TEdge>[] edges;
 
         /// <summary>
         /// Number of vertices of this graph.
@@ -69,7 +69,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <summary>
         /// Vertices of this graph.
         /// </summary>
-        private readonly List<Vertex> vertices;
+        private readonly List<TVertex> vertices;
 
         /// <summary>
         /// Number of edges between the vertices of this graph.
@@ -86,7 +86,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <param name="vertices">
         /// Vertices of the new graph.
         /// </param>
-        public Graph(IEnumerable<Vertex> vertices)
+        public Graph(IEnumerable<TVertex> vertices)
         {
             if (vertices == null)
             {
@@ -100,7 +100,7 @@ namespace Npruehs.GrabBag.Graphs
             // Check vertex indices.
             var vertexIndices = new HashSet<int>();
 
-            foreach (Vertex vertex in this.vertices)
+            foreach (TVertex vertex in this.vertices)
             {
                 if (vertex.Index < 0 || vertex.Index >= this.vertices.Count)
                 {
@@ -121,13 +121,13 @@ namespace Npruehs.GrabBag.Graphs
             }
 
             // Initially there are no edges.
-            this.edges = new List<Edge>[this.vertexCount];
-            this.adjacencyList = new List<Vertex>[this.vertexCount];
+            this.edges = new List<TEdge>[this.vertexCount];
+            this.adjacencyList = new List<TVertex>[this.vertexCount];
 
             for (int i = 0; i < this.vertexCount; i++)
             {
-                this.edges[i] = new List<Edge>();
-                this.adjacencyList[i] = new List<Vertex>();
+                this.edges[i] = new List<TEdge>();
+                this.adjacencyList[i] = new List<TVertex>();
             }
 
             this.edgeCount = 0;
@@ -151,7 +151,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <summary>
         /// Edges between the vertices of this graph.
         /// </summary>
-        public List<Edge>[] Edges
+        public List<TEdge>[] Edges
         {
             get
             {
@@ -173,7 +173,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <summary>
         /// Vertices of this graph.
         /// </summary>
-        public IEnumerable<Vertex> Vertices
+        public IEnumerable<TVertex> Vertices
         {
             get
             {
@@ -197,7 +197,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <param name="edge">
         /// Edge to add.
         /// </param>
-        public void AddDirectedEdge(Vertex source, Vertex target, Edge edge)
+        public void AddDirectedEdge(TVertex source, TVertex target, TEdge edge)
         {
             this.edges[source.Index].Add(edge);
             this.adjacencyList[source.Index].Add(target);
@@ -214,9 +214,9 @@ namespace Npruehs.GrabBag.Graphs
         /// <param name="target">
         /// Target vertex of the edge.
         /// </param>
-        public void AddDirectedEdge(Vertex source, Vertex target)
+        public void AddDirectedEdge(TVertex source, TVertex target)
         {
-            this.AddDirectedEdge(source, target, default(Edge));
+            this.AddDirectedEdge(source, target, default(TEdge));
         }
 
         /// <summary>
@@ -228,9 +228,9 @@ namespace Npruehs.GrabBag.Graphs
         /// <param name="target">
         /// Second vertex of the edge.
         /// </param>
-        public void AddEdge(Vertex source, Vertex target)
+        public void AddEdge(TVertex source, TVertex target)
         {
-            this.AddEdge(source, target, default(Edge));
+            this.AddEdge(source, target, default(TEdge));
         }
 
         /// <summary>
@@ -245,7 +245,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <param name="edge">
         /// Edge to add.
         /// </param>
-        public void AddEdge(Vertex source, Vertex target, Edge edge)
+        public void AddEdge(TVertex source, TVertex target, TEdge edge)
         {
             this.AddDirectedEdge(source, target, edge);
             this.AddDirectedEdge(target, source, edge);
@@ -260,7 +260,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Neighbors of the given vertex.
         /// </returns>
-        public IEnumerable<Vertex> AdjacentVertices(Vertex vertex)
+        public IEnumerable<TVertex> AdjacentVertices(TVertex vertex)
         {
             return this.adjacencyList[vertex.Index];
         }
@@ -275,7 +275,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Degree of the vertex.
         /// </returns>
-        public int Degree(Vertex vertex)
+        public int Degree(TVertex vertex)
         {
             return this.edges[vertex.Index].Count;
         }
@@ -294,7 +294,7 @@ namespace Npruehs.GrabBag.Graphs
         /// First edge between the two vertices, if there is one,
         /// and default edge otherwise.
         /// </returns>
-        public Edge GetEdge(Vertex source, Vertex target)
+        public TEdge GetEdge(TVertex source, TVertex target)
         {
             // Look at the list of neighbors of the first vertex and get
             // the list index of the second vertex there.
@@ -303,7 +303,7 @@ namespace Npruehs.GrabBag.Graphs
             // If there is no edge between the specified vertices, return default edge.
             if (listIndex < 0)
             {
-                return default(Edge);
+                return default(TEdge);
             }
 
             // Return the edge at the same index in the list of edges.
@@ -324,7 +324,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// True if there is an edge, and false otherwise.
         /// </returns>
-        public bool HasEdge(Vertex source, Vertex target)
+        public bool HasEdge(TVertex source, TVertex target)
         {
             return this.adjacencyList[source.Index].Contains(target);
         }
@@ -338,7 +338,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Incident edges of the specified vertex.
         /// </returns>
-        public IEnumerable<Edge> IncidentEdges(Vertex vertex)
+        public IEnumerable<TEdge> IncidentEdges(TVertex vertex)
         {
             return this.edges[vertex.Index];
         }

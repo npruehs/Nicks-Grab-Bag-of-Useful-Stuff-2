@@ -4,10 +4,12 @@
     <CollectionProperty Name="RecognizedWords">
       <Value>Endre</Value>
 	  <Value>Fredman</Value>
+      <Value>multigraph</Value>
 	  <Value>Stee</Value>
 	  <Value>Tarjan</Value>
 	  <Value>Tarjan's</Value>
-    </CollectionProperty>
+      <Value>unweighted</Value>
+	  </CollectionProperty>
   </GlobalSettings>
   <Analyzers>
     <Analyzer AnalyzerId="StyleCop.CSharp.DocumentationRules">

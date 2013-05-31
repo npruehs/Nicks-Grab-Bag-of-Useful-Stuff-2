@@ -16,19 +16,19 @@ namespace Npruehs.GrabBag.Graphs
     /// </para>
     /// <para>
     /// Implementing classes can be used for representing either directed or
-    /// undirected graphs (calling <see cref="AddEdge(Vertex,Vertex)"/> and
-    /// <see cref="AddDirectedEdge(Vertex,Vertex)"/>, respectively).
+    /// undirected graphs (calling <see cref="AddEdge(TVertex,TVertex)"/> and
+    /// <see cref="AddDirectedEdge(TVertex,TVertex)"/>, respectively).
     /// </para>
     /// <para>
     /// Whether multi-graphs and loops are supported depends on the actual
     /// implementation.
     /// </para>
     /// </summary>
-    /// <typeparam name="Vertex">
+    /// <typeparam name="TVertex">
     /// Type of the vertices of this graph.
     /// </typeparam>
     [CLSCompliant(true)]
-    public interface IGraph<Vertex>
+    public interface IGraph<TVertex>
     {
         #region Public Properties
 
@@ -55,7 +55,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <param name="target">
         /// Target vertex of the edge.
         /// </param>
-        void AddDirectedEdge(Vertex source, Vertex target);
+        void AddDirectedEdge(TVertex source, TVertex target);
 
         /// <summary>
         /// Adds an undirected edge between two vertices in this graph.
@@ -66,7 +66,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <param name="target">
         /// Second vertex of the edge.
         /// </param>
-        void AddEdge(Vertex source, Vertex target);
+        void AddEdge(TVertex source, TVertex target);
 
         /// <summary>
         /// Gets the adjacent vertices of the specified vertex in this graph.
@@ -77,7 +77,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Neighbors of the given vertex.
         /// </returns>
-        IEnumerable<Vertex> AdjacentVertices(Vertex vertex);
+        IEnumerable<TVertex> AdjacentVertices(TVertex vertex);
 
         /// <summary>
         /// Returns the degree of the given vertex,
@@ -89,7 +89,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Degree of the vertex.
         /// </returns>
-        int Degree(Vertex vertex);
+        int Degree(TVertex vertex);
 
         /// <summary>
         /// Checks if there is an edge between two vertices of this graph.
@@ -103,7 +103,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// True if there is an edge, and false otherwise.
         /// </returns>
-        bool HasEdge(Vertex source, Vertex target);
+        bool HasEdge(TVertex source, TVertex target);
 
         #endregion
     }
