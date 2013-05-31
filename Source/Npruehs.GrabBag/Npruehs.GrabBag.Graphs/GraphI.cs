@@ -27,7 +27,6 @@ namespace Npruehs.GrabBag.Graphs
     /// <see cref="AddDirectedEdge(int, int)" />, respectively).
     /// </para>
     /// <para>
-    /// // TODO Check multigraph and loops.
     /// This implementation allows adding multiple edges between two vertices,
     /// thus being feasible for modeling multi-graphs. Also, it allows creating
     /// loops, edges whose source and target vertex are identical.

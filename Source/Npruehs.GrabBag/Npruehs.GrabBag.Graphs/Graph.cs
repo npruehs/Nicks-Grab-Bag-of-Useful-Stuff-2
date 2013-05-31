@@ -33,7 +33,6 @@ namespace Npruehs.GrabBag.Graphs
     /// in an unweighted graph.
     /// </para>
     /// <para>
-    /// // TODO Check multigraph and loops.
     /// This implementation allows adding multiple edges between two vertices,
     /// thus being feasible for modeling multi-graphs. Also, it allows creating
     /// loops, edges whose source and target vertex are identical.
@@ -71,11 +70,6 @@ namespace Npruehs.GrabBag.Graphs
         /// </summary>
         private readonly List<TVertex> vertices;
 
-        /// <summary>
-        /// Number of edges between the vertices of this graph.
-        /// </summary>
-        private int edgeCount;
-
         #endregion
 
         #region Constructors and Destructors
@@ -100,7 +94,7 @@ namespace Npruehs.GrabBag.Graphs
             // Check vertex indices.
             var vertexIndices = new HashSet<int>();
 
-            foreach (TVertex vertex in this.vertices)
+            foreach (var vertex in this.vertices)
             {
                 if (vertex.Index < 0 || vertex.Index >= this.vertices.Count)
                 {
@@ -124,13 +118,13 @@ namespace Npruehs.GrabBag.Graphs
             this.edges = new List<TEdge>[this.vertexCount];
             this.adjacencyList = new List<TVertex>[this.vertexCount];
 
-            for (int i = 0; i < this.vertexCount; i++)
+            for (var i = 0; i < this.vertexCount; i++)
             {
                 this.edges[i] = new List<TEdge>();
                 this.adjacencyList[i] = new List<TVertex>();
             }
 
-            this.edgeCount = 0;
+            this.EdgeCount = 0;
         }
 
         #endregion
@@ -140,13 +134,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <summary>
         /// Number of edges between the vertices of this graph.
         /// </summary>
-        public int EdgeCount
-        {
-            get
-            {
-                return this.edgeCount;
-            }
-        }
+        public int EdgeCount { get; private set; }
 
         /// <summary>
         /// Edges between the vertices of this graph.
@@ -200,7 +188,7 @@ namespace Npruehs.GrabBag.Graphs
         public void AddDirectedEdge(TVertex source, TVertex target, TEdge edge)
         {
             this.AddEdgeBetween(source, target, edge);
-            this.edgeCount++;
+            this.EdgeCount++;
         }
 
         /// <summary>
@@ -248,7 +236,7 @@ namespace Npruehs.GrabBag.Graphs
             this.AddEdgeBetween(source, target, edge);
             this.AddEdgeBetween(target, source, edge);
 
-            this.edgeCount++;
+            this.EdgeCount++;
         }
 
         /// <summary>
@@ -298,16 +286,10 @@ namespace Npruehs.GrabBag.Graphs
         {
             // Look at the list of neighbors of the first vertex and get
             // the list index of the second vertex there.
-            int listIndex = this.adjacencyList[source.Index].IndexOf(target);
+            var listIndex = this.adjacencyList[source.Index].IndexOf(target);
 
             // If there is no edge between the specified vertices, return default edge.
-            if (listIndex < 0)
-            {
-                return default(TEdge);
-            }
-
-            // Return the edge at the same index in the list of edges.
-            return this.edges[source.Index][listIndex];
+            return listIndex < 0 ? default(TEdge) : this.edges[source.Index][listIndex];
         }
 
         /// <summary>

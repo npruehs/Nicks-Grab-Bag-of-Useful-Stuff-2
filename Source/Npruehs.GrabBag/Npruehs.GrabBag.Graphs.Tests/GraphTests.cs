@@ -198,6 +198,25 @@ namespace Npruehs.GrabBag.Graphs.Tests
         }
 
         /// <summary>
+        /// Tests adding an edge whose source and target are identical.
+        /// </summary>
+        [Test]
+        public void TestLoop()
+        {
+            this.graph.AddEdge(1, 1);
+        }
+
+        /// <summary>
+        /// Tests adding multiple edges between the same vertices in a graph.
+        /// </summary>
+        [Test]
+        public void TestMultigraph()
+        {
+            this.graph.AddEdge(1, 2);
+            this.graph.AddEdge(1, 2);
+        }
+
+        /// <summary>
         /// Tests getting the number of vertices of a graph.
         /// </summary>
         [Test]
