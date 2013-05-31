@@ -9,6 +9,7 @@ namespace Npruehs.GrabBag.Packing.Tests
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
+    using System.Linq;
 
     using Npruehs.GrabBag.Packing.Algorithms;
 
@@ -121,7 +122,7 @@ namespace Npruehs.GrabBag.Packing.Tests
             var ffdh = new FirstFitDecreasingHeight();
             const float MaxStripHeight = 1.2f;
 
-            float value = ffdh.FindSolution(1.0f, this.testInstance, MaxStripHeight);
+            var value = ffdh.FindSolution(1.0f, this.testInstance, MaxStripHeight);
 
             Assert.True(value <= MaxStripHeight);
         }
@@ -143,10 +144,10 @@ namespace Npruehs.GrabBag.Packing.Tests
         [Test]
         public void TestRotateItem()
         {
-            PackingItem item = this.testInstance[0];
+            var item = this.testInstance[0];
 
-            float oldWidth = item.Rectangle.Width;
-            float oldHeight = item.Rectangle.Height;
+            var oldWidth = item.Rectangle.Width;
+            var oldHeight = item.Rectangle.Height;
 
             item.Rotate();
 
@@ -164,17 +165,48 @@ namespace Npruehs.GrabBag.Packing.Tests
         /// <param name="result">
         /// Packing algorithm solution to check.
         /// </param>
-        private void CheckItemsOverlap(PackingAlgorithm result)
+        private static void CheckItemsOverlap(PackingAlgorithm result)
         {
-            foreach (PackingItem first in result)
+            foreach (var first in result)
             {
-                foreach (PackingItem second in result)
+                foreach (var second in result)
                 {
                     if (first != second && first.Rectangle.Intersects(second.Rectangle))
                     {
                         Assert.Fail("Items {0} and {1} overlap.", first, second);
                     }
                 }
+            }
+        }
+
+        /// <summary>
+        /// Fails if any item in the specified solution exceeds the strip width.
+        /// </summary>
+        /// <param name="stripWidth">
+        /// Strip width to check.
+        /// </param>
+        /// <param name="result">
+        /// Packing algorithm solution to check.
+        /// </param>
+        private static void CheckStripWidthExceeded(float stripWidth, IEnumerable<PackingItem> result)
+        {
+            foreach (var item in result.Where(item => item.Rectangle.X + item.Rectangle.Width > stripWidth))
+            {
+                Assert.Fail("Item {0} exceeds strip width {1}.", item, stripWidth);
+            }
+        }
+
+        /// <summary>
+        /// Writes the specified solution to the debug console.
+        /// </summary>
+        /// <param name="result">
+        /// Solution to show.
+        /// </param>
+        private static void PrintSolution(IEnumerable<PackingItem> result)
+        {
+            foreach (var item in result)
+            {
+                Debug.WriteLine(item.ToString());
             }
         }
 
@@ -191,44 +223,10 @@ namespace Npruehs.GrabBag.Packing.Tests
         /// </param>
         private void CheckSolution(float stripWidth, PackingAlgorithm result)
         {
-            this.PrintSolution(result);
+            PrintSolution(result);
 
-            this.CheckStripWidthExceeded(stripWidth, result);
-            this.CheckItemsOverlap(result);
-        }
-
-        /// <summary>
-        /// Fails if any item in the specified solution exceeds the strip width.
-        /// </summary>
-        /// <param name="stripWidth">
-        /// Strip width to check.
-        /// </param>
-        /// <param name="result">
-        /// Packing algorithm solution to check.
-        /// </param>
-        private void CheckStripWidthExceeded(float stripWidth, IEnumerable<PackingItem> result)
-        {
-            foreach (PackingItem item in result)
-            {
-                if (item.Rectangle.X + item.Rectangle.Width > stripWidth)
-                {
-                    Assert.Fail("Item {0} exceeds strip width {1}.", item, stripWidth);
-                }
-            }
-        }
-
-        /// <summary>
-        /// Writes the specified solution to the debug console.
-        /// </summary>
-        /// <param name="result">
-        /// Solution to show.
-        /// </param>
-        private void PrintSolution(IEnumerable<PackingItem> result)
-        {
-            foreach (PackingItem item in result)
-            {
-                Debug.WriteLine(item.ToString());
-            }
+            CheckStripWidthExceeded(stripWidth, result);
+            CheckItemsOverlap(result);
         }
 
         #endregion

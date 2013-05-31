@@ -69,8 +69,7 @@ namespace Npruehs.GrabBag.Packing.Algorithms
             foreach (var item in itemList)
             {
                 // Find first level the current item fits.
-                PackingLevel fittingLevel =
-                    this.Levels.FirstOrDefault(level => level.Width + item.Rectangle.Width <= stripWidth);
+                var fittingLevel = this.Levels.FirstOrDefault(level => level.Width + item.Rectangle.Width <= stripWidth);
 
                 if (fittingLevel == null)
                 {
