@@ -199,9 +199,7 @@ namespace Npruehs.GrabBag.Graphs
         /// </param>
         public void AddDirectedEdge(TVertex source, TVertex target, TEdge edge)
         {
-            this.edges[source.Index].Add(edge);
-            this.adjacencyList[source.Index].Add(target);
-
+            this.AddEdgeBetween(source, target, edge);
             this.edgeCount++;
         }
 
@@ -247,8 +245,10 @@ namespace Npruehs.GrabBag.Graphs
         /// </param>
         public void AddEdge(TVertex source, TVertex target, TEdge edge)
         {
-            this.AddDirectedEdge(source, target, edge);
-            this.AddDirectedEdge(target, source, edge);
+            this.AddEdgeBetween(source, target, edge);
+            this.AddEdgeBetween(target, source, edge);
+
+            this.edgeCount++;
         }
 
         /// <summary>
@@ -260,7 +260,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Neighbors of the given vertex.
         /// </returns>
-        public IEnumerable<TVertex> AdjacentVertices(TVertex vertex)
+        public ICollection<TVertex> AdjacentVertices(TVertex vertex)
         {
             return this.adjacencyList[vertex.Index];
         }
@@ -338,9 +338,31 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Incident edges of the specified vertex.
         /// </returns>
-        public IEnumerable<TEdge> IncidentEdges(TVertex vertex)
+        public ICollection<TEdge> IncidentEdges(TVertex vertex)
         {
             return this.edges[vertex.Index];
+        }
+
+        #endregion
+
+        #region Methods
+
+        /// <summary>
+        /// Adds the passed between the two specified vertices to this graph.
+        /// </summary>
+        /// <param name="source">
+        /// Source vertex of the edge.
+        /// </param>
+        /// <param name="target">
+        /// Target vertex of the edge.
+        /// </param>
+        /// <param name="edge">
+        /// Edge to add.
+        /// </param>
+        private void AddEdgeBetween(TVertex source, TVertex target, TEdge edge)
+        {
+            this.edges[source.Index].Add(edge);
+            this.adjacencyList[source.Index].Add(target);
         }
 
         #endregion

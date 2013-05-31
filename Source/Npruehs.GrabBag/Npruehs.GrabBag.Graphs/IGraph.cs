@@ -77,7 +77,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Neighbors of the given vertex.
         /// </returns>
-        IEnumerable<TVertex> AdjacentVertices(TVertex vertex);
+        ICollection<TVertex> AdjacentVertices(TVertex vertex);
 
         /// <summary>
         /// Returns the degree of the given vertex,

@@ -87,7 +87,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Incident edges of the specified vertex.
         /// </returns>
-        IEnumerable<TEdge> IncidentEdges(TVertex vertex);
+        ICollection<TEdge> IncidentEdges(TVertex vertex);
 
         #endregion
     }
