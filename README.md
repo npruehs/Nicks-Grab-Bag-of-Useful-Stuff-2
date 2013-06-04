@@ -55,10 +55,27 @@ Below you can find an overview of the contents of this Grab Bag. For more
 details please refer to the README files located in the respective namespace
 folders.
 
+### 2D Packing
+
+We consider the problem of two-dimensional strip packing: The input is a set
+of items, in this case rectangles. The goal is to pack all items into a strip
+of unlimited height, minimizing the maximum height used, in such a way that
+the sides of all items are aligned with the sides the strip.
+
+Applications include cutting objects out of a strip of material minimizing the
+waste.
+
+
 ### Math
 
 Utility classes for many math operations, like vector structs and geometry
 classes.
+
+
+### Graphs
+
+Graphs are pairs G = (V, E) where V denotes some set of vertices and E some set
+of edges between these vertices.
 
 
 ### Priority Queues
