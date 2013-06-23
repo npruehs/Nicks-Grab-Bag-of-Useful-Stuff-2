@@ -6,10 +6,13 @@
 
 namespace Npruehs.GrabBag.Graphs
 {
+    using System;
+
     /// <summary>
     /// <see cref="int"/> wrapper that implements the graph vertex
     /// interface.
     /// </summary>
+    [CLSCompliant(true)]
     public class IntVertex : IVertex
     {
         #region Constructors and Destructors

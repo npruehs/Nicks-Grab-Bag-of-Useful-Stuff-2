@@ -33,6 +33,15 @@ namespace Npruehs.GrabBag.Graphs
     [CLSCompliant(true)]
     public interface IWeightedGraph<TVertex, TEdge> : IGraph<TVertex>
     {
+        #region Public Properties
+
+        /// <summary>
+        /// Edges between the vertices of this graph.
+        /// </summary>
+        IList<TEdge> Edges { get; }
+
+        #endregion
+
         #region Public Methods and Operators
 
         /// <summary>

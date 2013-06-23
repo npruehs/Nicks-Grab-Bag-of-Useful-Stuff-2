@@ -139,11 +139,11 @@ namespace Npruehs.GrabBag.Graphs
         /// <summary>
         /// Edges between the vertices of this graph.
         /// </summary>
-        public List<TEdge>[] Edges
+        public IList<TEdge> Edges
         {
             get
             {
-                return this.edges;
+                return this.edges.SelectMany(incidentEdges => incidentEdges).ToList();
             }
         }
 
@@ -161,11 +161,32 @@ namespace Npruehs.GrabBag.Graphs
         /// <summary>
         /// Vertices of this graph.
         /// </summary>
-        public IEnumerable<TVertex> Vertices
+        public IList<TVertex> Vertices
         {
             get
             {
-                return this.vertices;
+                return this.vertices.AsReadOnly();
+            }
+        }
+
+        #endregion
+
+        #region Public Indexers
+
+        /// <summary>
+        /// Gets the vertex with the specified index in this graph.
+        /// </summary>
+        /// <param name="index">
+        /// Index of the vertex to get.
+        /// </param>
+        /// <returns>
+        /// Vertex with the specified index in this graph.
+        /// </returns>
+        public TVertex this[int index]
+        {
+            get
+            {
+                return this.vertices[index];
             }
         }
 

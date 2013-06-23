@@ -43,6 +43,11 @@ namespace Npruehs.GrabBag.Graphs
         private readonly Graph<IntVertex, int> graph;
 
         /// <summary>
+        /// Indices of the vertices of this graph.
+        /// </summary>
+        private readonly IList<int> vertexIndices;
+
+        /// <summary>
         /// Vertices of this graph.
         /// </summary>
         private readonly IntVertex[] vertices;
@@ -67,6 +72,7 @@ namespace Npruehs.GrabBag.Graphs
             }
 
             this.graph = new Graph<IntVertex, int>(this.vertices);
+            this.vertexIndices = this.vertices.Select(v => v.Index).ToList();
         }
 
         #endregion
@@ -85,6 +91,17 @@ namespace Npruehs.GrabBag.Graphs
         }
 
         /// <summary>
+        /// Edges between the vertices of this graph.
+        /// </summary>
+        public IList<int> Edges
+        {
+            get
+            {
+                return this.graph.Edges;
+            }
+        }
+
+        /// <summary>
         /// Number of vertices of this graph.
         /// </summary>
         public int VertexCount
@@ -92,6 +109,17 @@ namespace Npruehs.GrabBag.Graphs
             get
             {
                 return this.graph.VertexCount;
+            }
+        }
+
+        /// <summary>
+        /// Vertices of this graph.
+        /// </summary>
+        public IList<int> Vertices
+        {
+            get
+            {
+                return this.vertexIndices.ToList();
             }
         }
 

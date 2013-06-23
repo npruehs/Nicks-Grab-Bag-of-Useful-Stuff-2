@@ -42,6 +42,11 @@ namespace Npruehs.GrabBag.Graphs
         /// </summary>
         int VertexCount { get; }
 
+        /// <summary>
+        /// Vertices of this graph.
+        /// </summary>
+        IList<TVertex> Vertices { get; }
+
         #endregion
 
         #region Public Methods and Operators
