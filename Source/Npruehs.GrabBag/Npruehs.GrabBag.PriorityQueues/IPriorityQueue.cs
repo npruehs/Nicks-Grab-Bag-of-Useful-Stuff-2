@@ -29,7 +29,7 @@ namespace Npruehs.GrabBag.PriorityQueues
         /// <summary>
         /// Number of elements of this priority queue.
         /// </summary>
-        int Size { get; }
+        int Count { get; }
 
         #endregion
 

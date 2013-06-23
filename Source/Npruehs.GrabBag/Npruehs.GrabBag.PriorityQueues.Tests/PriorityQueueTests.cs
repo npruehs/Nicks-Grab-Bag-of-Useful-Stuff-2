@@ -58,7 +58,7 @@ namespace Npruehs.GrabBag.PriorityQueues.Tests
             this.priorityQueue.Clear();
 
             Assert.AreEqual(true, this.priorityQueue.Empty);
-            Assert.AreEqual(0, this.priorityQueue.Size);
+            Assert.AreEqual(0, this.priorityQueue.Count);
         }
 
         /// <summary>
@@ -112,7 +112,7 @@ namespace Npruehs.GrabBag.PriorityQueues.Tests
             this.priorityQueue.Delete(this.itemA);
 
             Assert.AreEqual(true, this.priorityQueue.Empty);
-            Assert.AreEqual(0, this.priorityQueue.Size);
+            Assert.AreEqual(0, this.priorityQueue.Count);
         }
 
         /// <summary>
@@ -129,7 +129,7 @@ namespace Npruehs.GrabBag.PriorityQueues.Tests
             var min = this.priorityQueue.DeleteMin();
 
             Assert.AreEqual(this.itemA, min);
-            Assert.AreEqual(1, this.priorityQueue.Size);
+            Assert.AreEqual(1, this.priorityQueue.Count);
         }
 
         /// <summary>
@@ -219,11 +219,11 @@ namespace Npruehs.GrabBag.PriorityQueues.Tests
         [Test]
         public void Size()
         {
-            Assert.AreEqual(0, this.priorityQueue.Size);
+            Assert.AreEqual(0, this.priorityQueue.Count);
             this.priorityQueue.Insert(this.itemA, this.keyA);
-            Assert.AreEqual(1, this.priorityQueue.Size);
+            Assert.AreEqual(1, this.priorityQueue.Count);
             this.priorityQueue.Insert(this.itemB, this.keyB);
-            Assert.AreEqual(2, this.priorityQueue.Size);
+            Assert.AreEqual(2, this.priorityQueue.Count);
         }
 
         #endregion

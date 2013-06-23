@@ -1,8 +1,8 @@
-﻿// --------------------------------------------------------------------------------
+﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="PriorityQueue.cs" company="Nick Pruehs">
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
-// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 
 namespace Npruehs.GrabBag.PriorityQueues
 {
@@ -47,6 +47,17 @@ namespace Npruehs.GrabBag.PriorityQueues
         #region Public Properties
 
         /// <summary>
+        /// Number of elements of this priority queue.
+        /// </summary>
+        public int Count
+        {
+            get
+            {
+                return this.heap.Count;
+            }
+        }
+
+        /// <summary>
         /// Whether this priority queue is empty, or not.
         /// </summary>
         public bool Empty
@@ -54,17 +65,6 @@ namespace Npruehs.GrabBag.PriorityQueues
             get
             {
                 return this.heap.Empty;
-            }
-        }
-
-        /// <summary>
-        /// Number of elements of this priority queue.
-        /// </summary>
-        public int Size
-        {
-            get
-            {
-                return this.heap.Size;
             }
         }
 

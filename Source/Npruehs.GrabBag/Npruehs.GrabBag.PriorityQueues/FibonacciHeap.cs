@@ -1,8 +1,8 @@
-﻿// --------------------------------------------------------------------------------
+﻿// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="FibonacciHeap.cs" company="Nick Pruehs">
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
-// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 
 namespace Npruehs.GrabBag.PriorityQueues
 {
@@ -40,6 +40,11 @@ namespace Npruehs.GrabBag.PriorityQueues
         #region Public Properties
 
         /// <summary>
+        /// Number of elements of this heap.
+        /// </summary>
+        public int Count { get; private set; }
+
+        /// <summary>
         /// Whether this heap is empty, or not.
         /// </summary>
         public bool Empty
@@ -49,11 +54,6 @@ namespace Npruehs.GrabBag.PriorityQueues
                 return this.minimumNode == null;
             }
         }
-
-        /// <summary>
-        /// Number of elements of this heap.
-        /// </summary>
-        public int Size { get; private set; }
 
         #endregion
 
@@ -65,7 +65,7 @@ namespace Npruehs.GrabBag.PriorityQueues
         public void Clear()
         {
             this.minimumNode = null;
-            this.Size = 0;
+            this.Count = 0;
         }
 
         /// <summary>
@@ -187,7 +187,7 @@ namespace Npruehs.GrabBag.PriorityQueues
                 }
             }
 
-            this.Size--;
+            this.Count--;
         }
 
         /// <summary>
@@ -209,7 +209,7 @@ namespace Npruehs.GrabBag.PriorityQueues
             var x = this.minimumNode;
             var minimumItem = x.Item;
 
-            this.Size--;
+            this.Count--;
 
             // Remember some node to start with the linking step later on.
             TreeNode someListNode;
@@ -353,7 +353,7 @@ namespace Npruehs.GrabBag.PriorityQueues
             var newItem = new FibonacciHeapItem<T>(item, key);
 
             // Create a new heap consisting of one node containing the passed item.
-            var newHeap = new FibonacciHeap<T> { minimumNode = new TreeNode(newItem), Size = 1 };
+            var newHeap = new FibonacciHeap<T> { minimumNode = new TreeNode(newItem), Count = 1 };
 
             // Meld this heap and the new one.
             this.Meld(newHeap);
@@ -402,7 +402,7 @@ namespace Npruehs.GrabBag.PriorityQueues
                 }
             }
 
-            this.Size += other.Size;
+            this.Count += other.Count;
         }
 
         #endregion
