@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.Graphs", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.Graphs.Tests", "Npruehs.GrabBag.Graphs.Tests\Npruehs.GrabBag.Graphs.Tests.csproj", "{67206230-92EF-4CFD-99DC-EE6FAAF48E3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.MinimumSpanningTrees", "Npruehs.GrabBag.MinimumSpanningTrees\Npruehs.GrabBag.MinimumSpanningTrees.csproj", "{B06EDB0B-22F3-417D-91DD-C8D09F68D758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.MinimumSpanningTrees.Tests", "Npruehs.GrabBag.MinimumSpanningTrees.Tests\Npruehs.GrabBag.MinimumSpanningTrees.Tests.csproj", "{BF74B976-2394-46FC-A004-3CAF2470D274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.Util", "Npruehs.GrabBag.Util\Npruehs.GrabBag.Util.csproj", "{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +67,18 @@ Global
 		{67206230-92EF-4CFD-99DC-EE6FAAF48E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67206230-92EF-4CFD-99DC-EE6FAAF48E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67206230-92EF-4CFD-99DC-EE6FAAF48E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06EDB0B-22F3-417D-91DD-C8D09F68D758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06EDB0B-22F3-417D-91DD-C8D09F68D758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06EDB0B-22F3-417D-91DD-C8D09F68D758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06EDB0B-22F3-417D-91DD-C8D09F68D758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF74B976-2394-46FC-A004-3CAF2470D274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF74B976-2394-46FC-A004-3CAF2470D274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF74B976-2394-46FC-A004-3CAF2470D274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF74B976-2394-46FC-A004-3CAF2470D274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

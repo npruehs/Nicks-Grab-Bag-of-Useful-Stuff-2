@@ -1,9 +1,9 @@
-﻿// --------------------------------------------------------------------------------
-// <copyright company="Nick Pruehs" file="Math2.cs">
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="Math2.cs" company="Nick Pruehs">
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
-// 
-// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
+
 namespace Npruehs.GrabBag.Math
 {
     using System;
@@ -115,6 +115,23 @@ namespace Npruehs.GrabBag.Math
         public static int Floor(double d)
         {
             return (int)Math.Floor(d);
+        }
+
+        /// <summary>
+        /// Gets the k-th bit of the passed <see cref="int"/> value.
+        /// </summary>
+        /// <param name="i">
+        /// Value to get the k-th bit of.
+        /// </param>
+        /// <param name="k">
+        /// Bit to get.
+        /// </param>
+        /// <returns>
+        /// 0 or 1.
+        /// </returns>
+        public static int GetBit(int i, int k)
+        {
+            return (i >> k) & 1;
         }
 
         /// <summary>
