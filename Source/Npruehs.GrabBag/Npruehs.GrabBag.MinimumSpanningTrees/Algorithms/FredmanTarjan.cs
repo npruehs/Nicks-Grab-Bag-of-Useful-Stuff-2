@@ -47,7 +47,7 @@ namespace Npruehs.GrabBag.MinimumSpanningTrees.Algorithms
     /// </typeparam>
     [CLSCompliant(true)]
     public class FredmanTarjan<TVertex, TEdge> : IMinimumSpanningTreeAlgorithm<TVertex, TEdge>
-        where TVertex : IVertex where TEdge : IMinimumSpanningTreeEdge, new()
+        where TVertex : IVertex where TEdge : IFredmanTarjanEdge, new()
     {
         #region Fields
 

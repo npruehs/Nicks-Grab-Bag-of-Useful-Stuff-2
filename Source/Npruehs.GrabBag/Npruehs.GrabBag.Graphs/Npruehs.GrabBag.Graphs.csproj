@@ -38,6 +38,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FloatEdge.cs" />
     <Compile Include="Graph.cs" />
     <Compile Include="GraphF.cs" />
     <Compile Include="GraphI.cs" />

@@ -25,7 +25,7 @@ namespace Npruehs.GrabBag.MinimumSpanningTrees.Tests
         /// <summary>
         /// Test graph to run unit tests on.
         /// </summary>
-        private Graph<IntVertex, FloatEdge> graph;
+        private Graph<IntVertex, FredmanTarjanEdge> graph;
 
         #endregion
 
@@ -38,7 +38,7 @@ namespace Npruehs.GrabBag.MinimumSpanningTrees.Tests
         public void TestFredmanTarjan()
         {
             this.BuildExampleGraph();
-            var fredmanTarjan = new FredmanTarjan<IntVertex, FloatEdge>();
+            var fredmanTarjan = new FredmanTarjan<IntVertex, FredmanTarjanEdge>();
             var solution = fredmanTarjan.FindSolution(this.graph);
 
             PrintGraph(solution);
@@ -79,7 +79,7 @@ namespace Npruehs.GrabBag.MinimumSpanningTrees.Tests
         /// <param name="graph">
         /// Graph to print.
         /// </param>
-        private static void PrintGraph(IWeightedGraph<IntVertex, FloatEdge> graph)
+        private static void PrintGraph(IWeightedGraph<IntVertex, FredmanTarjanEdge> graph)
         {
             foreach (var edge in
                 graph.Edges.Where(edge => edge.Source < edge.Target))
@@ -102,10 +102,10 @@ namespace Npruehs.GrabBag.MinimumSpanningTrees.Tests
         /// </param>
         private void AddEdge(int source, int target, int weight)
         {
-            var edge = new FloatEdge { Source = source, Target = target, Weight = weight };
+            var edge = new FredmanTarjanEdge { Source = source, Target = target, Weight = weight };
             this.graph.AddDirectedEdge(this.graph.Vertices[source], this.graph.Vertices[target], edge);
 
-            edge = new FloatEdge { Source = target, Target = source, Weight = weight };
+            edge = new FredmanTarjanEdge { Source = target, Target = source, Weight = weight };
             this.graph.AddDirectedEdge(this.graph.Vertices[target], this.graph.Vertices[source], edge);
         }
 
@@ -121,7 +121,7 @@ namespace Npruehs.GrabBag.MinimumSpanningTrees.Tests
                 vertices[i] = new IntVertex(i);
             }
 
-            this.graph = new Graph<IntVertex, FloatEdge>(vertices);
+            this.graph = new Graph<IntVertex, FredmanTarjanEdge>(vertices);
 
             this.AddEdge(0, 1, 78);
             this.AddEdge(0, 2, 21);

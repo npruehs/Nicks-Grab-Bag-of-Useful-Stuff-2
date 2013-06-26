@@ -4,7 +4,7 @@
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Npruehs.GrabBag.MinimumSpanningTrees
+namespace Npruehs.GrabBag.Graphs
 {
     using System;
 
@@ -12,7 +12,7 @@ namespace Npruehs.GrabBag.MinimumSpanningTrees
     ///     Edge with a <see cref="float"/> weight.
     /// </summary>
     [CLSCompliant(true)]
-    public class FloatEdge : IMinimumSpanningTreeEdge
+    public class FloatEdge
     {
         #region Public Properties
 

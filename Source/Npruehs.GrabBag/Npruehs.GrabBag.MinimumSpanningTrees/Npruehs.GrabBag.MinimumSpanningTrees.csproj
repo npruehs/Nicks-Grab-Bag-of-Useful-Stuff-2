@@ -39,9 +39,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\FredmanTarjan.cs" />
-    <Compile Include="FloatEdge.cs" />
-    <Compile Include="IMinimumSpanningTreeEdge.cs" />
+    <Compile Include="Algorithms\IFredmanTarjanEdge.cs" />
     <Compile Include="IMinimumSpanningTreeAlgorithm.cs" />
+    <Compile Include="Algorithms\FredmanTarjanEdge.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

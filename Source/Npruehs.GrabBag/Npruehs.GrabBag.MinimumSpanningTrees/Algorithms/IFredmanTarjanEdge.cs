@@ -1,10 +1,10 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="IMinimumSpanningTreeEdge.cs" company="Nick Pruehs">
+// <copyright file="IFredmanTarjanEdge.cs" company="Nick Pruehs">
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
 
-namespace Npruehs.GrabBag.MinimumSpanningTrees
+namespace Npruehs.GrabBag.MinimumSpanningTrees.Algorithms
 {
     using System;
 
@@ -12,7 +12,7 @@ namespace Npruehs.GrabBag.MinimumSpanningTrees
     ///     Edge with a <see cref="float"/> weight.
     /// </summary>
     [CLSCompliant(true)]
-    public interface IMinimumSpanningTreeEdge
+    public interface IFredmanTarjanEdge
     {
         #region Public Properties
 
