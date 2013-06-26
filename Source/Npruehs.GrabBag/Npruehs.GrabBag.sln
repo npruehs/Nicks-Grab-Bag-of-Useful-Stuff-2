@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.MinimumSpan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.Util", "Npruehs.GrabBag.Util\Npruehs.GrabBag.Util.csproj", "{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.RapidlyExploringRandomTrees", "Npruehs.GrabBag.RapidlyExploringRandomTrees\Npruehs.GrabBag.RapidlyExploringRandomTrees.csproj", "{71F06770-D3D0-4AEA-B080-174AE6666204}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F06770-D3D0-4AEA-B080-174AE6666204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F06770-D3D0-4AEA-B080-174AE6666204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F06770-D3D0-4AEA-B080-174AE6666204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F06770-D3D0-4AEA-B080-174AE6666204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
