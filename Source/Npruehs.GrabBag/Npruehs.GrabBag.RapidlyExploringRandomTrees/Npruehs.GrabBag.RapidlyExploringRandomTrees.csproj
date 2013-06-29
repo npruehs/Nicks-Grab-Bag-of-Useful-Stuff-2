@@ -51,6 +51,10 @@
       <Project>{D69F49B8-FD67-4EF8-87C9-0584DEA48799}</Project>
       <Name>Npruehs.GrabBag.Math</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Npruehs.GrabBag.Util\Npruehs.GrabBag.Util.csproj">
+      <Project>{E54A60D6-88B5-4D35-96BE-2AEA4DB489ED}</Project>
+      <Name>Npruehs.GrabBag.Util</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />

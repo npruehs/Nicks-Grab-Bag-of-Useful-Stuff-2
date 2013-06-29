@@ -40,6 +40,7 @@
   <ItemGroup>
     <Compile Include="ListUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Random2.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Npruehs.GrabBag.Math\Npruehs.GrabBag.Math.csproj">

@@ -9,6 +9,7 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
     using System;
 
     using Npruehs.GrabBag.Math.Vectors;
+    using Npruehs.GrabBag.Util;
 
     /// <summary>
     /// Bounded 2-dimensional Euclidean configuration space.
@@ -22,7 +23,7 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
         /// Pseudo-random number generator used for finding random
         /// configurations within this space.
         /// </summary>
-        private readonly Random random;
+        private readonly Random2 random;
 
         /// <summary>
         /// Maximum distance to cover when making a motion from one
@@ -58,7 +59,7 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
             this.size = new Vector2I(width, height);
             this.stepSize = stepSize;
 
-            this.random = new Random();
+            this.random = new Random2();
         }
 
         #endregion
@@ -91,8 +92,8 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
         /// </returns>
         public Vector2I GetRandomState()
         {
-            var x = this.random.Next(this.size.X);
-            var y = this.random.Next(this.size.Y);
+            var x = this.random.NextInt32(this.size.X);
+            var y = this.random.NextInt32(this.size.Y);
 
             return new Vector2I(x, y);
         }
