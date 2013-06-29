@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBFEF2A5-6100-4E44-BF4F-0F13DF051B26}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Npruehs.GrabBag</RootNamespace>
+    <AssemblyName>Npruehs.GrabBag</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Npruehs.GrabBag.Graphs\Npruehs.GrabBag.Graphs.csproj">
+      <Project>{07576656-1d67-4c27-9887-8b55ffeb6623}</Project>
+      <Name>Npruehs.GrabBag.Graphs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Npruehs.GrabBag.Math\Npruehs.GrabBag.Math.csproj">
+      <Project>{d69f49b8-fd67-4ef8-87c9-0584dea48799}</Project>
+      <Name>Npruehs.GrabBag.Math</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Npruehs.GrabBag.MinimumSpanningTrees\Npruehs.GrabBag.MinimumSpanningTrees.csproj">
+      <Project>{b06edb0b-22f3-417d-91dd-c8d09f68d758}</Project>
+      <Name>Npruehs.GrabBag.MinimumSpanningTrees</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Npruehs.GrabBag.Packing\Npruehs.GrabBag.Packing.csproj">
+      <Project>{dde173c6-6eb7-46f2-8641-46c1cd971e09}</Project>
+      <Name>Npruehs.GrabBag.Packing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Npruehs.GrabBag.PriorityQueues\Npruehs.GrabBag.PriorityQueues.csproj">
+      <Project>{a9748629-6a1c-40f4-99ab-b3a7351c12b6}</Project>
+      <Name>Npruehs.GrabBag.PriorityQueues</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Npruehs.GrabBag.RapidlyExploringRandomTrees\Npruehs.GrabBag.RapidlyExploringRandomTrees.csproj">
+      <Project>{71f06770-d3d0-4aea-b080-174ae6666204}</Project>
+      <Name>Npruehs.GrabBag.RapidlyExploringRandomTrees</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Npruehs.GrabBag.UnionFind\Npruehs.GrabBag.UnionFind.csproj">
+      <Project>{26d13845-cc69-4b4f-b3cf-90a9a25dbd16}</Project>
+      <Name>Npruehs.GrabBag.UnionFind</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Npruehs.GrabBag.Util\Npruehs.GrabBag.Util.csproj">
+      <Project>{e54a60d6-88b5-4d35-96be-2aea4db489ed}</Project>
+      <Name>Npruehs.GrabBag.Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>del $(ProjectDir)$(OutDir)$(ProjectName).dll
+del $(ProjectDir)$(OutDir)$(ProjectName).pdb</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
