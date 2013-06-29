@@ -6,6 +6,8 @@
 
 namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
 {
+    using System;
+
     /// <summary>
     /// Edge between two vertices in a rapidly-exploring random tree.
     /// </summary>
@@ -15,6 +17,7 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
     /// <typeparam name="TInput">
     /// Type of the actions that can affect a configuration.
     /// </typeparam>
+    [CLSCompliant(true)]
     public class RapidlyExploringRandomTreeEdge<TConfiguration, TInput> : IRapidlyExploringRandomTreeEdge<TConfiguration, TInput>
     {
         #region Constructors and Destructors

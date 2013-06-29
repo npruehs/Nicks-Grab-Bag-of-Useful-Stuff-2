@@ -6,11 +6,14 @@
 
 namespace Npruehs.GrabBag.MinimumSpanningTrees.Algorithms
 {
+    using System;
+
     using Npruehs.GrabBag.Graphs;
 
     /// <summary>
     ///     Edge with a <see cref="float"/> weight.
     /// </summary>
+    [CLSCompliant(true)]
     public class FredmanTarjanEdge : FloatEdge, IFredmanTarjanEdge
     {
     }

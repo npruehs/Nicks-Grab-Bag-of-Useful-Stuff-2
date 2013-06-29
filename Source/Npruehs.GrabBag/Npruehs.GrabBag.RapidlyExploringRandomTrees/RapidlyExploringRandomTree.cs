@@ -20,6 +20,7 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
     /// <typeparam name="TInput">
     /// Type of the actions that can affect a configuration.
     /// </typeparam>
+    [CLSCompliant(true)]
     public class RapidlyExploringRandomTree<TConfiguration, TInput> :
         IRapidlyExploringRandomTree<TConfiguration, TInput>
     {

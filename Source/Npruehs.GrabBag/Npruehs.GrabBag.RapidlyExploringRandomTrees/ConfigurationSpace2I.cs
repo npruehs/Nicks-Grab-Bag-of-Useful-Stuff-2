@@ -13,6 +13,7 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
     /// <summary>
     /// Bounded 2-dimensional Euclidean configuration space.
     /// </summary>
+    [CLSCompliant(true)]
     public class ConfigurationSpace2I : IConfigurationSpace<Vector2I, Vector2I>
     {
         #region Fields
@@ -79,7 +80,7 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
         /// </returns>
         public IComparable GetDistance(Vector2I q1, Vector2I q2)
         {
-            return Math.Sqrt(((q2.X - q1.X) * (q2.X - q1.X)) + ((q2.Y - q1.Y) * (q2.Y - q1.Y)));
+            return q1.Distance(q2);
         }
 
         /// <summary>

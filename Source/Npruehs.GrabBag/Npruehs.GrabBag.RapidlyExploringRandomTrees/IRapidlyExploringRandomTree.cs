@@ -6,6 +6,7 @@
 
 namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
 {
+    using System;
     using System.Collections.Generic;
 
     /// <summary>
@@ -17,6 +18,7 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
     /// <typeparam name="TInput">
     /// Type of the actions that can affect a configuration.
     /// </typeparam>
+    [CLSCompliant(true)]
     public interface IRapidlyExploringRandomTree<TConfiguration, TInput>
     {
         #region Public Properties

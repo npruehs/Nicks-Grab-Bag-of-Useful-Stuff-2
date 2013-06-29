@@ -17,6 +17,7 @@ namespace Npruehs.GrabBag.RapidlyExploringRandomTrees
     /// <typeparam name="TInput">
     /// Type of the actions that can affect a configuration.
     /// </typeparam>
+    [CLSCompliant(true)]
     public interface IConfigurationSpace<TConfiguration, TInput>
     {
         #region Public Methods and Operators
