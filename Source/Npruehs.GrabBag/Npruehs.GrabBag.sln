@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag.RapidlyExpl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Npruehs.GrabBag", "Npruehs.GrabBag\Npruehs.GrabBag.csproj", "{CBFEF2A5-6100-4E44-BF4F-0F13DF051B26}"
 EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Npruehs.GrabBag.Documentation", "Npruehs.GrabBag.Documentation\Npruehs.GrabBag.Documentation.shfbproj", "{A8353749-00BB-4342-A2E6-2CE087F8BC20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{CBFEF2A5-6100-4E44-BF4F-0F13DF051B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBFEF2A5-6100-4E44-BF4F-0F13DF051B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBFEF2A5-6100-4E44-BF4F-0F13DF051B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8353749-00BB-4342-A2E6-2CE087F8BC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8353749-00BB-4342-A2E6-2CE087F8BC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8353749-00BB-4342-A2E6-2CE087F8BC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8353749-00BB-4342-A2E6-2CE087F8BC20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
