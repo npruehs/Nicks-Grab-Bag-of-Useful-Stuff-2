@@ -82,7 +82,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Neighbors of the given vertex.
         /// </returns>
-        ICollection<TVertex> AdjacentVertices(TVertex vertex);
+        IList<TVertex> AdjacentVertices(TVertex vertex);
 
         /// <summary>
         /// Returns the degree of the given vertex,

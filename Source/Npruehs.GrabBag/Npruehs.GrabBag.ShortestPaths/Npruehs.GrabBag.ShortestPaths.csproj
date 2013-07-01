@@ -41,6 +41,9 @@
     <Compile Include="AStar\AStar.cs" />
     <Compile Include="AStar\AStarNode.cs" />
     <Compile Include="AStar\IAStarNode.cs" />
+    <Compile Include="Dijkstra\Dijkstra.cs" />
+    <Compile Include="Dijkstra\DijkstraNode.cs" />
+    <Compile Include="Dijkstra\IDijkstraNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

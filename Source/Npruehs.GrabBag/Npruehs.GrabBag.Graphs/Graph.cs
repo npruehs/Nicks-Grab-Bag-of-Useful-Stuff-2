@@ -269,7 +269,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Neighbors of the given vertex.
         /// </returns>
-        public ICollection<TVertex> AdjacentVertices(TVertex vertex)
+        public IList<TVertex> AdjacentVertices(TVertex vertex)
         {
             return this.adjacencyList[vertex.Index];
         }
@@ -341,7 +341,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Incident edges of the specified vertex.
         /// </returns>
-        public ICollection<TEdge> IncidentEdges(TVertex vertex)
+        public IList<TEdge> IncidentEdges(TVertex vertex)
         {
             return this.edges[vertex.Index];
         }

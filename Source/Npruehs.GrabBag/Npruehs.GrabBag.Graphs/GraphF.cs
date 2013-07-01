@@ -198,7 +198,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Neighbors of the given vertex.
         /// </returns>
-        public ICollection<int> AdjacentVertices(int vertex)
+        public IList<int> AdjacentVertices(int vertex)
         {
             IEnumerable<IntVertex> adjacentVertices = this.graph.AdjacentVertices(this.vertices[vertex]);
             return adjacentVertices.Select(intVertex => intVertex.Index).ToList();
@@ -266,7 +266,7 @@ namespace Npruehs.GrabBag.Graphs
         /// <returns>
         /// Weights of the incident edges of the specified vertex.
         /// </returns>
-        public ICollection<float> IncidentEdges(int vertex)
+        public IList<float> IncidentEdges(int vertex)
         {
             return this.graph.IncidentEdges(this.vertices[vertex]);
         }
