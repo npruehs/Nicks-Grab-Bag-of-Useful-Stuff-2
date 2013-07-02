@@ -66,16 +66,23 @@ Applications include cutting objects out of a strip of material minimizing the
 waste.
 
 
+### Graphs
+
+Graphs are pairs G = (V, E) where V denotes some set of vertices and E some set
+of edges between these vertices.
+
+
 ### Math
 
 Utility classes for many math operations, like vector structs and geometry
 classes.
 
 
-### Graphs
+### Minimum Spanning Trees
 
-Graphs are pairs G = (V, E) where V denotes some set of vertices and E some set
-of edges between these vertices.
+Let _G = (V, E)_ be a connected, undirected graph with _|V| = n_ vertices and
+_|E| = m_ edges _(v, w)_ with non-negative edge weights _c(v, w)_. A _minimum
+spanning tree_ of _G_ is a spanning tree of _G_ with minimum total edge weight.
 
 
 ### Priority Queues
@@ -88,6 +95,17 @@ Fast heaps are incredibly helpful for speeding up pathfinding algorithms such as
 Dijkstra and A*.
 
 
+### Rapidly-Exploring Random Trees
+
+_Rapidly-Exploring Random Trees_ are a randomized data structure designed by
+Steven M. LaValle for a broad class of path planning problems.
+
+Each tree lives in a configuration space that allows making motions from one
+configuration towards another, and has a distance function imposed on. Given
+a configuration space and an initial configuration, the tree can grow around
+that configuration until it is unable to make any further motions.
+
+
 ### Union-Find
 
 Union-find structures provide two operations for manipulating disjoint sets:
@@ -95,3 +113,8 @@ Finding the set containing an element, and combining two sets into a new set.
 
 These structures are useful in many contexts, including the computation of
 minimum spanning trees.
+
+
+### Util
+
+General utility classes, like random number generators and list extensions.
