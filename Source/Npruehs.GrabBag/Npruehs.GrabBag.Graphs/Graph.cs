@@ -364,6 +364,16 @@ namespace Npruehs.GrabBag.Graphs
         /// </param>
         private void AddEdgeBetween(TVertex source, TVertex target, TEdge edge)
         {
+            if (source == null)
+            {
+                throw new ArgumentNullException("source");
+            }
+
+            if (target == null)
+            {
+                throw new ArgumentNullException("target");
+            }
+
             this.edges[source.Index].Add(edge);
             this.adjacencyList[source.Index].Add(target);
         }
