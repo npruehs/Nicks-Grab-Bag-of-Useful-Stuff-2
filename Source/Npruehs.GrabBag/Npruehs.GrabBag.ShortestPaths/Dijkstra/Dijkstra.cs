@@ -6,6 +6,7 @@
 namespace Npruehs.GrabBag.ShortestPaths.Dijkstra
 {
     using System;
+    using System.Collections.Generic;
 
     using Npruehs.GrabBag.Graphs;
     using Npruehs.GrabBag.PriorityQueues;
@@ -26,6 +27,22 @@ namespace Npruehs.GrabBag.ShortestPaths.Dijkstra
         /// <param name="source">Source vertex to find all paths from.</param>
         /// <returns>Distances from the source vertex to all others in the graph.</returns>
         public static int[] FindPaths<TVertex>(IWeightedGraph<TVertex, int> graph, TVertex source)
+            where TVertex : IDijkstraNode
+        {
+            IList<TVertex> visitedVertices;
+            return FindPaths(graph, source, out visitedVertices);
+        }
+
+        /// <summary>
+        /// Computes the paths from the specified source vertex to all others
+        /// in the passed graph.
+        /// </summary>
+        /// <typeparam name="TVertex">Type of the vertices of the graph.</typeparam>
+        /// <param name="graph">Graph to find the paths in.</param>
+        /// <param name="source">Source vertex to find all paths from.</param>
+        /// <param name="visitedVertices">Order the graph vertices have been visited in.</param>
+        /// <returns>Distances from the source vertex to all others in the graph.</returns>
+        public static int[] FindPaths<TVertex>(IWeightedGraph<TVertex, int> graph, TVertex source, out IList<TVertex> visitedVertices)
             where TVertex : IDijkstraNode
         {
             if (graph == null)
@@ -50,9 +67,12 @@ namespace Npruehs.GrabBag.ShortestPaths.Dijkstra
             var q = new FibonacciHeap<TVertex>();
             var items = new FibonacciHeapItem<TVertex>[graph.VertexCount];
 
+            visitedVertices = new List<TVertex>();
+
             // Mark start vertex as visited.
             colors[source.Index] = Gray;
             items[source.Index] = q.Insert(source, 0);
+            visitedVertices.Add(source);
 
             // Extend distance tree until border is empty.
             while (!q.Empty)
@@ -90,6 +110,7 @@ namespace Npruehs.GrabBag.ShortestPaths.Dijkstra
                     if (items[w.Index] == null)
                     {
                         items[w.Index] = q.Insert(w, dw);
+                        visitedVertices.Add(w);
                     }
                     else
                     {

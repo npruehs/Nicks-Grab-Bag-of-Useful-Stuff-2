@@ -13,14 +13,11 @@ namespace Npruehs.GrabBag.ShortestPaths.AStar
     using Npruehs.GrabBag.PriorityQueues;
 
     /// <summary>
-    /// Calculates the
-    /// most efficient path between two specified nodes using the
-    /// A* algorithm.
+    /// Calculates the most efficient path between two specified nodes using
+    /// the A* algorithm.
     /// </summary>
     public static class AStar
     {
-        #region Public Methods and Operators
-
         /// <summary>
         /// Computes the most efficient path in the specified graph between the
         /// specified nodes using the A* algorithm.
@@ -41,7 +38,39 @@ namespace Npruehs.GrabBag.ShortestPaths.AStar
         /// List of nodes representing the shortest path, if there is one,
         /// and null otherwise.
         /// </returns>
-        public static List<T> FindPath<T>(IWeightedGraph<T, int> graph, T start, T finish) where T : IAStarNode
+        public static List<T> FindPath<T>(IWeightedGraph<T, int> graph, T start, T finish)
+            where T : IAStarNode
+        {
+            IList<T> visitedNodes;
+            return FindPath(graph, start, finish, out visitedNodes);
+        }
+
+        #region Public Methods and Operators
+
+        /// <summary>
+        /// Computes the most efficient path in the specified graph between the
+        /// specified nodes using the A* algorithm.
+        /// </summary>
+        /// <param name="graph">
+        /// Graph to find the shortest path in.
+        /// </param>
+        /// <param name="start">
+        /// Starting node of the path to find.
+        /// </param>
+        /// <param name="finish">
+        /// Finish node of the path to find.
+        /// </param>
+        /// <param name="visitedNodes">
+        /// Nodes that have been visited finding the path.
+        /// </param>
+        /// <typeparam name="T">
+        /// Type of the nodes of the graph to find the path in.
+        /// </typeparam>
+        /// <returns>
+        /// List of nodes representing the shortest path, if there is one,
+        /// and null otherwise.
+        /// </returns>
+        public static List<T> FindPath<T>(IWeightedGraph<T, int> graph, T start, T finish, out IList<T> visitedNodes) where T : IAStarNode
         {
             if (graph == null)
             {
@@ -66,11 +95,14 @@ namespace Npruehs.GrabBag.ShortestPaths.AStar
             FibonacciHeap<T> openList = new FibonacciHeap<T>();
             FibonacciHeapItem<T>[] fibHeapItems = new FibonacciHeapItem<T>[graph.VertexCount];
 
+            visitedNodes = new List<T>();
+
             // Initialize queue to hold the nodes along the path to the finish.
             Queue<T> closedList = new Queue<T>();
 
             // Add starting node to open list.
             fibHeapItems[start.Index] = openList.Insert(start, 0);
+            visitedNodes.Add(start);
             start.Discovered = true;
 
             // A* Pathfinding Algorithm.
@@ -121,6 +153,7 @@ namespace Npruehs.GrabBag.ShortestPaths.AStar
 
                         // Add to open list.
                         fibHeapItems[node.Index] = openList.Insert(node, node.F);
+                        visitedNodes.Add(node);
                         node.Discovered = true;
                     }
                     else
