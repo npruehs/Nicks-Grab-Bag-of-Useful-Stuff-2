@@ -106,6 +106,16 @@ a configuration space and an initial configuration, the tree can grow around
 that configuration until it is unable to make any further motions.
 
 
+### Shortest Paths
+
+Let _G = (V,E)_ be an undirected, connected graph with _|V| = n_ vertices and
+_|E| = m_ edges. We call _w: V × V → N_ the positive edge weight function of
+_G_ and define _w(u,v) = ∞_ if _(u,v)_ is not in E. The task is to find the
+distance _d(v) = dist(v,s)_ from a distinguished source vertex _s in V_ to
+all other vertices _v in V_. This classic problem in algorithmic graph theory
+is called the single-source shortest paths problem.
+
+
 ### Union-Find
 
 Union-find structures provide two operations for manipulating disjoint sets:
