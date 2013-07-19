@@ -47,6 +47,7 @@
       <DocumentationSource sourceFile="..\Npruehs.GrabBag.RapidlyExploringRandomTrees\Npruehs.GrabBag.RapidlyExploringRandomTrees.csproj" />
       <DocumentationSource sourceFile="..\Npruehs.GrabBag.UnionFind\Npruehs.GrabBag.UnionFind.csproj" />
       <DocumentationSource sourceFile="..\Npruehs.GrabBag.Util\Npruehs.GrabBag.Util.csproj" />
+      <DocumentationSource sourceFile="..\Npruehs.GrabBag.ShortestPaths\Npruehs.GrabBag.ShortestPaths.csproj" />
     </DocumentationSources>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in
