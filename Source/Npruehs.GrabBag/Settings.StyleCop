@@ -2,6 +2,7 @@
   <GlobalSettings>
     <StringProperty Name="MergeSettingsFiles">NoMerge</StringProperty>
     <CollectionProperty Name="RecognizedWords">
+      <Value>Bresenham</Value>
       <Value>Dijkstra</Value>
       <Value>Endre</Value>
 	  <Value>Fredman</Value>

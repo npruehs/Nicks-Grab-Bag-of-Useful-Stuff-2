@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bresenham.cs" />
     <Compile Include="Geometry\BoxF.cs" />
     <Compile Include="Geometry\RectangleI.cs" />
     <Compile Include="Geometry\RectangleF.cs" />
