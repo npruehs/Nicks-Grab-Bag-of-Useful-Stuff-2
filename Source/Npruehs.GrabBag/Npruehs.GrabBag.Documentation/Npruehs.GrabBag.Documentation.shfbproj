@@ -16,7 +16,7 @@
     <Name>Npruehs.GrabBag.Documentation</Name>
     <!-- SHFB properties -->
     <FrameworkVersion>.NET Framework 4.5</FrameworkVersion>
-    <OutputPath>.\Help\</OutputPath>
+    <OutputPath>..\..\..\Documents\API\</OutputPath>
     <HtmlHelpName>Npruehs.GrabBag.Documentation</HtmlHelpName>
     <Language>en-US</Language>
     <BuildAssemblerVerbosity>OnlyWarningsAndErrors</BuildAssemblerVerbosity>
@@ -33,7 +33,7 @@
     <PresentationStyle>VS2010</PresentationStyle>
     <Preliminary>False</Preliminary>
     <NamingMethod>MemberName</NamingMethod>
-    <HelpTitle>Nick&amp;#39%3bs Grab Bag of Useful Stuff - Documentation</HelpTitle>
+    <HelpTitle>Nick&amp;#39%3bs Grab Bag of Useful Stuff 2.0 - Documentation</HelpTitle>
     <ContentPlacement>AboveNamespaces</ContentPlacement>
     <FeedbackEMailAddress>dev%40npruehs.de</FeedbackEMailAddress>
     <VisibleItems>ExplicitInterfaceImplementations, InheritedMembers, InheritedFrameworkMembers, Protected, SealedProtected</VisibleItems>

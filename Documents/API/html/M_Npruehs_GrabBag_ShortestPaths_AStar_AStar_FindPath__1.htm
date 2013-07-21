@@ -1,0 +1,74 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp"><head><link rel="SHORTCUT ICON" href="./../icons/favicon.ico" /><style type="text/css">.OH_CodeSnippetContainerTabLeftActive, .OH_CodeSnippetContainerTabLeft,.OH_CodeSnippetContainerTabLeftDisabled { backgroundImageName: tabLeftBG.gif; }.OH_CodeSnippetContainerTabRightActive, .OH_CodeSnippetContainerTabRight,.OH_CodeSnippetContainerTabRightDisabled { backgroundImageName: tabRightBG.gif; }.OH_footer { backgroundImageName: footer_slice.gif; background-position: top; background-repeat: repeat-x; }</style><link rel="stylesheet" type="text/css" href="./../styles/branding.css" /><link rel="stylesheet" type="text/css" href="./../styles/branding-en-US.css" /><style type="text/css">
+			body
+			{
+			border-left:5px solid #e6e6e6;
+			overflow-x:scroll;
+			overflow-y:scroll;
+			}
+		</style><script src="./../scripts/branding.js" type="text/javascript"><!----></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>AStar.FindPath(T) Method (IWeightedGraph(T, Int32), T, T)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="M:Npruehs.GrabBag.ShortestPaths.AStar.AStar.FindPath``1(Npruehs.GrabBag.Graphs.IWeightedGraph{``0,System.Int32},``0,``0)" /><meta name="Description" content="Computes the most efficient path in the specified graph between the specified nodes using the A* algorithm." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="'true'" /><meta name="container" content="Npruehs.GrabBag.ShortestPaths.AStar" /><meta name="file" content="M_Npruehs_GrabBag_ShortestPaths_AStar_AStar_FindPath__1" /><meta name="guid" content="M_Npruehs_GrabBag_ShortestPaths_AStar_AStar_FindPath__1" /><link type="text/css" rel="stylesheet" href="ms-help://Hx/HxRuntime/HxLink.css" /><meta name="SelfBranded" content="true" /></head><body onload="onLoad()" class="primary-mtps-offline-document"><div class="OH_outerDiv"><div class="OH_outerContent"><table class="TitleTable"><tr><td class="OH_tdTitleColumn">AStar<span id="ID0EOBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EOBABAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>FindPath<span id="ID0EMBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EMBABAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script><span class="typeparameter">T</span><span id="ID0EKBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EKBABAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script> Method (IWeightedGraph<span id="ID0EIBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EIBABAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script><span class="typeparameter">T</span>, Int32<span id="ID0EFBABAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EFBABAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script>, <span class="typeparameter">T</span>, <span class="typeparameter">T</span>)</td><td class="OH_tdRunningTitleColumn">Nick's Grab Bag of Useful Stuff 2.0 - Documentation</td></tr></table><div id="mainSection"><div id="mainBody"><span class="introStyle"></span><div class="summary">
+            Computes the most efficient path in the specified graph between the
+            specified nodes using the A* algorithm.
+            </div><p></p><b>Namespace:</b> <a href="N_Npruehs_GrabBag_ShortestPaths_AStar.htm" target="">Npruehs.GrabBag.ShortestPaths.AStar</a><br /><b>Assembly:</b> <span sdata="assembly">Npruehs.GrabBag.ShortestPaths</span> (in Npruehs.GrabBag.ShortestPaths.dll) Version: 2.0.4948.35301<div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Syntax</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div id="snippetGroup_Syntax" class="code"><div id="ID0ECKCAAAAA" class="OH_CodeSnippetContainer"><div class="OH_CodeSnippetContainerTabs" id="ID0ECKCAAAAA_tabs"><div class="OH_CodeSnippetContainerTabLeftActive" id="ID0ECKCAAAAA_tabimgleft"></div><div id="ID0ECKCAAAAA_tab1" class="OH_CodeSnippetContainerTabActive" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0ECKCAAAAA','C#','1','4');return false;">C#</a></div><div id="ID0ECKCAAAAA_tab2" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0ECKCAAAAA','Visual Basic','2','4');return false;">VB</a></div><div id="ID0ECKCAAAAA_tab3" class="OH_CodeSnippetContainerTab" EnableCopyCode="true"><a href="#" onclick="javascript:ChangeTab('ID0ECKCAAAAA','Visual C++','3','4');return false;">C++</a></div><div id="ID0ECKCAAAAA_tab4" class="OH_CodeSnippetContainerTabDisabledNotFirst" EnableCopyCode="true" disabled="true"><a>F#</a></div><div class="OH_CodeSnippetContainerTabRight" id="ID0ECKCAAAAA_tabimgright"></div></div><div id="ID0ECKCAAAAA_codecollection" class="OH_CodeSnippetContainerCodeCollection"><div class="OH_CodeSnippetToolBar"><div class="OH_CodeSnippetToolBarText"><a id="ID0ECKCAAAAA_ViewColorized" href="#" onclick="javascript:ExchangeTitleContent('ID0ECKCAAAAA','4')" title="View Colorized" style="display: none">View Colorized</a><a id="ID0ECKCAAAAA_copycode" href="#" onclick="javascript:CopyToClipboard('ID0ECKCAAAAA','4')" title="Copy to Clipboard">Copy to Clipboard</a><a id="ID0ECKCAAAAA_PrintText" class="OH_PrintText" href="#" onclick="javascript:Print('ID0ECKCAAAAA','4')" title="Print">Print</a></div></div><div id="ID0ECKCAAAAA_code_Div1" class="OH_CodeSnippetContainerCode" style="display: block"><pre><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">List</span>&lt;T&gt; <span class="identifier">FindPath</span>&lt;T&gt;(
+	<span class="identifier">IWeightedGraph</span>&lt;T, <span class="identifier">int</span>&gt; <span class="parameter">graph</span>,
+	T <span class="parameter">start</span>,
+	T <span class="parameter">finish</span>
+)
+<span class="keyword">where</span> T : <span class="identifier">IAStarNode</span></pre></div><div id="ID0ECKCAAAAA_code_Plain_Div1" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public static List&lt;T&gt; FindPath&lt;T&gt;(
+	IWeightedGraph&lt;T, int&gt; graph,
+	T start,
+	T finish
+)
+where T : IAStarNode</pre></div><div id="ID0ECKCAAAAA_code_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">FindPath</span>(<span class="keyword">Of</span> T <span class="keyword">As</span> <span class="identifier">IAStarNode</span>) ( 
+	<span class="parameter">graph</span> <span class="keyword">As</span> <span class="identifier">IWeightedGraph</span>(<span class="keyword">Of</span> T, <span class="identifier">Integer</span>),
+	<span class="parameter">start</span> <span class="keyword">As</span> T,
+	<span class="parameter">finish</span> <span class="keyword">As</span> T
+) <span class="keyword">As</span> <span class="identifier">List</span>(<span class="keyword">Of</span> T)</pre></div><div id="ID0ECKCAAAAA_code_Plain_Div2" class="OH_CodeSnippetContainerCode" style="display: none"><pre>Public Shared Function FindPath(Of T As IAStarNode) ( 
+	graph As IWeightedGraph(Of T, Integer),
+	start As T,
+	finish As T
+) As List(Of T)</pre></div><div id="ID0ECKCAAAAA_code_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre><span class="keyword">public</span>:
+<span class="keyword">generic</span>&lt;<span class="keyword">typename</span> T&gt;
+<span class="keyword">where</span> T : <span class="identifier">IAStarNode</span> 
+<span class="keyword">static</span> <span class="identifier">List</span>&lt;T&gt;^ <span class="identifier">FindPath</span>(
+	<span class="identifier">IWeightedGraph</span>&lt;T, <span class="identifier">int</span>&gt;^ <span class="parameter">graph</span>, 
+	T <span class="parameter">start</span>, 
+	T <span class="parameter">finish</span>
+)</pre></div><div id="ID0ECKCAAAAA_code_Plain_Div3" class="OH_CodeSnippetContainerCode" style="display: none"><pre>public:
+generic&lt;typename T&gt;
+where T : IAStarNode 
+static List&lt;T&gt;^ FindPath(
+	IWeightedGraph&lt;T, int&gt;^ graph, 
+	T start, 
+	T finish
+)</pre></div><div id="ID0ECKCAAAAA_code_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div><div id="ID0ECKCAAAAA_code_Plain_Div4" class="OH_CodeSnippetContainerCode" style="display: none"><pre /></div></div></div><script>addSpecificTextLanguageTagSet('ID0ECKCAAAAA');</script></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="graph"><dt><span class="parameter">graph</span></dt><dd>Type: <a href="T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" target="">Npruehs.GrabBag.Graphs<span id="ID0EBHACJCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EBHACJCAAAAA?vb=.|cpp=::|cs=.|fs=.|nu=.");
+				</script>IWeightedGraph</a><span id="ID0EGACJCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EGACJCAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script><span class="selflink"><span class="typeparam">T</span></span>, <span class="nolink">Int32</span><span id="ID0ECACJCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECACJCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script><br /><span>
+            Graph to find the shortest path in.
+            </span></dd></dl><dl paramName="start"><dt><span class="parameter">start</span></dt><dd>Type: <span class="selflink"><span class="typeparam">T</span></span><br /><span>
+            Starting node of the path to find.
+            </span></dd></dl><dl paramName="finish"><dt><span class="parameter">finish</span></dt><dd>Type: <span class="selflink"><span class="typeparam">T</span></span><br /><span>
+            Finish node of the path to find.
+            </span></dd></dl></div><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">Type Parameters</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><dl><dt><span class="parameter">T</span></dt><dd>
+            Type of the nodes of the graph to find the path in.
+            </dd></dl><h4 class="subHeading">Return Value</h4>Type: <img src="./../icons/online_icon.gif" class="OH_offlineIcon" alt="Online" title="Online" /><a href="http://msdn2.microsoft.com/en-us/library/6sh2ey19" target="_blank">List</a><span id="ID0EECAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0EECAAAAA?vb=(Of |cpp=&lt;|cs=&lt;|fs=&lt;'|nu=(");
+				</script><span class="selflink"><span class="typeparam">T</span></span><span id="ID0ECCAAAAA"> </span><script type="text/javascript">
+					addToLanSpecTextIdSet("ID0ECCAAAAA?vb=)|cpp=&gt;|cs=&gt;|fs=&gt;|nu=)");
+				</script><br />
+            List of nodes representing the shortest path, if there is one,
+            and null otherwise.
+            <a name="seeAlsoSection"><!----></a><div class="OH_CollapsibleAreaRegion"><div class="OH_regiontitle">See Also</div><div class="OH_CollapsibleArea_HrDiv"><hr class="OH_CollapsibleArea_Hr" /></div></div><div class="OH_clear"></div><div class="seeAlsoStyle"><a href="T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" target="">AStar Class</a></div><div class="seeAlsoStyle"><a href="AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" target="">AStar Members</a></div><div class="seeAlsoStyle"><a href="Overload_Npruehs_GrabBag_ShortestPaths_AStar_AStar_FindPath.htm" target="">FindPath Overload</a></div><div class="seeAlsoStyle"><a href="N_Npruehs_GrabBag_ShortestPaths_AStar.htm" target="">Npruehs.GrabBag.ShortestPaths.AStar Namespace</a></div></div></div></div></div><div id="OH_footer" class="OH_footer"><p /><div class="OH_feedbacklink"><a href="mailto:dev@npruehs.de?subject=Nick%27s+Grab+Bag+of+Useful+Stuff+2.0+-+Documentation+AStar.FindPath(T)+Method+(IWeightedGraph(T%2c+Int32)%2c+T%2c+T)+100+EN-US&amp;body=Your%20feedback%20is%20used%20to%20improve%20the%20documentation%20and%20the%20product.%20Your%20e-mail%20address%20will%20not%20be%20used%20for%20any%20other%20purpose%20and%20is%20disposed%20of%20after%20the%20issue%20you%20report%20is%20resolved.%20While%20working%20to%20resolve%20the%20issue%20that%20you%20report%2c%20you%20may%20be%20contacted%20via%20e-mail%20to%20get%20further%20details%20or%20clarification%20on%20the%20feedback%20you%20sent.%20After%20the%20issue%20you%20report%20has%20been%20addressed%2c%20you%20may%20receive%20an%20e-mail%20to%20let%20you%20know%20that%20your%20feedback%20has%20been%20addressed.">Send Feedback</a> on this topic to dev@npruehs.de.</div></div></body></html>

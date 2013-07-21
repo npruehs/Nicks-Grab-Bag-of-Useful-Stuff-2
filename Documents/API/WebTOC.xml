@@ -1,0 +1,878 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="4f6dd34c-8bd9-4f02-8bc8-ffb669e024a2" Title="Npruehs.GrabBag.Graphs Namespace" Url="html/N_Npruehs_GrabBag_Graphs.htm">
+    <HelpTOCNode Id="02646750-4b32-4375-aabb-7a3b9dd9ffac" Title="FloatEdge Class" Url="html/T_Npruehs_GrabBag_Graphs_FloatEdge.htm">
+      <HelpTOCNode Title="FloatEdge Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+      <HelpTOCNode Title="FloatEdge Constructor " Url="html/M_Npruehs_GrabBag_Graphs_FloatEdge__ctor.htm" />
+      <HelpTOCNode Title="FloatEdge Methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+      <HelpTOCNode Id="960911e1-9a69-4d24-a458-0f8b12500935" Title="FloatEdge Properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_FloatEdge.htm">
+        <HelpTOCNode Title="Source Property " Url="html/P_Npruehs_GrabBag_Graphs_FloatEdge_Source.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/P_Npruehs_GrabBag_Graphs_FloatEdge_Target.htm" />
+        <HelpTOCNode Title="Weight Property " Url="html/P_Npruehs_GrabBag_Graphs_FloatEdge_Weight.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c5f75a73-1fe9-47fb-b48d-cd0e12532f98" Title="Graph(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_Graphs_Graph_2.htm">
+      <HelpTOCNode Title="Graph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+      <HelpTOCNode Title="Graph(TVertex, TEdge) Constructor " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2__ctor.htm" />
+      <HelpTOCNode Id="3fd40c41-e7d6-4e74-9664-c14e29c7a347" Title="Graph(TVertex, TEdge) Methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_Graph_2.htm">
+        <HelpTOCNode Id="add7dde4-fc78-4164-bd4c-3f920f1c2343" Title="AddDirectedEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_Graph_2_AddDirectedEdge.htm">
+          <HelpTOCNode Title="AddDirectedEdge Method (TVertex, TVertex)" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_AddDirectedEdge.htm" />
+          <HelpTOCNode Title="AddDirectedEdge Method (TVertex, TVertex, TEdge)" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_AddDirectedEdge_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0c45dbe4-837e-45b0-81fc-c5d5992274e3" Title="AddEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_Graph_2_AddEdge.htm">
+          <HelpTOCNode Title="AddEdge Method (TVertex, TVertex)" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_AddEdge.htm" />
+          <HelpTOCNode Title="AddEdge Method (TVertex, TVertex, TEdge)" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_AddEdge_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AdjacentVertices Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_AdjacentVertices.htm" />
+        <HelpTOCNode Title="Degree Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_Degree.htm" />
+        <HelpTOCNode Title="GetEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_GetEdge.htm" />
+        <HelpTOCNode Title="HasEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_HasEdge.htm" />
+        <HelpTOCNode Title="IncidentEdges Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_IncidentEdges.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d7878428-8752-4364-8abc-7dcc3c855f75" Title="Graph(TVertex, TEdge) Properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_Graph_2.htm">
+        <HelpTOCNode Title="EdgeCount Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_EdgeCount.htm" />
+        <HelpTOCNode Title="Edges Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Edges.htm" />
+        <HelpTOCNode Title="Item Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Item.htm" />
+        <HelpTOCNode Title="VertexCount Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_VertexCount.htm" />
+        <HelpTOCNode Title="Vertices Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Vertices.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7a95c7b8-6f3f-418a-862b-a892369c8a6f" Title="GraphF Class" Url="html/T_Npruehs_GrabBag_Graphs_GraphF.htm">
+      <HelpTOCNode Title="GraphF Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_GraphF.htm" />
+      <HelpTOCNode Title="GraphF Constructor " Url="html/M_Npruehs_GrabBag_Graphs_GraphF__ctor.htm" />
+      <HelpTOCNode Id="a9eae911-d4e7-430a-863e-5a5e0865b76a" Title="GraphF Methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_GraphF.htm">
+        <HelpTOCNode Id="40f589f7-7c65-4ea5-b146-9d24da269a4b" Title="AddDirectedEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_GraphF_AddDirectedEdge.htm">
+          <HelpTOCNode Title="AddDirectedEdge Method (Int32, Int32)" Url="html/M_Npruehs_GrabBag_Graphs_GraphF_AddDirectedEdge.htm" />
+          <HelpTOCNode Title="AddDirectedEdge Method (Int32, Int32, Single)" Url="html/M_Npruehs_GrabBag_Graphs_GraphF_AddDirectedEdge_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d5759c61-2ab8-46ab-b98f-8c989e8b7998" Title="AddEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_GraphF_AddEdge.htm">
+          <HelpTOCNode Title="AddEdge Method (Int32, Int32)" Url="html/M_Npruehs_GrabBag_Graphs_GraphF_AddEdge.htm" />
+          <HelpTOCNode Title="AddEdge Method (Int32, Int32, Single)" Url="html/M_Npruehs_GrabBag_Graphs_GraphF_AddEdge_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AdjacentVertices Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_AdjacentVertices.htm" />
+        <HelpTOCNode Title="Degree Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_Degree.htm" />
+        <HelpTOCNode Title="GetEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_GetEdge.htm" />
+        <HelpTOCNode Title="HasEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_HasEdge.htm" />
+        <HelpTOCNode Title="IncidentEdges Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_IncidentEdges.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a7625bf6-ed61-4e06-8e17-72b04b98f34f" Title="GraphF Properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_GraphF.htm">
+        <HelpTOCNode Title="EdgeCount Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphF_EdgeCount.htm" />
+        <HelpTOCNode Title="Edges Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphF_Edges.htm" />
+        <HelpTOCNode Title="VertexCount Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphF_VertexCount.htm" />
+        <HelpTOCNode Title="Vertices Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphF_Vertices.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="891e23ad-a5ed-4e18-87e0-67fc825b2929" Title="GraphI Class" Url="html/T_Npruehs_GrabBag_Graphs_GraphI.htm">
+      <HelpTOCNode Title="GraphI Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_GraphI.htm" />
+      <HelpTOCNode Title="GraphI Constructor " Url="html/M_Npruehs_GrabBag_Graphs_GraphI__ctor.htm" />
+      <HelpTOCNode Id="dd3bb06d-2d5c-4d28-ad06-9215ea2f80c6" Title="GraphI Methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_GraphI.htm">
+        <HelpTOCNode Id="a3e303e4-5b93-4024-bc35-618b670e9b92" Title="AddDirectedEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_GraphI_AddDirectedEdge.htm">
+          <HelpTOCNode Title="AddDirectedEdge Method (Int32, Int32)" Url="html/M_Npruehs_GrabBag_Graphs_GraphI_AddDirectedEdge.htm" />
+          <HelpTOCNode Title="AddDirectedEdge Method (Int32, Int32, Int32)" Url="html/M_Npruehs_GrabBag_Graphs_GraphI_AddDirectedEdge_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2680cee8-f16a-48de-b22a-7219ddba8647" Title="AddEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_GraphI_AddEdge.htm">
+          <HelpTOCNode Title="AddEdge Method (Int32, Int32)" Url="html/M_Npruehs_GrabBag_Graphs_GraphI_AddEdge.htm" />
+          <HelpTOCNode Title="AddEdge Method (Int32, Int32, Int32)" Url="html/M_Npruehs_GrabBag_Graphs_GraphI_AddEdge_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AdjacentVertices Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_AdjacentVertices.htm" />
+        <HelpTOCNode Title="Degree Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_Degree.htm" />
+        <HelpTOCNode Title="GetEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_GetEdge.htm" />
+        <HelpTOCNode Title="HasEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_HasEdge.htm" />
+        <HelpTOCNode Title="IncidentEdges Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_IncidentEdges.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c89b1e2a-ee17-49f7-b10f-e696878e062f" Title="GraphI Properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_GraphI.htm">
+        <HelpTOCNode Title="EdgeCount Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphI_EdgeCount.htm" />
+        <HelpTOCNode Title="Edges Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphI_Edges.htm" />
+        <HelpTOCNode Title="VertexCount Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphI_VertexCount.htm" />
+        <HelpTOCNode Title="Vertices Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphI_Vertices.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8d2e11c0-fcf4-480e-b5d0-829fe6a5631b" Title="IGraph(TVertex) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IGraph_1.htm">
+      <HelpTOCNode Title="IGraph(TVertex) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+      <HelpTOCNode Id="cbecea54-b6c8-4d4a-9f2a-05739fba3168" Title="IGraph(TVertex) Methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_IGraph_1.htm">
+        <HelpTOCNode Title="AddDirectedEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AddDirectedEdge.htm" />
+        <HelpTOCNode Title="AddEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AddEdge.htm" />
+        <HelpTOCNode Title="AdjacentVertices Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AdjacentVertices.htm" />
+        <HelpTOCNode Title="Degree Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_Degree.htm" />
+        <HelpTOCNode Title="HasEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_HasEdge.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fffac681-b787-4795-9b93-4a0d0c9665b5" Title="IGraph(TVertex) Properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IGraph_1.htm">
+        <HelpTOCNode Title="EdgeCount Property " Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_EdgeCount.htm" />
+        <HelpTOCNode Title="VertexCount Property " Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_VertexCount.htm" />
+        <HelpTOCNode Title="Vertices Property " Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_Vertices.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8b214cff-7590-4e6e-9d5f-bfd96bf6f9d5" Title="IntVertex Class" Url="html/T_Npruehs_GrabBag_Graphs_IntVertex.htm">
+      <HelpTOCNode Title="IntVertex Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+      <HelpTOCNode Title="IntVertex Constructor " Url="html/M_Npruehs_GrabBag_Graphs_IntVertex__ctor.htm" />
+      <HelpTOCNode Title="IntVertex Methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+      <HelpTOCNode Id="c715a7e7-aa56-4a26-a148-61335d805414" Title="IntVertex Properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IntVertex.htm">
+        <HelpTOCNode Title="Index Property " Url="html/P_Npruehs_GrabBag_Graphs_IntVertex_Index.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d4a2f6fe-5326-4a5a-97a9-0dc5b86553d9" Title="IVertex Interface" Url="html/T_Npruehs_GrabBag_Graphs_IVertex.htm">
+      <HelpTOCNode Title="IVertex Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IVertex.htm" />
+      <HelpTOCNode Id="83a9fb1a-6e95-41fb-8504-e4cc97501ecd" Title="IVertex Properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IVertex.htm">
+        <HelpTOCNode Title="Index Property " Url="html/P_Npruehs_GrabBag_Graphs_IVertex_Index.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d24f18b8-0e8f-4744-b6c4-0ea4bb687d3e" Title="IWeightedGraph(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm">
+      <HelpTOCNode Title="IWeightedGraph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+      <HelpTOCNode Id="1d15c6e1-faf3-47c0-b559-23131c4190bd" Title="IWeightedGraph(TVertex, TEdge) Methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm">
+        <HelpTOCNode Id="f9337102-3506-4238-8e2a-4220418be9c9" Title="AddDirectedEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddDirectedEdge.htm">
+          <HelpTOCNode Title="AddDirectedEdge Method (TVertex, TVertex, TEdge)" Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddDirectedEdge.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c3e315c4-e72f-4a45-b9d3-6f70db150f97" Title="AddEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddEdge.htm">
+          <HelpTOCNode Title="AddEdge Method (TVertex, TVertex, TEdge)" Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddEdge.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_GetEdge.htm" />
+        <HelpTOCNode Title="IncidentEdges Method " Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_IncidentEdges.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3bef3232-2275-45a8-87a3-e3554766d071" Title="IWeightedGraph(TVertex, TEdge) Properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm">
+        <HelpTOCNode Title="Edges Property " Url="html/P_Npruehs_GrabBag_Graphs_IWeightedGraph_2_Edges.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="cdd3252c-66c7-4afe-8a09-529656b3af66" Title="Npruehs.GrabBag.Math Namespace" Url="html/N_Npruehs_GrabBag_Math.htm">
+    <HelpTOCNode Id="580b38da-97d3-4a10-ba4b-18a71191f6f0" Title="Bresenham Class" Url="html/T_Npruehs_GrabBag_Math_Bresenham.htm">
+      <HelpTOCNode Title="Bresenham Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Bresenham.htm" />
+      <HelpTOCNode Id="516e557e-77f4-40e9-9af8-95e5d04b1c91" Title="Bresenham Methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Bresenham.htm">
+        <HelpTOCNode Title="Plot Method " Url="html/M_Npruehs_GrabBag_Math_Bresenham_Plot.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b1ebb524-9acc-4901-83ae-22b66fdfaceb" Title="Math2 Class" Url="html/T_Npruehs_GrabBag_Math_Math2.htm">
+      <HelpTOCNode Title="Math2 Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Math2.htm" />
+      <HelpTOCNode Id="aa466c99-48bc-404e-bb8b-7bce705164cc" Title="Math2 Fields" Url="html/Fields_T_Npruehs_GrabBag_Math_Math2.htm">
+        <HelpTOCNode Title="Pi Field" Url="html/F_Npruehs_GrabBag_Math_Math2_Pi.htm" />
+        <HelpTOCNode Title="PiOverFour Field" Url="html/F_Npruehs_GrabBag_Math_Math2_PiOverFour.htm" />
+        <HelpTOCNode Title="PiOverTwo Field" Url="html/F_Npruehs_GrabBag_Math_Math2_PiOverTwo.htm" />
+        <HelpTOCNode Title="Sin45 Field" Url="html/F_Npruehs_GrabBag_Math_Math2_Sin45.htm" />
+        <HelpTOCNode Title="TwoPi Field" Url="html/F_Npruehs_GrabBag_Math_Math2_TwoPi.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3aacff31-76dd-47b0-90c1-dbd62649f095" Title="Math2 Methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Math2.htm">
+        <HelpTOCNode Title="Ceil Method " Url="html/M_Npruehs_GrabBag_Math_Math2_Ceil.htm" />
+        <HelpTOCNode Title="Clamp(T) Method " Url="html/M_Npruehs_GrabBag_Math_Math2_Clamp__1.htm" />
+        <HelpTOCNode Title="DegreesToRadians Method " Url="html/M_Npruehs_GrabBag_Math_Math2_DegreesToRadians.htm" />
+        <HelpTOCNode Title="Floor Method " Url="html/M_Npruehs_GrabBag_Math_Math2_Floor.htm" />
+        <HelpTOCNode Title="GetBit Method " Url="html/M_Npruehs_GrabBag_Math_Math2_GetBit.htm" />
+        <HelpTOCNode Title="Lerp Method " Url="html/M_Npruehs_GrabBag_Math_Math2_Lerp.htm" />
+        <HelpTOCNode Title="Round Method " Url="html/M_Npruehs_GrabBag_Math_Math2_Round.htm" />
+        <HelpTOCNode Title="Sqrt Method " Url="html/M_Npruehs_GrabBag_Math_Math2_Sqrt.htm" />
+        <HelpTOCNode Title="Truncate Method " Url="html/M_Npruehs_GrabBag_Math_Math2_Truncate.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="d4d68dce-a86e-4ea5-ad98-c3f3a6f66cb0" Title="Npruehs.GrabBag.Math.Geometry Namespace" Url="html/N_Npruehs_GrabBag_Math_Geometry.htm">
+    <HelpTOCNode Id="96db39db-985c-4775-9cc3-2696844b6b6c" Title="BoxF Class" Url="html/T_Npruehs_GrabBag_Math_Geometry_BoxF.htm">
+      <HelpTOCNode Title="BoxF Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_BoxF.htm" />
+      <HelpTOCNode Id="fad112e8-809b-4554-bef5-6c92104cad6c" Title="BoxF Constructor " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_BoxF__ctor.htm">
+        <HelpTOCNode Title="BoxF Constructor (Vector3F, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF__ctor.htm" />
+        <HelpTOCNode Title="BoxF Constructor (Single, Single, Single, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF__ctor_2.htm" />
+        <HelpTOCNode Title="BoxF Constructor (Vector3F, Single, Single, Single)" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF__ctor_1.htm" />
+        <HelpTOCNode Title="BoxF Constructor (Single, Single, Single, Single, Single, Single)" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF__ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dade64c4-6ad1-43d5-8211-206986235069" Title="BoxF Methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Geometry_BoxF.htm">
+        <HelpTOCNode Id="007f5b65-d99b-4544-8bb3-c8f2d773ff54" Title="Contains Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_BoxF_Contains.htm">
+          <HelpTOCNode Title="Contains Method (BoxF)" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_Contains.htm" />
+          <HelpTOCNode Title="Contains Method (Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_Contains_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="aba69453-196f-45a7-82cc-86c2bf9460e8" Title="Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_BoxF_Equals.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_Equals_1.htm" />
+          <HelpTOCNode Title="Equals Method (BoxF)" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_Equals.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_GetHashCode.htm" />
+        <HelpTOCNode Title="Intersects Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_Intersects.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a688810a-c098-4d06-854d-679dd5d10edf" Title="BoxF Properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Geometry_BoxF.htm">
+        <HelpTOCNode Title="Back Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Back.htm" />
+        <HelpTOCNode Title="Bottom Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Bottom.htm" />
+        <HelpTOCNode Title="Center Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Center.htm" />
+        <HelpTOCNode Title="Depth Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Depth.htm" />
+        <HelpTOCNode Title="Front Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Front.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Height.htm" />
+        <HelpTOCNode Title="Left Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Left.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Position.htm" />
+        <HelpTOCNode Title="Right Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Right.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Size.htm" />
+        <HelpTOCNode Title="Top Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Top.htm" />
+        <HelpTOCNode Title="Volume Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Volume.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Width.htm" />
+        <HelpTOCNode Title="X Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_X.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Y.htm" />
+        <HelpTOCNode Title="Z Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Z.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6e7addcc-d253-4d74-80e9-2412c60278ab" Title="RectangleF Class" Url="html/T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm">
+      <HelpTOCNode Title="RectangleF Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm" />
+      <HelpTOCNode Id="d70361d4-e864-4422-9bd2-72eb52fe4ecb" Title="RectangleF Constructor " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleF__ctor.htm">
+        <HelpTOCNode Title="RectangleF Constructor " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF__ctor.htm" />
+        <HelpTOCNode Title="RectangleF Constructor (Vector2F, Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF__ctor_1.htm" />
+        <HelpTOCNode Title="RectangleF Constructor (Single, Single, Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF__ctor_3.htm" />
+        <HelpTOCNode Title="RectangleF Constructor (Vector2F, Single, Single)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF__ctor_2.htm" />
+        <HelpTOCNode Title="RectangleF Constructor (Single, Single, Single, Single)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF__ctor_4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="15a98762-ad55-4467-9f24-4697df666bb2" Title="RectangleF Methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm">
+        <HelpTOCNode Id="bc53526f-23a1-471a-8794-f6596182c46a" Title="Contains Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleF_Contains.htm">
+          <HelpTOCNode Title="Contains Method (RectangleF)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Contains.htm" />
+          <HelpTOCNode Title="Contains Method (Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Contains_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e575327c-c44a-46d3-9b13-b283083fcce5" Title="Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleF_Equals.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Equals_1.htm" />
+          <HelpTOCNode Title="Equals Method (RectangleF)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Equals.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_GetHashCode.htm" />
+        <HelpTOCNode Title="Intersects Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Intersects.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_ToString.htm" />
+        <HelpTOCNode Title="Union Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Union.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7526d3b4-d2a0-4dec-afa1-d833ffe26209" Title="RectangleF Properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm">
+        <HelpTOCNode Title="Area Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Area.htm" />
+        <HelpTOCNode Title="Bottom Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Bottom.htm" />
+        <HelpTOCNode Title="BottomLeft Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_BottomLeft.htm" />
+        <HelpTOCNode Title="BottomRight Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_BottomRight.htm" />
+        <HelpTOCNode Title="Center Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Center.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Height.htm" />
+        <HelpTOCNode Title="Left Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Left.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Position.htm" />
+        <HelpTOCNode Title="Right Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Right.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Size.htm" />
+        <HelpTOCNode Title="Top Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Top.htm" />
+        <HelpTOCNode Title="TopLeft Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_TopLeft.htm" />
+        <HelpTOCNode Title="TopRight Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_TopRight.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Width.htm" />
+        <HelpTOCNode Title="X Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_X.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Y.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="68d039ad-a6ef-4a86-a3de-3bee494f856b" Title="RectangleI Class" Url="html/T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm">
+      <HelpTOCNode Title="RectangleI Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm" />
+      <HelpTOCNode Id="b3738b8b-3c5b-4e47-8696-2b5ff734fde9" Title="RectangleI Constructor " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleI__ctor.htm">
+        <HelpTOCNode Title="RectangleI Constructor (Vector2I, Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI__ctor.htm" />
+        <HelpTOCNode Title="RectangleI Constructor (Int32, Int32, Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI__ctor_2.htm" />
+        <HelpTOCNode Title="RectangleI Constructor (Vector2I, Int32, Int32)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI__ctor_1.htm" />
+        <HelpTOCNode Title="RectangleI Constructor (Int32, Int32, Int32, Int32)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI__ctor_3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e40cbe7c-54d9-464a-b08c-a5b70a5d6259" Title="RectangleI Methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm">
+        <HelpTOCNode Id="d041bac3-43ca-45ff-a1ec-25d1a5ba95d6" Title="Contains Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleI_Contains.htm">
+          <HelpTOCNode Title="Contains Method (RectangleI)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_Contains.htm" />
+          <HelpTOCNode Title="Contains Method (Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_Contains_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9fc4dc77-1fe8-44e4-a89b-7a2bee59ca3e" Title="Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleI_Equals.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_Equals_1.htm" />
+          <HelpTOCNode Title="Equals Method (RectangleI)" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_Equals.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_GetHashCode.htm" />
+        <HelpTOCNode Title="Intersects Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_Intersects.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7e09ce7a-5a29-4f83-9bb7-b9c60c3ca215" Title="RectangleI Properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm">
+        <HelpTOCNode Title="Area Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Area.htm" />
+        <HelpTOCNode Title="Bottom Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Bottom.htm" />
+        <HelpTOCNode Title="BottomLeft Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_BottomLeft.htm" />
+        <HelpTOCNode Title="BottomRight Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_BottomRight.htm" />
+        <HelpTOCNode Title="Center Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Center.htm" />
+        <HelpTOCNode Title="Height Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Height.htm" />
+        <HelpTOCNode Title="Left Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Left.htm" />
+        <HelpTOCNode Title="Position Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Position.htm" />
+        <HelpTOCNode Title="Right Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Right.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Size.htm" />
+        <HelpTOCNode Title="Top Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Top.htm" />
+        <HelpTOCNode Title="TopLeft Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_TopLeft.htm" />
+        <HelpTOCNode Title="TopRight Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_TopRight.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Width.htm" />
+        <HelpTOCNode Title="X Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_X.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Y.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="112e99d9-a849-46bc-aca0-72eca1013f4c" Title="Npruehs.GrabBag.Math.Vectors Namespace" Url="html/N_Npruehs_GrabBag_Math_Vectors.htm">
+    <HelpTOCNode Id="9db58a12-8468-4f95-b9e9-d95b5d249a0c" Title="Vector2F Structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm">
+      <HelpTOCNode Title="Vector2F Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+      <HelpTOCNode Title="Vector2F Constructor " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F__ctor.htm" />
+      <HelpTOCNode Id="f92d48b9-87ac-4847-be95-d034c5de639f" Title="Vector2F Fields" Url="html/Fields_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm">
+        <HelpTOCNode Title="One Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2F_One.htm" />
+        <HelpTOCNode Title="Zero Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2F_Zero.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4756419d-575c-4271-975c-7c0e6f940cda" Title="Vector2F Methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm">
+        <HelpTOCNode Id="f91d3700-8c8a-40df-b22e-792e822e2102" Title="Add Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Add.htm">
+          <HelpTOCNode Title="Add Method (Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Add.htm" />
+          <HelpTOCNode Title="Add Method (Vector2F, Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Add_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bebd66a4-0917-47da-b683-43550ea9621e" Title="Distance Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Distance.htm">
+          <HelpTOCNode Title="Distance Method (Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Distance.htm" />
+          <HelpTOCNode Title="Distance Method (Vector2F, Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Distance_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f3ae4e11-4ea7-41be-b3e3-94c283c61da8" Title="DistanceSquared Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_DistanceSquared.htm">
+          <HelpTOCNode Title="DistanceSquared Method (Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_DistanceSquared.htm" />
+          <HelpTOCNode Title="DistanceSquared Method (Vector2F, Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_DistanceSquared_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b4b8cf94-b0ee-4ad6-97e3-fbe6a9b00c87" Title="Divide Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Divide.htm">
+          <HelpTOCNode Title="Divide Method (Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Divide_1.htm" />
+          <HelpTOCNode Title="Divide Method (Vector2F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Divide.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="85497db8-0cb5-42b1-b58f-f64ce7e9ba9a" Title="Dot Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Dot.htm">
+          <HelpTOCNode Title="Dot Method (Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Dot.htm" />
+          <HelpTOCNode Title="Dot Method (Vector2F, Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Dot_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3d50dd77-952e-46c1-bfdd-f9348df75901" Title="Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Equals.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Equals_1.htm" />
+          <HelpTOCNode Title="Equals Method (Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Equals.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_GetHashCode.htm" />
+        <HelpTOCNode Id="10935562-dc41-4408-9411-e6a4ab90af6c" Title="Lerp Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Lerp.htm">
+          <HelpTOCNode Title="Lerp Method (Vector2F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Lerp_1.htm" />
+          <HelpTOCNode Title="Lerp Method (Vector2F, Vector2F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Lerp.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fe914470-0471-48d7-a1fe-7f2dd4a298b9" Title="Multiply Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Multiply.htm">
+          <HelpTOCNode Title="Multiply Method (Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Multiply_1.htm" />
+          <HelpTOCNode Title="Multiply Method (Single, Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Multiply_2.htm" />
+          <HelpTOCNode Title="Multiply Method (Vector2F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Multiply.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c4cbe2dd-31e9-4492-8881-cde12a44dfb5" Title="Normalize Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Normalize.htm">
+          <HelpTOCNode Title="Normalize Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Normalize.htm" />
+          <HelpTOCNode Title="Normalize Method (Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Normalize_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="436ec34e-6794-4244-b6d8-e90fc95bed1b" Title="Subtract Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Subtract.htm">
+          <HelpTOCNode Title="Subtract Method (Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Subtract.htm" />
+          <HelpTOCNode Title="Subtract Method (Vector2F, Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_Subtract_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToString Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9985c1e1-9bcc-4f58-bc85-a2a5ba7019b8" Title="Vector2F Operators" Url="html/Operators_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm">
+        <HelpTOCNode Title="Addition Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Addition.htm" />
+        <HelpTOCNode Title="Division Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Division.htm" />
+        <HelpTOCNode Title="Equality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Equality.htm" />
+        <HelpTOCNode Title="Inequality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Inequality.htm" />
+        <HelpTOCNode Id="6c149874-7aeb-4092-bb9b-73deb593d6e0" Title="Multiply Operator " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Multiply.htm">
+          <HelpTOCNode Title="Multiply Operator (Single, Vector2F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Multiply_1.htm" />
+          <HelpTOCNode Title="Multiply Operator (Vector2F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Multiply.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Subtraction Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Subtraction.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="01859692-a166-4a9a-8053-33034b8fb0c3" Title="Vector2F Properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm">
+        <HelpTOCNode Title="Length Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_Length.htm" />
+        <HelpTOCNode Title="LengthSquared Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_LengthSquared.htm" />
+        <HelpTOCNode Title="X Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_X.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_Y.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9fa340de-be1f-40bc-a9e3-b9b067bf13d6" Title="Vector2I Structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm">
+      <HelpTOCNode Title="Vector2I Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+      <HelpTOCNode Title="Vector2I Constructor " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I__ctor.htm" />
+      <HelpTOCNode Id="3cc740f0-62fe-412c-95ac-fa5721aa67f9" Title="Vector2I Fields" Url="html/Fields_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm">
+        <HelpTOCNode Title="One Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2I_One.htm" />
+        <HelpTOCNode Title="Zero Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2I_Zero.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3e4f2d7d-dde6-4114-aa70-913e7b02e122" Title="Vector2I Methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm">
+        <HelpTOCNode Id="6addae05-bf01-427a-90a8-8c31369bd871" Title="Add Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Add.htm">
+          <HelpTOCNode Title="Add Method (Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Add.htm" />
+          <HelpTOCNode Title="Add Method (Vector2I, Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Add_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="756f738b-e8cf-417a-98a0-ec4382faca0f" Title="Distance Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Distance.htm">
+          <HelpTOCNode Title="Distance Method (Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Distance.htm" />
+          <HelpTOCNode Title="Distance Method (Vector2I, Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Distance_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="88495903-c018-4828-be87-1f3767b7a9f6" Title="DistanceSquared Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_DistanceSquared.htm">
+          <HelpTOCNode Title="DistanceSquared Method (Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_DistanceSquared.htm" />
+          <HelpTOCNode Title="DistanceSquared Method (Vector2I, Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_DistanceSquared_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="84fed79d-3c38-4c61-9c30-bba78ae94348" Title="Divide Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Divide.htm">
+          <HelpTOCNode Title="Divide Method (Int32)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Divide_1.htm" />
+          <HelpTOCNode Title="Divide Method (Vector2I, Int32)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Divide.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0d3b1f3d-7716-4122-b0c7-1cf4f8d4d382" Title="Dot Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Dot.htm">
+          <HelpTOCNode Title="Dot Method (Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Dot.htm" />
+          <HelpTOCNode Title="Dot Method (Vector2I, Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Dot_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4aec1e85-8ec6-411a-b0d3-d18a33484fc1" Title="Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Equals.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Equals_1.htm" />
+          <HelpTOCNode Title="Equals Method (Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Equals.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_GetHashCode.htm" />
+        <HelpTOCNode Id="c23a71f9-4a96-470a-837a-87fbfda0cb3b" Title="Multiply Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Multiply.htm">
+          <HelpTOCNode Title="Multiply Method (Int32)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Multiply_1.htm" />
+          <HelpTOCNode Title="Multiply Method (Int32, Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Multiply_2.htm" />
+          <HelpTOCNode Title="Multiply Method (Vector2I, Int32)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Multiply.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c83a836d-d4cf-484f-8fda-e6d24d8681d0" Title="Subtract Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Subtract.htm">
+          <HelpTOCNode Title="Subtract Method (Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Subtract.htm" />
+          <HelpTOCNode Title="Subtract Method (Vector2I, Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_Subtract_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToString Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9d9a5f52-db1e-41f0-b231-a5967a9a7fa8" Title="Vector2I Operators" Url="html/Operators_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm">
+        <HelpTOCNode Title="Addition Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Addition.htm" />
+        <HelpTOCNode Title="Division Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Division.htm" />
+        <HelpTOCNode Title="Equality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Equality.htm" />
+        <HelpTOCNode Title="Inequality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Inequality.htm" />
+        <HelpTOCNode Id="4111b722-b172-4a5d-94f9-d8120ac07f7a" Title="Multiply Operator " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Multiply.htm">
+          <HelpTOCNode Title="Multiply Operator (Int32, Vector2I)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Multiply_1.htm" />
+          <HelpTOCNode Title="Multiply Operator (Vector2I, Int32)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Multiply.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Subtraction Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Subtraction.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bcb4f929-d090-49f5-9f3c-f09856b9a78b" Title="Vector2I Properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm">
+        <HelpTOCNode Title="Length Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_Length.htm" />
+        <HelpTOCNode Title="LengthSquared Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_LengthSquared.htm" />
+        <HelpTOCNode Title="X Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_X.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_Y.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0d6084dd-2135-4fd2-9ae7-5e93c4e1752a" Title="Vector3F Structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm">
+      <HelpTOCNode Title="Vector3F Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+      <HelpTOCNode Title="Vector3F Constructor " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F__ctor.htm" />
+      <HelpTOCNode Id="6d3a5d32-651b-4130-b1ae-25d80994b8cd" Title="Vector3F Fields" Url="html/Fields_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm">
+        <HelpTOCNode Title="One Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector3F_One.htm" />
+        <HelpTOCNode Title="Zero Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector3F_Zero.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c6996996-344f-4f38-980f-a4f0b1ae49d1" Title="Vector3F Methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm">
+        <HelpTOCNode Id="1f79f6d9-27cc-47a1-9aa0-7d3af8ef3d82" Title="Add Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Add.htm">
+          <HelpTOCNode Title="Add Method (Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Add.htm" />
+          <HelpTOCNode Title="Add Method (Vector3F, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Add_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="376b02b2-4c16-4f3a-a2f8-6422ea6b7eef" Title="Cross Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Cross.htm">
+          <HelpTOCNode Title="Cross Method (Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Cross.htm" />
+          <HelpTOCNode Title="Cross Method (Vector3F, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Cross_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9b6eb709-3260-45c2-9f92-ece427151dc0" Title="Distance Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Distance.htm">
+          <HelpTOCNode Title="Distance Method (Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Distance.htm" />
+          <HelpTOCNode Title="Distance Method (Vector3F, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Distance_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3bbe8d38-0742-429c-a988-547d70f563dc" Title="DistanceSquared Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_DistanceSquared.htm">
+          <HelpTOCNode Title="DistanceSquared Method (Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_DistanceSquared.htm" />
+          <HelpTOCNode Title="DistanceSquared Method (Vector3F, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_DistanceSquared_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="982fd661-ce5a-47e0-8217-96a9eac83a27" Title="Divide Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Divide.htm">
+          <HelpTOCNode Title="Divide Method (Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Divide_1.htm" />
+          <HelpTOCNode Title="Divide Method (Vector3F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Divide.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="55c01838-acd2-47a9-adce-7011d86a4208" Title="Dot Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Dot.htm">
+          <HelpTOCNode Title="Dot Method (Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Dot.htm" />
+          <HelpTOCNode Title="Dot Method (Vector3F, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Dot_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="848a20c1-1124-429b-b826-ff10079cae3b" Title="Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Equals.htm">
+          <HelpTOCNode Title="Equals Method (Object)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Equals_1.htm" />
+          <HelpTOCNode Title="Equals Method (Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Equals.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_GetHashCode.htm" />
+        <HelpTOCNode Id="f9635ac0-2231-4ec1-8269-cb64861f24d1" Title="Lerp Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Lerp.htm">
+          <HelpTOCNode Title="Lerp Method (Vector3F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Lerp_1.htm" />
+          <HelpTOCNode Title="Lerp Method (Vector3F, Vector3F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Lerp.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f1fadc59-b281-42a3-a81d-f58054ce3bd7" Title="Multiply Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Multiply.htm">
+          <HelpTOCNode Title="Multiply Method (Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Multiply_1.htm" />
+          <HelpTOCNode Title="Multiply Method (Single, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Multiply_2.htm" />
+          <HelpTOCNode Title="Multiply Method (Vector3F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Multiply.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e9921397-0808-41a2-9971-dbace70dcbb4" Title="Normalize Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Normalize.htm">
+          <HelpTOCNode Title="Normalize Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Normalize.htm" />
+          <HelpTOCNode Title="Normalize Method (Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Normalize_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="391deaf6-b4d5-47e6-a246-2f59ea8a84c7" Title="Subtract Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Subtract.htm">
+          <HelpTOCNode Title="Subtract Method (Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Subtract.htm" />
+          <HelpTOCNode Title="Subtract Method (Vector3F, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_Subtract_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToString Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="86f5b12c-fcf3-4a19-857c-1ed5c765f71a" Title="Vector3F Operators" Url="html/Operators_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm">
+        <HelpTOCNode Title="Addition Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Addition.htm" />
+        <HelpTOCNode Title="Division Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Division.htm" />
+        <HelpTOCNode Title="Equality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Equality.htm" />
+        <HelpTOCNode Title="Inequality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Inequality.htm" />
+        <HelpTOCNode Id="371c1841-a1e2-4862-9fef-195735414068" Title="Multiply Operator " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Multiply.htm">
+          <HelpTOCNode Title="Multiply Operator (Single, Vector3F)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Multiply_1.htm" />
+          <HelpTOCNode Title="Multiply Operator (Vector3F, Single)" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Multiply.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Subtraction Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Subtraction.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3855ffd2-9864-4ee3-8051-47bcdc30e22e" Title="Vector3F Properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm">
+        <HelpTOCNode Title="Length Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_Length.htm" />
+        <HelpTOCNode Title="LengthSquared Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_LengthSquared.htm" />
+        <HelpTOCNode Title="X Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_X.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_Y.htm" />
+        <HelpTOCNode Title="Z Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_Z.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="98516769-5295-4503-aa44-cfa47436bdf4" Title="Npruehs.GrabBag.MinimumSpanningTrees Namespace" Url="html/N_Npruehs_GrabBag_MinimumSpanningTrees.htm">
+    <HelpTOCNode Id="fa41145b-645d-460e-a75d-0201967b4af7" Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm">
+      <HelpTOCNode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+      <HelpTOCNode Id="11c79741-23b1-40ad-b65c-ae5c78b72e44" Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Methods" Url="html/Methods_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm">
+        <HelpTOCNode Title="FindSolution Method " Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2_FindSolution.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="37089375-6e04-4984-bd17-20f8040f4f0f" Title="Npruehs.GrabBag.MinimumSpanningTrees.Algorithms Namespace" Url="html/N_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms.htm">
+    <HelpTOCNode Id="3cc054b6-4fe8-496a-8f73-3b7a3f5b6972" Title="FredmanTarjan(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm">
+      <HelpTOCNode Title="FredmanTarjan(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+      <HelpTOCNode Title="FredmanTarjan(TVertex, TEdge) Constructor " Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2__ctor.htm" />
+      <HelpTOCNode Id="91e446a8-fef0-45be-8ecf-cd0d0a79580b" Title="FredmanTarjan(TVertex, TEdge) Methods" Url="html/Methods_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm">
+        <HelpTOCNode Title="FindSolution Method " Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2_FindSolution.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8ca416e7-9282-4cb6-a419-1cb150c3e9c7" Title="FredmanTarjanEdge Class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm">
+      <HelpTOCNode Title="FredmanTarjanEdge Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+      <HelpTOCNode Title="FredmanTarjanEdge Constructor " Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge__ctor.htm" />
+      <HelpTOCNode Title="FredmanTarjanEdge Methods" Url="html/Methods_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+      <HelpTOCNode Title="FredmanTarjanEdge Properties" Url="html/Properties_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="90041e08-6e87-438d-8a88-504d709eec7e" Title="IFredmanTarjanEdge Interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm">
+      <HelpTOCNode Title="IFredmanTarjanEdge Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm" />
+      <HelpTOCNode Id="e2339ca5-516a-4a4b-806d-e26950ede156" Title="IFredmanTarjanEdge Properties" Url="html/Properties_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm">
+        <HelpTOCNode Title="Source Property " Url="html/P_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge_Source.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/P_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge_Target.htm" />
+        <HelpTOCNode Title="Weight Property " Url="html/P_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge_Weight.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="00ffbe90-5be3-409a-87c8-18ce6a35174f" Title="Npruehs.GrabBag.Packing Namespace" Url="html/N_Npruehs_GrabBag_Packing.htm">
+    <HelpTOCNode Id="c542a04b-31ce-4c37-9f24-02dd7699b513" Title="PackingAlgorithm Class" Url="html/T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm">
+      <HelpTOCNode Title="PackingAlgorithm Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm" />
+      <HelpTOCNode Title="PackingAlgorithm Constructor " Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm__ctor.htm" />
+      <HelpTOCNode Id="6ab05f10-1724-4d88-ab84-de57cdbc37d7" Title="PackingAlgorithm Methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm">
+        <HelpTOCNode Title="IEnumerable.GetEnumerator Method " Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_System_Collections_IEnumerable_GetEnumerator.htm" />
+        <HelpTOCNode Title="AddLevel Method " Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_AddLevel.htm" />
+        <HelpTOCNode Title="ComputeValue Method " Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_ComputeValue.htm" />
+        <HelpTOCNode Title="FindSolution Method " Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_FindSolution.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_GetEnumerator.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4694a9be-b64a-425f-a340-031310e76f17" Title="PackingAlgorithm Properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm">
+        <HelpTOCNode Title="Levels Property " Url="html/P_Npruehs_GrabBag_Packing_PackingAlgorithm_Levels.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e137a793-03c5-4719-a00a-2085eb607978" Title="PackingItem Class" Url="html/T_Npruehs_GrabBag_Packing_PackingItem.htm">
+      <HelpTOCNode Title="PackingItem Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingItem.htm" />
+      <HelpTOCNode Id="72c4db5f-cebd-4bfd-a455-64b5f5ee518f" Title="PackingItem Constructor " Url="html/Overload_Npruehs_GrabBag_Packing_PackingItem__ctor.htm">
+        <HelpTOCNode Title="PackingItem Constructor " Url="html/M_Npruehs_GrabBag_Packing_PackingItem__ctor.htm" />
+        <HelpTOCNode Title="PackingItem Constructor (Int32, Single, Single)" Url="html/M_Npruehs_GrabBag_Packing_PackingItem__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d115e9f-bb58-4a81-9e38-1788cd2c3e35" Title="PackingItem Methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_PackingItem.htm">
+        <HelpTOCNode Id="198da68c-8aae-43cc-bd65-1acce00fb3b7" Title="Equals Method " Url="html/Overload_Npruehs_GrabBag_Packing_PackingItem_Equals.htm">
+          <HelpTOCNode Title="Equals Method (PackingItem)" Url="html/M_Npruehs_GrabBag_Packing_PackingItem_Equals.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Rotate Method " Url="html/M_Npruehs_GrabBag_Packing_PackingItem_Rotate.htm" />
+        <HelpTOCNode Title="ToString Method " Url="html/M_Npruehs_GrabBag_Packing_PackingItem_ToString.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="422a6534-36b7-4249-b995-b4eb688f64b1" Title="PackingItem Properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_PackingItem.htm">
+        <HelpTOCNode Title="Id Property " Url="html/P_Npruehs_GrabBag_Packing_PackingItem_Id.htm" />
+        <HelpTOCNode Title="Rectangle Property " Url="html/P_Npruehs_GrabBag_Packing_PackingItem_Rectangle.htm" />
+        <HelpTOCNode Title="Rotated Property " Url="html/P_Npruehs_GrabBag_Packing_PackingItem_Rotated.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="910dacfb-fe0b-4201-a4cc-3ea9df195718" Title="PackingLevel Class" Url="html/T_Npruehs_GrabBag_Packing_PackingLevel.htm">
+      <HelpTOCNode Title="PackingLevel Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingLevel.htm" />
+      <HelpTOCNode Id="8fbc13ac-c6c6-43e3-a965-463210631f6b" Title="PackingLevel Constructor " Url="html/Overload_Npruehs_GrabBag_Packing_PackingLevel__ctor.htm">
+        <HelpTOCNode Title="PackingLevel Constructor " Url="html/M_Npruehs_GrabBag_Packing_PackingLevel__ctor.htm" />
+        <HelpTOCNode Title="PackingLevel Constructor (Single)" Url="html/M_Npruehs_GrabBag_Packing_PackingLevel__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2f854d63-b20d-4ea6-b5ab-a179befcda09" Title="PackingLevel Methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_PackingLevel.htm">
+        <HelpTOCNode Title="AddItem Method " Url="html/M_Npruehs_GrabBag_Packing_PackingLevel_AddItem.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2d421b56-a7d0-4e4e-9a84-c6da876955a8" Title="PackingLevel Properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_PackingLevel.htm">
+        <HelpTOCNode Title="Item Property " Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Item.htm" />
+        <HelpTOCNode Title="Items Property " Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Items.htm" />
+        <HelpTOCNode Title="Width Property " Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Width.htm" />
+        <HelpTOCNode Title="Y Property " Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Y.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="fd5f0d05-bcc6-4d38-a95a-e9818c6d285a" Title="Npruehs.GrabBag.Packing.Algorithms Namespace" Url="html/N_Npruehs_GrabBag_Packing_Algorithms.htm">
+    <HelpTOCNode Id="dcd2a0a4-a8c4-41bf-9e7c-e5c94d135899" Title="EpsteinVanStee Class" Url="html/T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm">
+      <HelpTOCNode Title="EpsteinVanStee Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+      <HelpTOCNode Title="EpsteinVanStee Constructor " Url="html/M_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee__ctor.htm" />
+      <HelpTOCNode Id="3126196e-9470-4b81-b158-9afb6b17d34c" Title="EpsteinVanStee Fields" Url="html/Fields_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm">
+        <HelpTOCNode Title="AssumedMaximumItemWidthAndHeight Field" Url="html/F_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee_AssumedMaximumItemWidthAndHeight.htm" />
+        <HelpTOCNode Title="AssumedStripWidth Field" Url="html/F_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee_AssumedStripWidth.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="af406473-570d-4105-b440-31cc2e51917a" Title="EpsteinVanStee Methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm">
+        <HelpTOCNode Title="FindSolution Method " Url="html/M_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee_FindSolution.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="EpsteinVanStee Properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="082956e6-22d8-4a6d-b4a3-de9abc2d597c" Title="FirstFitDecreasingHeight Class" Url="html/T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm">
+      <HelpTOCNode Title="FirstFitDecreasingHeight Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+      <HelpTOCNode Title="FirstFitDecreasingHeight Constructor " Url="html/M_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight__ctor.htm" />
+      <HelpTOCNode Id="cedf8c44-da05-4957-b8e4-05217ccb7b55" Title="FirstFitDecreasingHeight Methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm">
+        <HelpTOCNode Id="a140afe0-33d0-4ce3-a314-97cc9d523fd3" Title="FindSolution Method " Url="html/Overload_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight_FindSolution.htm">
+          <HelpTOCNode Title="FindSolution Method (Single, ICollection(PackingItem))" Url="html/M_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight_FindSolution.htm" />
+          <HelpTOCNode Title="FindSolution Method (Single, ICollection(PackingItem), Single)" Url="html/M_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight_FindSolution_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="FirstFitDecreasingHeight Properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="63448a74-41f6-4877-9f6f-35ff6a5a777d" Title="Npruehs.GrabBag.PriorityQueues Namespace" Url="html/N_Npruehs_GrabBag_PriorityQueues.htm">
+    <HelpTOCNode Id="f2ae995f-6e53-466c-be46-9c9ac398d0e3" Title="FibonacciHeap(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm">
+      <HelpTOCNode Title="FibonacciHeap(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+      <HelpTOCNode Title="FibonacciHeap(T) Constructor " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1__ctor.htm" />
+      <HelpTOCNode Id="a2719860-2382-4c87-b5be-5896b4b695d4" Title="FibonacciHeap(T) Methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm">
+        <HelpTOCNode Title="Clear Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Clear.htm" />
+        <HelpTOCNode Title="DecreaseKey Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DecreaseKey.htm" />
+        <HelpTOCNode Title="DecreaseKeyTo Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DecreaseKeyTo.htm" />
+        <HelpTOCNode Title="Delete Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Delete.htm" />
+        <HelpTOCNode Title="DeleteMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DeleteMin.htm" />
+        <HelpTOCNode Title="FindMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_FindMin.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Insert.htm" />
+        <HelpTOCNode Title="Meld Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Meld.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eae3646c-35e0-4324-bd98-27f71e448885" Title="FibonacciHeap(T) Properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Count.htm" />
+        <HelpTOCNode Title="Empty Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Empty.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6ed607b1-ad38-4bb1-808d-70709d6f14aa" Title="FibonacciHeap(T).TreeNode Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm">
+      <HelpTOCNode Title="FibonacciHeap(T).TreeNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+      <HelpTOCNode Title="FibonacciHeap(T).TreeNode Constructor " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode__ctor.htm" />
+      <HelpTOCNode Id="53fd72f2-4ef4-4a86-89a7-7622ed581074" Title="FibonacciHeap(T).TreeNode Methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm">
+        <HelpTOCNode Title="AddChild Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_AddChild.htm" />
+        <HelpTOCNode Title="CutEdgeToParent Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_CutEdgeToParent.htm" />
+        <HelpTOCNode Title="Link Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_Link.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="91c48952-6b91-4d5d-8809-63adec3ce6f7" Title="FibonacciHeapItem(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm">
+      <HelpTOCNode Title="FibonacciHeapItem(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+      <HelpTOCNode Title="FibonacciHeapItem(T) Methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+      <HelpTOCNode Id="4cf5f71a-2d76-474d-8884-6962525e85a2" Title="FibonacciHeapItem(T) Properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm">
+        <HelpTOCNode Title="Item Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1_Item.htm" />
+        <HelpTOCNode Title="Key Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1_Key.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3e15f2a5-7ecd-4fab-a013-bb42fee978f5" Title="IPriorityQueue(T) Interface" Url="html/T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm">
+      <HelpTOCNode Title="IPriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+      <HelpTOCNode Id="d687d639-a701-4723-a7c2-376477de9431" Title="IPriorityQueue(T) Methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm">
+        <HelpTOCNode Title="Clear Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Clear.htm" />
+        <HelpTOCNode Title="DecreaseKey Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DecreaseKey.htm" />
+        <HelpTOCNode Title="DecreaseKeyTo Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DecreaseKeyTo.htm" />
+        <HelpTOCNode Title="Delete Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Delete.htm" />
+        <HelpTOCNode Title="DeleteMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DeleteMin.htm" />
+        <HelpTOCNode Title="FindMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_FindMin.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Insert.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2d67c29d-25fa-4bd2-ad4e-0502493b79c9" Title="IPriorityQueue(T) Properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Count.htm" />
+        <HelpTOCNode Title="Empty Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Empty.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bcffec7c-330f-4500-8b51-f576e7fc0823" Title="PriorityQueue(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm">
+      <HelpTOCNode Title="PriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+      <HelpTOCNode Title="PriorityQueue(T) Constructor " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1__ctor.htm" />
+      <HelpTOCNode Id="7079dd76-66a9-492c-b11f-225d027a0bb9" Title="PriorityQueue(T) Methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm">
+        <HelpTOCNode Title="IEnumerable.GetEnumerator Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_System_Collections_IEnumerable_GetEnumerator.htm" />
+        <HelpTOCNode Title="Clear Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Clear.htm" />
+        <HelpTOCNode Title="DecreaseKey Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DecreaseKey.htm" />
+        <HelpTOCNode Title="DecreaseKeyTo Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DecreaseKeyTo.htm" />
+        <HelpTOCNode Title="Delete Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Delete.htm" />
+        <HelpTOCNode Title="DeleteMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DeleteMin.htm" />
+        <HelpTOCNode Title="FindMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_FindMin.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_GetEnumerator.htm" />
+        <HelpTOCNode Title="Insert Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Insert.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aa82c796-5002-47cd-aedf-a72a16919339" Title="PriorityQueue(T) Properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm">
+        <HelpTOCNode Title="Count Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Count.htm" />
+        <HelpTOCNode Title="Empty Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Empty.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="713b493a-b6bc-4b5c-87b0-658a391b616d" Title="Npruehs.GrabBag.RapidlyExploringRandomTrees Namespace" Url="html/N_Npruehs_GrabBag_RapidlyExploringRandomTrees.htm">
+    <HelpTOCNode Id="96a8f21f-b761-49e9-b65f-7e71f460b17f" Title="ConfigurationSpace2I Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm">
+      <HelpTOCNode Title="ConfigurationSpace2I Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm" />
+      <HelpTOCNode Title="ConfigurationSpace2I Constructor " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I__ctor.htm" />
+      <HelpTOCNode Id="676631be-3c4d-4c41-8125-5343bc35eb33" Title="ConfigurationSpace2I Methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm">
+        <HelpTOCNode Title="GetDistance Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I_GetDistance.htm" />
+        <HelpTOCNode Title="GetRandomState Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I_GetRandomState.htm" />
+        <HelpTOCNode Title="NewState Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I_NewState.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dfbc81e7-da03-4609-9d71-8792d1008703" Title="IConfigurationSpace(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm">
+      <HelpTOCNode Title="IConfigurationSpace(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+      <HelpTOCNode Id="34900455-961a-48f4-ab21-de7573464c53" Title="IConfigurationSpace(TConfiguration, TInput) Methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm">
+        <HelpTOCNode Title="GetDistance Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_GetDistance.htm" />
+        <HelpTOCNode Title="GetRandomState Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_GetRandomState.htm" />
+        <HelpTOCNode Title="NewState Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_NewState.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="265650bd-ef0a-49a0-b274-ab2acba17a6e" Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm">
+      <HelpTOCNode Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+      <HelpTOCNode Id="0f9bb70d-30ee-4f60-a39a-25abc25a325e" Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm">
+        <HelpTOCNode Title="GrowTree Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_GrowTree.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="81d68715-101b-44fd-9e37-39fc5c565599" Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm">
+        <HelpTOCNode Title="Edges Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_Edges.htm" />
+        <HelpTOCNode Title="Vertices Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_Vertices.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="572f146c-3dae-407f-bf01-5eb627c0e043" Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm">
+      <HelpTOCNode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+      <HelpTOCNode Id="966f3908-af04-4cc0-86e2-00d80eb16e3c" Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm">
+        <HelpTOCNode Title="Input Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Input.htm" />
+        <HelpTOCNode Title="Source Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Source.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Target.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ed07bbc8-f735-4bbd-bb11-6997c248fbea" Title="RapidlyExploringRandomTree(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm">
+      <HelpTOCNode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+      <HelpTOCNode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Constructor " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2__ctor.htm" />
+      <HelpTOCNode Id="a07a85de-30c4-4a6b-b125-7f1e770a9c41" Title="RapidlyExploringRandomTree(TConfiguration, TInput) Methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm">
+        <HelpTOCNode Title="GrowTree Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_GrowTree.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9d7363b7-a30b-4d5b-8753-68d8ac4d8757" Title="RapidlyExploringRandomTree(TConfiguration, TInput) Properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm">
+        <HelpTOCNode Title="Edges Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_Edges.htm" />
+        <HelpTOCNode Title="Vertices Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_Vertices.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7cce1e00-991e-40ba-9932-9f6d19d0c61a" Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm">
+      <HelpTOCNode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+      <HelpTOCNode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Constructor " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2__ctor.htm" />
+      <HelpTOCNode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+      <HelpTOCNode Id="7dbd2f8b-2ace-4e70-8f3b-ca8e2d032c2f" Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm">
+        <HelpTOCNode Title="Input Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Input.htm" />
+        <HelpTOCNode Title="Source Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Source.htm" />
+        <HelpTOCNode Title="Target Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Target.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a231b05a-c14d-43f9-a3e5-b3055e11441c" Title="Npruehs.GrabBag.ShortestPaths.AStar Namespace" Url="html/N_Npruehs_GrabBag_ShortestPaths_AStar.htm">
+    <HelpTOCNode Id="3393bc21-1c48-4026-8949-c94a812531a1" Title="AStar Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm">
+      <HelpTOCNode Title="AStar Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" />
+      <HelpTOCNode Id="57497b4b-6d02-453c-a652-e209aab7a80c" Title="AStar Methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm">
+        <HelpTOCNode Id="5fa40ca8-a39d-4bd4-91f1-323ed359d09b" Title="FindPath Method " Url="html/Overload_Npruehs_GrabBag_ShortestPaths_AStar_AStar_FindPath.htm">
+          <HelpTOCNode Title="FindPath(T) Method (IWeightedGraph(T, Int32), T, T)" Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_AStar_FindPath__1.htm" />
+          <HelpTOCNode Title="FindPath(T) Method (IWeightedGraph(T, Int32), T, T, IList(T))" Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_AStar_FindPath__1_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a110a42a-9811-4bed-9fcb-b18fba050925" Title="AStarNode Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm">
+      <HelpTOCNode Title="AStarNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm" />
+      <HelpTOCNode Title="AStarNode Constructor " Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode__ctor.htm" />
+      <HelpTOCNode Id="2c1d39e7-dfe1-424a-a754-f1cb4209e065" Title="AStarNode Methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm">
+        <HelpTOCNode Title="EstimateHeuristicMovementCost Method " Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_EstimateHeuristicMovementCost.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="acc2c201-1388-4985-a914-352cdb601e8c" Title="AStarNode Properties" Url="html/Properties_T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm">
+        <HelpTOCNode Title="Discovered Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_Discovered.htm" />
+        <HelpTOCNode Title="F Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_F.htm" />
+        <HelpTOCNode Title="G Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_G.htm" />
+        <HelpTOCNode Title="H Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_H.htm" />
+        <HelpTOCNode Title="Index Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_Index.htm" />
+        <HelpTOCNode Title="IsWalkable Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_IsWalkable.htm" />
+        <HelpTOCNode Title="ParentNode Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_ParentNode.htm" />
+        <HelpTOCNode Title="Visited Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_Visited.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="68bcbd79-0d6f-44e6-8e52-cb69a4e9d7d0" Title="IAStarNode Interface" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm">
+      <HelpTOCNode Title="IAStarNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm" />
+      <HelpTOCNode Id="4a29bb98-68a2-44c1-aa3c-e78ca6293420" Title="IAStarNode Methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm">
+        <HelpTOCNode Title="EstimateHeuristicMovementCost Method " Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_EstimateHeuristicMovementCost.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3209db81-0ec5-42fd-86ff-8e84bde45f97" Title="IAStarNode Properties" Url="html/Properties_T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm">
+        <HelpTOCNode Title="Discovered Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_Discovered.htm" />
+        <HelpTOCNode Title="F Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_F.htm" />
+        <HelpTOCNode Title="G Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_G.htm" />
+        <HelpTOCNode Title="H Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_H.htm" />
+        <HelpTOCNode Title="IsWalkable Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_IsWalkable.htm" />
+        <HelpTOCNode Title="ParentNode Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_ParentNode.htm" />
+        <HelpTOCNode Title="Visited Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_Visited.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a66cb67f-de77-4462-8199-585162de4fc7" Title="Npruehs.GrabBag.ShortestPaths.Dijkstra Namespace" Url="html/N_Npruehs_GrabBag_ShortestPaths_Dijkstra.htm">
+    <HelpTOCNode Id="af519fb7-91b6-4a74-bf9d-61ae7f12299a" Title="Dijkstra Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm">
+      <HelpTOCNode Title="Dijkstra Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm" />
+      <HelpTOCNode Id="da61a775-11ac-4209-9dfb-11e3c82f8af5" Title="Dijkstra Methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm">
+        <HelpTOCNode Id="18e8743f-7a25-41f9-b144-4eb96b8a6660" Title="FindPaths Method " Url="html/Overload_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra_FindPaths.htm">
+          <HelpTOCNode Title="FindPaths(TVertex) Method (IWeightedGraph(TVertex, Int32), TVertex)" Url="html/M_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra_FindPaths__1.htm" />
+          <HelpTOCNode Title="FindPaths(TVertex) Method (IWeightedGraph(TVertex, Int32), TVertex, IList(TVertex))" Url="html/M_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra_FindPaths__1_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="05efbfa9-275f-456a-8afe-b11e99962153" Title="DijkstraNode Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm">
+      <HelpTOCNode Title="DijkstraNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+      <HelpTOCNode Title="DijkstraNode Constructor " Url="html/M_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode__ctor.htm" />
+      <HelpTOCNode Title="DijkstraNode Methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+      <HelpTOCNode Id="7c6a26fa-aa7e-4692-b44c-30927b26a650" Title="DijkstraNode Properties" Url="html/Properties_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm">
+        <HelpTOCNode Title="Index Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode_Index.htm" />
+        <HelpTOCNode Title="Predecessor Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode_Predecessor.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7809465c-12db-473a-8496-22e7ffaf47c2" Title="IDijkstraNode Interface" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm">
+      <HelpTOCNode Title="IDijkstraNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm" />
+      <HelpTOCNode Id="c731a2df-c447-4978-944b-5d1aa6ffd37f" Title="IDijkstraNode Properties" Url="html/Properties_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm">
+        <HelpTOCNode Title="Predecessor Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode_Predecessor.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="9cc525b3-3018-4749-a48c-5ea43345b53f" Title="Npruehs.GrabBag.UnionFind Namespace" Url="html/N_Npruehs_GrabBag_UnionFind.htm">
+    <HelpTOCNode Id="2cc1c642-5b3c-4470-a24b-4e617186dd29" Title="IUnionFind(T) Interface" Url="html/T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm">
+      <HelpTOCNode Title="IUnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+      <HelpTOCNode Id="05983bbd-f6f4-4b0d-910c-6073e280dd4e" Title="IUnionFind(T) Methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm">
+        <HelpTOCNode Title="Find Method " Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_Find.htm" />
+        <HelpTOCNode Title="MakeSet Method " Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_MakeSet.htm" />
+        <HelpTOCNode Title="Union Method " Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_Union.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d7f10a16-b932-4b56-a941-320d1d46968a" Title="UnionFind(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm">
+      <HelpTOCNode Title="UnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+      <HelpTOCNode Title="UnionFind(T) Constructor " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1__ctor.htm" />
+      <HelpTOCNode Id="61111e59-ffaf-4e66-adbb-64c209860933" Title="UnionFind(T) Methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm">
+        <HelpTOCNode Title="IEnumerable.GetEnumerator Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_System_Collections_IEnumerable_GetEnumerator.htm" />
+        <HelpTOCNode Title="Find Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_Find.htm" />
+        <HelpTOCNode Title="GetEnumerator Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_GetEnumerator.htm" />
+        <HelpTOCNode Title="MakeSet Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_MakeSet.htm" />
+        <HelpTOCNode Title="Union Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_Union.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="923924fa-be82-4bc4-bd42-b88ea4e02855" Title="UnionFindNode(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm">
+      <HelpTOCNode Title="UnionFindNode(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+      <HelpTOCNode Title="UnionFindNode(T) Constructor " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindNode_1__ctor.htm" />
+      <HelpTOCNode Title="UnionFindNode(T) Methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+      <HelpTOCNode Id="483fd804-0e7f-4658-b45a-da3ac3da438f" Title="UnionFindNode(T) Properties" Url="html/Properties_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm">
+        <HelpTOCNode Title="Item Property " Url="html/P_Npruehs_GrabBag_UnionFind_UnionFindNode_1_Item.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="431ebfcb-3ae5-4bc4-b00b-24494c81fa82" Title="UnionFindStructure(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm">
+      <HelpTOCNode Title="UnionFindStructure(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+      <HelpTOCNode Title="UnionFindStructure(T) Constructor " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1__ctor.htm" />
+      <HelpTOCNode Id="2ab338d7-0102-4a6e-9d63-f92fdd7e942b" Title="UnionFindStructure(T) Methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm">
+        <HelpTOCNode Title="Find Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_Find.htm" />
+        <HelpTOCNode Title="MakeSet Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_MakeSet.htm" />
+        <HelpTOCNode Title="Union Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_Union.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="f205e9dc-c9aa-43e9-9f02-435430b53ca2" Title="Npruehs.GrabBag.Util Namespace" Url="html/N_Npruehs_GrabBag_Util.htm">
+    <HelpTOCNode Id="506581f2-5c3a-4738-8a50-f749529f82f3" Title="ListUtils Class" Url="html/T_Npruehs_GrabBag_Util_ListUtils.htm">
+      <HelpTOCNode Title="ListUtils Members" Url="html/AllMembers_T_Npruehs_GrabBag_Util_ListUtils.htm" />
+      <HelpTOCNode Title="ListUtils Constructor " Url="html/M_Npruehs_GrabBag_Util_ListUtils__ctor.htm" />
+      <HelpTOCNode Id="3e6b1965-2da6-415a-a83a-83ff626d6fc1" Title="ListUtils Methods" Url="html/Methods_T_Npruehs_GrabBag_Util_ListUtils.htm">
+        <HelpTOCNode Id="81fc4832-9f01-4429-8c96-aa918df43d18" Title="RadixSort Method " Url="html/Overload_Npruehs_GrabBag_Util_ListUtils_RadixSort.htm">
+          <HelpTOCNode Title="RadixSort(T) Method (IList(T), Func(T, Int32))" Url="html/M_Npruehs_GrabBag_Util_ListUtils_RadixSort__1.htm" />
+          <HelpTOCNode Title="RadixSort(T) Method (IList(T), Int32, Int32, Int32, Func(T, Int32))" Url="html/M_Npruehs_GrabBag_Util_ListUtils_RadixSort__1_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Swap(T) Method " Url="html/M_Npruehs_GrabBag_Util_ListUtils_Swap__1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9113ed8a-2835-4821-8190-049b50d82b74" Title="Random2 Class" Url="html/T_Npruehs_GrabBag_Util_Random2.htm">
+      <HelpTOCNode Title="Random2 Members" Url="html/AllMembers_T_Npruehs_GrabBag_Util_Random2.htm" />
+      <HelpTOCNode Id="248dab52-c08f-4fff-af23-7a650f4a9ca8" Title="Random2 Constructor " Url="html/Overload_Npruehs_GrabBag_Util_Random2__ctor.htm">
+        <HelpTOCNode Title="Random2 Constructor " Url="html/M_Npruehs_GrabBag_Util_Random2__ctor.htm" />
+        <HelpTOCNode Title="Random2 Constructor (Int64)" Url="html/M_Npruehs_GrabBag_Util_Random2__ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d6a89da3-0c1e-4e22-9190-6ca5c5e0b3b7" Title="Random2 Methods" Url="html/Methods_T_Npruehs_GrabBag_Util_Random2.htm">
+        <HelpTOCNode Title="NextDouble Method " Url="html/M_Npruehs_GrabBag_Util_Random2_NextDouble.htm" />
+        <HelpTOCNode Title="NextFloat Method " Url="html/M_Npruehs_GrabBag_Util_Random2_NextFloat.htm" />
+        <HelpTOCNode Id="8e265641-5456-4d31-9170-a2328a921919" Title="NextInt32 Method " Url="html/Overload_Npruehs_GrabBag_Util_Random2_NextInt32.htm">
+          <HelpTOCNode Title="NextInt32 Method " Url="html/M_Npruehs_GrabBag_Util_Random2_NextInt32.htm" />
+          <HelpTOCNode Title="NextInt32 Method (Int32)" Url="html/M_Npruehs_GrabBag_Util_Random2_NextInt32_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e0fd978a-4ce7-4b1e-b4ae-347689c0b364" Title="NextInt64 Method " Url="html/Overload_Npruehs_GrabBag_Util_Random2_NextInt64.htm">
+          <HelpTOCNode Title="NextInt64 Method " Url="html/M_Npruehs_GrabBag_Util_Random2_NextInt64.htm" />
+          <HelpTOCNode Title="NextInt64 Method (Int64)" Url="html/M_Npruehs_GrabBag_Util_Random2_NextInt64_1.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6a28aaee-ae01-42b3-9666-3f2604b1ebba" Title="Random2 Properties" Url="html/Properties_T_Npruehs_GrabBag_Util_Random2.htm">
+        <HelpTOCNode Title="Seed Property " Url="html/P_Npruehs_GrabBag_Util_Random2_Seed.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

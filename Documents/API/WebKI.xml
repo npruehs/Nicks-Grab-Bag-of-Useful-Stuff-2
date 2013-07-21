@@ -1,0 +1,1797 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Add method">
+    <HelpKINode Title="Vector2F.Add Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Add.htm" />
+    <HelpKINode Title="Vector2I.Add Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Add.htm" />
+    <HelpKINode Title="Vector3F.Add Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Add.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddChild method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_AddChild.htm" />
+  <HelpKINode Title="AddDirectedEdge method">
+    <HelpKINode Title="Graph(TVertex, TEdge).AddDirectedEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_Graph_2_AddDirectedEdge.htm" />
+    <HelpKINode Title="GraphF.AddDirectedEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_GraphF_AddDirectedEdge.htm" />
+    <HelpKINode Title="GraphI.AddDirectedEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_GraphI_AddDirectedEdge.htm" />
+    <HelpKINode Title="IGraph(TVertex).AddDirectedEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AddDirectedEdge.htm" />
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge).AddDirectedEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddDirectedEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddEdge method">
+    <HelpKINode Title="Graph(TVertex, TEdge).AddEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_Graph_2_AddEdge.htm" />
+    <HelpKINode Title="GraphF.AddEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_GraphF_AddEdge.htm" />
+    <HelpKINode Title="GraphI.AddEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_GraphI_AddEdge.htm" />
+    <HelpKINode Title="IGraph(TVertex).AddEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AddEdge.htm" />
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge).AddEdge Method " Url="html/Overload_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddItem method" Url="html/M_Npruehs_GrabBag_Packing_PackingLevel_AddItem.htm" />
+  <HelpKINode Title="Addition operator">
+    <HelpKINode Title="Vector2F.Addition Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Addition.htm" />
+    <HelpKINode Title="Vector2I.Addition Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Addition.htm" />
+    <HelpKINode Title="Vector3F.Addition Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Addition.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddLevel method" Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_AddLevel.htm" />
+  <HelpKINode Title="AdjacentVertices method">
+    <HelpKINode Title="Graph(TVertex, TEdge).AdjacentVertices Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_AdjacentVertices.htm" />
+    <HelpKINode Title="GraphF.AdjacentVertices Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_AdjacentVertices.htm" />
+    <HelpKINode Title="GraphI.AdjacentVertices Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_AdjacentVertices.htm" />
+    <HelpKINode Title="IGraph(TVertex).AdjacentVertices Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AdjacentVertices.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Area property">
+    <HelpKINode Title="RectangleF.Area Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Area.htm" />
+    <HelpKINode Title="RectangleI.Area Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Area.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AssumedMaximumItemWidthAndHeight field" Url="html/F_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee_AssumedMaximumItemWidthAndHeight.htm" />
+  <HelpKINode Title="AssumedStripWidth field" Url="html/F_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee_AssumedStripWidth.htm" />
+  <HelpKINode Title="AStar class">
+    <HelpKINode Title="AStar Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" />
+    <HelpKINode Title="AStar Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" />
+    <HelpKINode Title="about AStar class" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AStar.FindPath method" Url="html/Overload_Npruehs_GrabBag_ShortestPaths_AStar_AStar_FindPath.htm" />
+  <HelpKINode Title="AStarNode class">
+    <HelpKINode Title="AStarNode Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm" />
+    <HelpKINode Title="AStarNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm" />
+    <HelpKINode Title="about AStarNode class" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AStarNode.AStarNode constructor" Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode__ctor.htm" />
+  <HelpKINode Title="AStarNode.Discovered property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_Discovered.htm" />
+  <HelpKINode Title="AStarNode.EstimateHeuristicMovementCost method" Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_EstimateHeuristicMovementCost.htm" />
+  <HelpKINode Title="AStarNode.F property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_F.htm" />
+  <HelpKINode Title="AStarNode.G property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_G.htm" />
+  <HelpKINode Title="AStarNode.H property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_H.htm" />
+  <HelpKINode Title="AStarNode.Index property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_Index.htm" />
+  <HelpKINode Title="AStarNode.IsWalkable property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_IsWalkable.htm" />
+  <HelpKINode Title="AStarNode.ParentNode property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_ParentNode.htm" />
+  <HelpKINode Title="AStarNode.Visited property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_Visited.htm" />
+  <HelpKINode Title="Back property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Back.htm" />
+  <HelpKINode Title="Bottom property">
+    <HelpKINode Title="BoxF.Bottom Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Bottom.htm" />
+    <HelpKINode Title="RectangleF.Bottom Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Bottom.htm" />
+    <HelpKINode Title="RectangleI.Bottom Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Bottom.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BottomLeft property">
+    <HelpKINode Title="RectangleF.BottomLeft Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_BottomLeft.htm" />
+    <HelpKINode Title="RectangleI.BottomLeft Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_BottomLeft.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BottomRight property">
+    <HelpKINode Title="RectangleF.BottomRight Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_BottomRight.htm" />
+    <HelpKINode Title="RectangleI.BottomRight Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_BottomRight.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BoxF class">
+    <HelpKINode Title="BoxF Class" Url="html/T_Npruehs_GrabBag_Math_Geometry_BoxF.htm" />
+    <HelpKINode Title="BoxF Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_BoxF.htm" />
+    <HelpKINode Title="about BoxF class" Url="html/T_Npruehs_GrabBag_Math_Geometry_BoxF.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_BoxF.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_BoxF__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Geometry_BoxF.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Geometry_BoxF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BoxF.Back property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Back.htm" />
+  <HelpKINode Title="BoxF.Bottom property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Bottom.htm" />
+  <HelpKINode Title="BoxF.BoxF constructor" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_BoxF__ctor.htm" />
+  <HelpKINode Title="BoxF.Center property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Center.htm" />
+  <HelpKINode Title="BoxF.Contains method" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_BoxF_Contains.htm" />
+  <HelpKINode Title="BoxF.Depth property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Depth.htm" />
+  <HelpKINode Title="BoxF.Equals method" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_BoxF_Equals.htm" />
+  <HelpKINode Title="BoxF.Front property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Front.htm" />
+  <HelpKINode Title="BoxF.GetHashCode method" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_GetHashCode.htm" />
+  <HelpKINode Title="BoxF.Height property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Height.htm" />
+  <HelpKINode Title="BoxF.Intersects method" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_Intersects.htm" />
+  <HelpKINode Title="BoxF.Left property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Left.htm" />
+  <HelpKINode Title="BoxF.Position property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Position.htm" />
+  <HelpKINode Title="BoxF.Right property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Right.htm" />
+  <HelpKINode Title="BoxF.Size property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Size.htm" />
+  <HelpKINode Title="BoxF.Top property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Top.htm" />
+  <HelpKINode Title="BoxF.ToString method" Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_ToString.htm" />
+  <HelpKINode Title="BoxF.Volume property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Volume.htm" />
+  <HelpKINode Title="BoxF.Width property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Width.htm" />
+  <HelpKINode Title="BoxF.X property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_X.htm" />
+  <HelpKINode Title="BoxF.Y property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Y.htm" />
+  <HelpKINode Title="BoxF.Z property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Z.htm" />
+  <HelpKINode Title="Bresenham class">
+    <HelpKINode Title="Bresenham Class" Url="html/T_Npruehs_GrabBag_Math_Bresenham.htm" />
+    <HelpKINode Title="Bresenham Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Bresenham.htm" />
+    <HelpKINode Title="about Bresenham class" Url="html/T_Npruehs_GrabBag_Math_Bresenham.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Bresenham.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Bresenham.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Bresenham.Plot method" Url="html/M_Npruehs_GrabBag_Math_Bresenham_Plot.htm" />
+  <HelpKINode Title="Ceil method" Url="html/M_Npruehs_GrabBag_Math_Math2_Ceil.htm" />
+  <HelpKINode Title="Center property">
+    <HelpKINode Title="BoxF.Center Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Center.htm" />
+    <HelpKINode Title="RectangleF.Center Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Center.htm" />
+    <HelpKINode Title="RectangleI.Center Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Center.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Clamp(Of T) method" Url="html/M_Npruehs_GrabBag_Math_Math2_Clamp__1.htm" />
+  <HelpKINode Title="Clamp&lt;T&gt; method" Url="html/M_Npruehs_GrabBag_Math_Math2_Clamp__1.htm" />
+  <HelpKINode Title="Clear method">
+    <HelpKINode Title="FibonacciHeap(T).Clear Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Clear.htm" />
+    <HelpKINode Title="IPriorityQueue(T).Clear Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Clear.htm" />
+    <HelpKINode Title="PriorityQueue(T).Clear Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Clear.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ComputeValue method" Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_ComputeValue.htm" />
+  <HelpKINode Title="ConfigurationSpace2I class">
+    <HelpKINode Title="ConfigurationSpace2I Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm" />
+    <HelpKINode Title="ConfigurationSpace2I Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm" />
+    <HelpKINode Title="about ConfigurationSpace2I class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConfigurationSpace2I.ConfigurationSpace2I constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I__ctor.htm" />
+  <HelpKINode Title="ConfigurationSpace2I.GetDistance method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I_GetDistance.htm" />
+  <HelpKINode Title="ConfigurationSpace2I.GetRandomState method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I_GetRandomState.htm" />
+  <HelpKINode Title="ConfigurationSpace2I.NewState method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I_NewState.htm" />
+  <HelpKINode Title="Contains method">
+    <HelpKINode Title="BoxF.Contains Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_BoxF_Contains.htm" />
+    <HelpKINode Title="RectangleF.Contains Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleF_Contains.htm" />
+    <HelpKINode Title="RectangleI.Contains Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleI_Contains.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Count property">
+    <HelpKINode Title="FibonacciHeap(T).Count Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Count.htm" />
+    <HelpKINode Title="IPriorityQueue(T).Count Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Count.htm" />
+    <HelpKINode Title="PriorityQueue(T).Count Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Count.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cross method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Cross.htm" />
+  <HelpKINode Title="CutEdgeToParent method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_CutEdgeToParent.htm" />
+  <HelpKINode Title="DecreaseKey method">
+    <HelpKINode Title="FibonacciHeap(T).DecreaseKey Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DecreaseKey.htm" />
+    <HelpKINode Title="IPriorityQueue(T).DecreaseKey Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DecreaseKey.htm" />
+    <HelpKINode Title="PriorityQueue(T).DecreaseKey Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DecreaseKey.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DecreaseKeyTo method">
+    <HelpKINode Title="FibonacciHeap(T).DecreaseKeyTo Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DecreaseKeyTo.htm" />
+    <HelpKINode Title="IPriorityQueue(T).DecreaseKeyTo Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DecreaseKeyTo.htm" />
+    <HelpKINode Title="PriorityQueue(T).DecreaseKeyTo Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DecreaseKeyTo.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Degree method">
+    <HelpKINode Title="Graph(TVertex, TEdge).Degree Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_Degree.htm" />
+    <HelpKINode Title="GraphF.Degree Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_Degree.htm" />
+    <HelpKINode Title="GraphI.Degree Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_Degree.htm" />
+    <HelpKINode Title="IGraph(TVertex).Degree Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_Degree.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DegreesToRadians method" Url="html/M_Npruehs_GrabBag_Math_Math2_DegreesToRadians.htm" />
+  <HelpKINode Title="Delete method">
+    <HelpKINode Title="FibonacciHeap(T).Delete Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Delete.htm" />
+    <HelpKINode Title="IPriorityQueue(T).Delete Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Delete.htm" />
+    <HelpKINode Title="PriorityQueue(T).Delete Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Delete.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteMin method">
+    <HelpKINode Title="FibonacciHeap(T).DeleteMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DeleteMin.htm" />
+    <HelpKINode Title="IPriorityQueue(T).DeleteMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DeleteMin.htm" />
+    <HelpKINode Title="PriorityQueue(T).DeleteMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DeleteMin.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Depth property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Depth.htm" />
+  <HelpKINode Title="Dijkstra class">
+    <HelpKINode Title="Dijkstra Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm" />
+    <HelpKINode Title="Dijkstra Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm" />
+    <HelpKINode Title="about Dijkstra class" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dijkstra.FindPaths method" Url="html/Overload_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra_FindPaths.htm" />
+  <HelpKINode Title="DijkstraNode class">
+    <HelpKINode Title="DijkstraNode Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+    <HelpKINode Title="DijkstraNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+    <HelpKINode Title="about DijkstraNode class" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DijkstraNode.DijkstraNode constructor" Url="html/M_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode__ctor.htm" />
+  <HelpKINode Title="DijkstraNode.Index property" Url="html/P_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode_Index.htm" />
+  <HelpKINode Title="DijkstraNode.Predecessor property" Url="html/P_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode_Predecessor.htm" />
+  <HelpKINode Title="Discovered property">
+    <HelpKINode Title="AStarNode.Discovered Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_Discovered.htm" />
+    <HelpKINode Title="IAStarNode.Discovered Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_Discovered.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Distance method">
+    <HelpKINode Title="Vector2F.Distance Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Distance.htm" />
+    <HelpKINode Title="Vector2I.Distance Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Distance.htm" />
+    <HelpKINode Title="Vector3F.Distance Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Distance.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DistanceSquared method">
+    <HelpKINode Title="Vector2F.DistanceSquared Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_DistanceSquared.htm" />
+    <HelpKINode Title="Vector2I.DistanceSquared Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_DistanceSquared.htm" />
+    <HelpKINode Title="Vector3F.DistanceSquared Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_DistanceSquared.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Divide method">
+    <HelpKINode Title="Vector2F.Divide Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Divide.htm" />
+    <HelpKINode Title="Vector2I.Divide Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Divide.htm" />
+    <HelpKINode Title="Vector3F.Divide Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Divide.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Division operator">
+    <HelpKINode Title="Vector2F.Division Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Division.htm" />
+    <HelpKINode Title="Vector2I.Division Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Division.htm" />
+    <HelpKINode Title="Vector3F.Division Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Division.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dot method">
+    <HelpKINode Title="Vector2F.Dot Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Dot.htm" />
+    <HelpKINode Title="Vector2I.Dot Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Dot.htm" />
+    <HelpKINode Title="Vector3F.Dot Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Dot.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EdgeCount property">
+    <HelpKINode Title="Graph(TVertex, TEdge).EdgeCount Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_EdgeCount.htm" />
+    <HelpKINode Title="GraphF.EdgeCount Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphF_EdgeCount.htm" />
+    <HelpKINode Title="GraphI.EdgeCount Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphI_EdgeCount.htm" />
+    <HelpKINode Title="IGraph(TVertex).EdgeCount Property " Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_EdgeCount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Edges property">
+    <HelpKINode Title="Graph(TVertex, TEdge).Edges Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Edges.htm" />
+    <HelpKINode Title="GraphF.Edges Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphF_Edges.htm" />
+    <HelpKINode Title="GraphI.Edges Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphI_Edges.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput).Edges Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_Edges.htm" />
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge).Edges Property " Url="html/P_Npruehs_GrabBag_Graphs_IWeightedGraph_2_Edges.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput).Edges Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_Edges.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Empty property">
+    <HelpKINode Title="FibonacciHeap(T).Empty Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Empty.htm" />
+    <HelpKINode Title="IPriorityQueue(T).Empty Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Empty.htm" />
+    <HelpKINode Title="PriorityQueue(T).Empty Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Empty.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EpsteinVanStee class">
+    <HelpKINode Title="EpsteinVanStee Class" Url="html/T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+    <HelpKINode Title="EpsteinVanStee Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+    <HelpKINode Title="about EpsteinVanStee class" Url="html/T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EpsteinVanStee.AssumedMaximumItemWidthAndHeight field" Url="html/F_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee_AssumedMaximumItemWidthAndHeight.htm" />
+  <HelpKINode Title="EpsteinVanStee.AssumedStripWidth field" Url="html/F_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee_AssumedStripWidth.htm" />
+  <HelpKINode Title="EpsteinVanStee.EpsteinVanStee constructor" Url="html/M_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee__ctor.htm" />
+  <HelpKINode Title="EpsteinVanStee.FindSolution method" Url="html/M_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee_FindSolution.htm" />
+  <HelpKINode Title="Equality operator">
+    <HelpKINode Title="Vector2F.Equality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Equality.htm" />
+    <HelpKINode Title="Vector2I.Equality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Equality.htm" />
+    <HelpKINode Title="Vector3F.Equality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Equality.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Equals method">
+    <HelpKINode Title="BoxF.Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_BoxF_Equals.htm" />
+    <HelpKINode Title="PackingItem.Equals Method " Url="html/Overload_Npruehs_GrabBag_Packing_PackingItem_Equals.htm" />
+    <HelpKINode Title="RectangleF.Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleF_Equals.htm" />
+    <HelpKINode Title="RectangleI.Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleI_Equals.htm" />
+    <HelpKINode Title="Vector2F.Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Equals.htm" />
+    <HelpKINode Title="Vector2I.Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Equals.htm" />
+    <HelpKINode Title="Vector3F.Equals Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Equals.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EstimateHeuristicMovementCost method">
+    <HelpKINode Title="AStarNode.EstimateHeuristicMovementCost Method " Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_EstimateHeuristicMovementCost.htm" />
+    <HelpKINode Title="IAStarNode.EstimateHeuristicMovementCost Method " Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_EstimateHeuristicMovementCost.htm" />
+  </HelpKINode>
+  <HelpKINode Title="F property">
+    <HelpKINode Title="AStarNode.F Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_F.htm" />
+    <HelpKINode Title="IAStarNode.F Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_F.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FibonacciHeap(Of T) class">
+    <HelpKINode Title="FibonacciHeap(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="FibonacciHeap(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="about FibonacciHeap(Of T) class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FibonacciHeap(Of T).Clear method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Clear.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).Count property" Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Count.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).DecreaseKey method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DecreaseKey.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).DecreaseKeyTo method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DecreaseKeyTo.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).Delete method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Delete.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).DeleteMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DeleteMin.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).Empty property" Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Empty.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).FibonacciHeap constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1__ctor.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).FindMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_FindMin.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).Insert method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Insert.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).Meld method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Meld.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).TreeNode class">
+    <HelpKINode Title="FibonacciHeap(T).TreeNode Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="FibonacciHeap(T).TreeNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="about FibonacciHeap(Of T).TreeNode class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FibonacciHeap(Of T).TreeNode.AddChild method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_AddChild.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).TreeNode.CutEdgeToParent method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_CutEdgeToParent.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).TreeNode.Link method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_Link.htm" />
+  <HelpKINode Title="FibonacciHeap(Of T).TreeNode.TreeNode constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode__ctor.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt; class">
+    <HelpKINode Title="FibonacciHeap(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="FibonacciHeap(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="about FibonacciHeap&lt;T&gt; class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.Clear method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Clear.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.Count property" Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Count.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.DecreaseKey method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DecreaseKey.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.DecreaseKeyTo method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DecreaseKeyTo.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.Delete method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Delete.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.DeleteMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_DeleteMin.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.Empty property" Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Empty.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.FibonacciHeap constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1__ctor.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.FindMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_FindMin.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.Insert method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Insert.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.Meld method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Meld.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.TreeNode class">
+    <HelpKINode Title="FibonacciHeap(T).TreeNode Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="FibonacciHeap(T).TreeNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="about FibonacciHeap&lt;T&gt;.TreeNode class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.TreeNode.AddChild method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_AddChild.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.TreeNode.CutEdgeToParent method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_CutEdgeToParent.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.TreeNode.Link method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_Link.htm" />
+  <HelpKINode Title="FibonacciHeap&lt;T&gt;.TreeNode.TreeNode constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode__ctor.htm" />
+  <HelpKINode Title="FibonacciHeapItem(Of T) class">
+    <HelpKINode Title="FibonacciHeapItem(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="FibonacciHeapItem(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="about FibonacciHeapItem(Of T) class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FibonacciHeapItem(Of T).Item property" Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1_Item.htm" />
+  <HelpKINode Title="FibonacciHeapItem(Of T).Key property" Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1_Key.htm" />
+  <HelpKINode Title="FibonacciHeapItem&lt;T&gt; class">
+    <HelpKINode Title="FibonacciHeapItem(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="FibonacciHeapItem(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="about FibonacciHeapItem&lt;T&gt; class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FibonacciHeapItem&lt;T&gt;.Item property" Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1_Item.htm" />
+  <HelpKINode Title="FibonacciHeapItem&lt;T&gt;.Key property" Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1_Key.htm" />
+  <HelpKINode Title="Find method">
+    <HelpKINode Title="IUnionFind(T).Find Method " Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_Find.htm" />
+    <HelpKINode Title="UnionFind(T).Find Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_Find.htm" />
+    <HelpKINode Title="UnionFindStructure(T).Find Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_Find.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FindMin method">
+    <HelpKINode Title="FibonacciHeap(T).FindMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_FindMin.htm" />
+    <HelpKINode Title="IPriorityQueue(T).FindMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_FindMin.htm" />
+    <HelpKINode Title="PriorityQueue(T).FindMin Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_FindMin.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FindPath method" Url="html/Overload_Npruehs_GrabBag_ShortestPaths_AStar_AStar_FindPath.htm" />
+  <HelpKINode Title="FindPaths method" Url="html/Overload_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra_FindPaths.htm" />
+  <HelpKINode Title="FindSolution method">
+    <HelpKINode Title="EpsteinVanStee.FindSolution Method " Url="html/M_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee_FindSolution.htm" />
+    <HelpKINode Title="FirstFitDecreasingHeight.FindSolution Method " Url="html/Overload_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight_FindSolution.htm" />
+    <HelpKINode Title="FredmanTarjan(TVertex, TEdge).FindSolution Method " Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2_FindSolution.htm" />
+    <HelpKINode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge).FindSolution Method " Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2_FindSolution.htm" />
+    <HelpKINode Title="PackingAlgorithm.FindSolution Method " Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_FindSolution.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FirstFitDecreasingHeight class">
+    <HelpKINode Title="FirstFitDecreasingHeight Class" Url="html/T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+    <HelpKINode Title="FirstFitDecreasingHeight Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+    <HelpKINode Title="about FirstFitDecreasingHeight class" Url="html/T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FirstFitDecreasingHeight.FindSolution method" Url="html/Overload_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight_FindSolution.htm" />
+  <HelpKINode Title="FirstFitDecreasingHeight.FirstFitDecreasingHeight constructor" Url="html/M_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight__ctor.htm" />
+  <HelpKINode Title="FloatEdge class">
+    <HelpKINode Title="FloatEdge Class" Url="html/T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+    <HelpKINode Title="FloatEdge Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+    <HelpKINode Title="about FloatEdge class" Url="html/T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Graphs_FloatEdge__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FloatEdge.FloatEdge constructor" Url="html/M_Npruehs_GrabBag_Graphs_FloatEdge__ctor.htm" />
+  <HelpKINode Title="FloatEdge.Source property" Url="html/P_Npruehs_GrabBag_Graphs_FloatEdge_Source.htm" />
+  <HelpKINode Title="FloatEdge.Target property" Url="html/P_Npruehs_GrabBag_Graphs_FloatEdge_Target.htm" />
+  <HelpKINode Title="FloatEdge.Weight property" Url="html/P_Npruehs_GrabBag_Graphs_FloatEdge_Weight.htm" />
+  <HelpKINode Title="Floor method" Url="html/M_Npruehs_GrabBag_Math_Math2_Floor.htm" />
+  <HelpKINode Title="FredmanTarjan(Of TVertex, TEdge) class">
+    <HelpKINode Title="FredmanTarjan(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="FredmanTarjan(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="about FredmanTarjan(Of TVertex, TEdge) class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FredmanTarjan(Of TVertex, TEdge).FindSolution method" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2_FindSolution.htm" />
+  <HelpKINode Title="FredmanTarjan(Of TVertex, TEdge).FredmanTarjan constructor" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2__ctor.htm" />
+  <HelpKINode Title="FredmanTarjan&lt;TVertex, TEdge&gt; class">
+    <HelpKINode Title="FredmanTarjan(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="FredmanTarjan(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="about FredmanTarjan&lt;TVertex, TEdge&gt; class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FredmanTarjan&lt;TVertex, TEdge&gt;.FindSolution method" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2_FindSolution.htm" />
+  <HelpKINode Title="FredmanTarjan&lt;TVertex, TEdge&gt;.FredmanTarjan constructor" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2__ctor.htm" />
+  <HelpKINode Title="FredmanTarjanEdge class">
+    <HelpKINode Title="FredmanTarjanEdge Class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+    <HelpKINode Title="FredmanTarjanEdge Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+    <HelpKINode Title="about FredmanTarjanEdge class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FredmanTarjanEdge.FredmanTarjanEdge constructor" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge__ctor.htm" />
+  <HelpKINode Title="Front property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Front.htm" />
+  <HelpKINode Title="G property">
+    <HelpKINode Title="AStarNode.G Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_G.htm" />
+    <HelpKINode Title="IAStarNode.G Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_G.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetBit method" Url="html/M_Npruehs_GrabBag_Math_Math2_GetBit.htm" />
+  <HelpKINode Title="GetDistance method">
+    <HelpKINode Title="ConfigurationSpace2I.GetDistance Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I_GetDistance.htm" />
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput).GetDistance Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_GetDistance.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEdge method">
+    <HelpKINode Title="Graph(TVertex, TEdge).GetEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_GetEdge.htm" />
+    <HelpKINode Title="GraphF.GetEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_GetEdge.htm" />
+    <HelpKINode Title="GraphI.GetEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_GetEdge.htm" />
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge).GetEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_GetEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetEnumerator method">
+    <HelpKINode Title="PackingAlgorithm.GetEnumerator Method " Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_GetEnumerator.htm" />
+    <HelpKINode Title="PriorityQueue(T).GetEnumerator Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_GetEnumerator.htm" />
+    <HelpKINode Title="UnionFind(T).GetEnumerator Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_GetEnumerator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetHashCode method">
+    <HelpKINode Title="BoxF.GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_GetHashCode.htm" />
+    <HelpKINode Title="RectangleF.GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_GetHashCode.htm" />
+    <HelpKINode Title="RectangleI.GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_GetHashCode.htm" />
+    <HelpKINode Title="Vector2F.GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_GetHashCode.htm" />
+    <HelpKINode Title="Vector2I.GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_GetHashCode.htm" />
+    <HelpKINode Title="Vector3F.GetHashCode Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_GetHashCode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetRandomState method">
+    <HelpKINode Title="ConfigurationSpace2I.GetRandomState Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I_GetRandomState.htm" />
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput).GetRandomState Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_GetRandomState.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Graph(Of TVertex, TEdge) class">
+    <HelpKINode Title="Graph(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="Graph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="about Graph(Of TVertex, TEdge) class" Url="html/T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Graph(Of TVertex, TEdge).AddDirectedEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_Graph_2_AddDirectedEdge.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).AddEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_Graph_2_AddEdge.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).AdjacentVertices method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_AdjacentVertices.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).Degree method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_Degree.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).EdgeCount property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_EdgeCount.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).Edges property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Edges.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).GetEdge method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_GetEdge.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).Graph constructor" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2__ctor.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).HasEdge method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_HasEdge.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).IncidentEdges method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_IncidentEdges.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).Item property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Item.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).VertexCount property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_VertexCount.htm" />
+  <HelpKINode Title="Graph(Of TVertex, TEdge).Vertices property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Vertices.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt; class">
+    <HelpKINode Title="Graph(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="Graph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="about Graph&lt;TVertex, TEdge&gt; class" Url="html/T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.AddDirectedEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_Graph_2_AddDirectedEdge.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.AddEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_Graph_2_AddEdge.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.AdjacentVertices method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_AdjacentVertices.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.Degree method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_Degree.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.EdgeCount property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_EdgeCount.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.Edges property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Edges.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.GetEdge method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_GetEdge.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.Graph constructor" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2__ctor.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.HasEdge method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_HasEdge.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.IncidentEdges method" Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_IncidentEdges.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.Item property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Item.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.VertexCount property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_VertexCount.htm" />
+  <HelpKINode Title="Graph&lt;TVertex, TEdge&gt;.Vertices property" Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Vertices.htm" />
+  <HelpKINode Title="GraphF class">
+    <HelpKINode Title="GraphF Class" Url="html/T_Npruehs_GrabBag_Graphs_GraphF.htm" />
+    <HelpKINode Title="GraphF Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_GraphF.htm" />
+    <HelpKINode Title="about GraphF class" Url="html/T_Npruehs_GrabBag_Graphs_GraphF.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_GraphF.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Graphs_GraphF__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_GraphF.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_GraphF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GraphF.AddDirectedEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_GraphF_AddDirectedEdge.htm" />
+  <HelpKINode Title="GraphF.AddEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_GraphF_AddEdge.htm" />
+  <HelpKINode Title="GraphF.AdjacentVertices method" Url="html/M_Npruehs_GrabBag_Graphs_GraphF_AdjacentVertices.htm" />
+  <HelpKINode Title="GraphF.Degree method" Url="html/M_Npruehs_GrabBag_Graphs_GraphF_Degree.htm" />
+  <HelpKINode Title="GraphF.EdgeCount property" Url="html/P_Npruehs_GrabBag_Graphs_GraphF_EdgeCount.htm" />
+  <HelpKINode Title="GraphF.Edges property" Url="html/P_Npruehs_GrabBag_Graphs_GraphF_Edges.htm" />
+  <HelpKINode Title="GraphF.GetEdge method" Url="html/M_Npruehs_GrabBag_Graphs_GraphF_GetEdge.htm" />
+  <HelpKINode Title="GraphF.GraphF constructor" Url="html/M_Npruehs_GrabBag_Graphs_GraphF__ctor.htm" />
+  <HelpKINode Title="GraphF.HasEdge method" Url="html/M_Npruehs_GrabBag_Graphs_GraphF_HasEdge.htm" />
+  <HelpKINode Title="GraphF.IncidentEdges method" Url="html/M_Npruehs_GrabBag_Graphs_GraphF_IncidentEdges.htm" />
+  <HelpKINode Title="GraphF.VertexCount property" Url="html/P_Npruehs_GrabBag_Graphs_GraphF_VertexCount.htm" />
+  <HelpKINode Title="GraphF.Vertices property" Url="html/P_Npruehs_GrabBag_Graphs_GraphF_Vertices.htm" />
+  <HelpKINode Title="GraphI class">
+    <HelpKINode Title="GraphI Class" Url="html/T_Npruehs_GrabBag_Graphs_GraphI.htm" />
+    <HelpKINode Title="GraphI Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_GraphI.htm" />
+    <HelpKINode Title="about GraphI class" Url="html/T_Npruehs_GrabBag_Graphs_GraphI.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_GraphI.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Graphs_GraphI__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_GraphI.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_GraphI.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GraphI.AddDirectedEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_GraphI_AddDirectedEdge.htm" />
+  <HelpKINode Title="GraphI.AddEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_GraphI_AddEdge.htm" />
+  <HelpKINode Title="GraphI.AdjacentVertices method" Url="html/M_Npruehs_GrabBag_Graphs_GraphI_AdjacentVertices.htm" />
+  <HelpKINode Title="GraphI.Degree method" Url="html/M_Npruehs_GrabBag_Graphs_GraphI_Degree.htm" />
+  <HelpKINode Title="GraphI.EdgeCount property" Url="html/P_Npruehs_GrabBag_Graphs_GraphI_EdgeCount.htm" />
+  <HelpKINode Title="GraphI.Edges property" Url="html/P_Npruehs_GrabBag_Graphs_GraphI_Edges.htm" />
+  <HelpKINode Title="GraphI.GetEdge method" Url="html/M_Npruehs_GrabBag_Graphs_GraphI_GetEdge.htm" />
+  <HelpKINode Title="GraphI.GraphI constructor" Url="html/M_Npruehs_GrabBag_Graphs_GraphI__ctor.htm" />
+  <HelpKINode Title="GraphI.HasEdge method" Url="html/M_Npruehs_GrabBag_Graphs_GraphI_HasEdge.htm" />
+  <HelpKINode Title="GraphI.IncidentEdges method" Url="html/M_Npruehs_GrabBag_Graphs_GraphI_IncidentEdges.htm" />
+  <HelpKINode Title="GraphI.VertexCount property" Url="html/P_Npruehs_GrabBag_Graphs_GraphI_VertexCount.htm" />
+  <HelpKINode Title="GraphI.Vertices property" Url="html/P_Npruehs_GrabBag_Graphs_GraphI_Vertices.htm" />
+  <HelpKINode Title="GrowTree method">
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput).GrowTree Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_GrowTree.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput).GrowTree Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_GrowTree.htm" />
+  </HelpKINode>
+  <HelpKINode Title="H property">
+    <HelpKINode Title="AStarNode.H Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_H.htm" />
+    <HelpKINode Title="IAStarNode.H Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_H.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HasEdge method">
+    <HelpKINode Title="Graph(TVertex, TEdge).HasEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_HasEdge.htm" />
+    <HelpKINode Title="GraphF.HasEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_HasEdge.htm" />
+    <HelpKINode Title="GraphI.HasEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_HasEdge.htm" />
+    <HelpKINode Title="IGraph(TVertex).HasEdge Method " Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_HasEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Height property">
+    <HelpKINode Title="BoxF.Height Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Height.htm" />
+    <HelpKINode Title="RectangleF.Height Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Height.htm" />
+    <HelpKINode Title="RectangleI.Height Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Height.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAStarNode interface">
+    <HelpKINode Title="IAStarNode Interface" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm" />
+    <HelpKINode Title="IAStarNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm" />
+    <HelpKINode Title="about IAStarNode interface" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAStarNode.Discovered property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_Discovered.htm" />
+  <HelpKINode Title="IAStarNode.EstimateHeuristicMovementCost method" Url="html/M_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_EstimateHeuristicMovementCost.htm" />
+  <HelpKINode Title="IAStarNode.F property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_F.htm" />
+  <HelpKINode Title="IAStarNode.G property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_G.htm" />
+  <HelpKINode Title="IAStarNode.H property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_H.htm" />
+  <HelpKINode Title="IAStarNode.IsWalkable property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_IsWalkable.htm" />
+  <HelpKINode Title="IAStarNode.ParentNode property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_ParentNode.htm" />
+  <HelpKINode Title="IAStarNode.Visited property" Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_Visited.htm" />
+  <HelpKINode Title="IConfigurationSpace(Of TConfiguration, TInput) interface">
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="about IConfigurationSpace(Of TConfiguration, TInput) interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IConfigurationSpace(Of TConfiguration, TInput).GetDistance method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_GetDistance.htm" />
+  <HelpKINode Title="IConfigurationSpace(Of TConfiguration, TInput).GetRandomState method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_GetRandomState.htm" />
+  <HelpKINode Title="IConfigurationSpace(Of TConfiguration, TInput).NewState method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_NewState.htm" />
+  <HelpKINode Title="IConfigurationSpace&lt;TConfiguration, TInput&gt; interface">
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="about IConfigurationSpace&lt;TConfiguration, TInput&gt; interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IConfigurationSpace&lt;TConfiguration, TInput&gt;.GetDistance method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_GetDistance.htm" />
+  <HelpKINode Title="IConfigurationSpace&lt;TConfiguration, TInput&gt;.GetRandomState method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_GetRandomState.htm" />
+  <HelpKINode Title="IConfigurationSpace&lt;TConfiguration, TInput&gt;.NewState method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_NewState.htm" />
+  <HelpKINode Title="Id property" Url="html/P_Npruehs_GrabBag_Packing_PackingItem_Id.htm" />
+  <HelpKINode Title="IDijkstraNode interface">
+    <HelpKINode Title="IDijkstraNode Interface" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm" />
+    <HelpKINode Title="IDijkstraNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm" />
+    <HelpKINode Title="about IDijkstraNode interface" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IDijkstraNode.Predecessor property" Url="html/P_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode_Predecessor.htm" />
+  <HelpKINode Title="IEnumerable.GetEnumerator explicitly implemented method">
+    <HelpKINode Title="PackingAlgorithm.IEnumerable.GetEnumerator Method " Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_System_Collections_IEnumerable_GetEnumerator.htm" />
+    <HelpKINode Title="PriorityQueue(T).IEnumerable.GetEnumerator Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_System_Collections_IEnumerable_GetEnumerator.htm" />
+    <HelpKINode Title="UnionFind(T).IEnumerable.GetEnumerator Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_System_Collections_IEnumerable_GetEnumerator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFredmanTarjanEdge interface">
+    <HelpKINode Title="IFredmanTarjanEdge Interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm" />
+    <HelpKINode Title="IFredmanTarjanEdge Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm" />
+    <HelpKINode Title="about IFredmanTarjanEdge interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IFredmanTarjanEdge.Source property" Url="html/P_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge_Source.htm" />
+  <HelpKINode Title="IFredmanTarjanEdge.Target property" Url="html/P_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge_Target.htm" />
+  <HelpKINode Title="IFredmanTarjanEdge.Weight property" Url="html/P_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge_Weight.htm" />
+  <HelpKINode Title="IGraph(Of TVertex) interface">
+    <HelpKINode Title="IGraph(TVertex) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="IGraph(TVertex) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="about IGraph(Of TVertex) interface" Url="html/T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IGraph(Of TVertex).AddDirectedEdge method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AddDirectedEdge.htm" />
+  <HelpKINode Title="IGraph(Of TVertex).AddEdge method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AddEdge.htm" />
+  <HelpKINode Title="IGraph(Of TVertex).AdjacentVertices method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AdjacentVertices.htm" />
+  <HelpKINode Title="IGraph(Of TVertex).Degree method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_Degree.htm" />
+  <HelpKINode Title="IGraph(Of TVertex).EdgeCount property" Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_EdgeCount.htm" />
+  <HelpKINode Title="IGraph(Of TVertex).HasEdge method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_HasEdge.htm" />
+  <HelpKINode Title="IGraph(Of TVertex).VertexCount property" Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_VertexCount.htm" />
+  <HelpKINode Title="IGraph(Of TVertex).Vertices property" Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_Vertices.htm" />
+  <HelpKINode Title="IGraph&lt;TVertex&gt; interface">
+    <HelpKINode Title="IGraph(TVertex) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="IGraph(TVertex) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="about IGraph&lt;TVertex&gt; interface" Url="html/T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IGraph&lt;TVertex&gt;.AddDirectedEdge method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AddDirectedEdge.htm" />
+  <HelpKINode Title="IGraph&lt;TVertex&gt;.AddEdge method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AddEdge.htm" />
+  <HelpKINode Title="IGraph&lt;TVertex&gt;.AdjacentVertices method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_AdjacentVertices.htm" />
+  <HelpKINode Title="IGraph&lt;TVertex&gt;.Degree method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_Degree.htm" />
+  <HelpKINode Title="IGraph&lt;TVertex&gt;.EdgeCount property" Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_EdgeCount.htm" />
+  <HelpKINode Title="IGraph&lt;TVertex&gt;.HasEdge method" Url="html/M_Npruehs_GrabBag_Graphs_IGraph_1_HasEdge.htm" />
+  <HelpKINode Title="IGraph&lt;TVertex&gt;.VertexCount property" Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_VertexCount.htm" />
+  <HelpKINode Title="IGraph&lt;TVertex&gt;.Vertices property" Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_Vertices.htm" />
+  <HelpKINode Title="IMinimumSpanningTreeAlgorithm(Of TVertex, TEdge) interface">
+    <HelpKINode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="about IMinimumSpanningTreeAlgorithm(Of TVertex, TEdge) interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMinimumSpanningTreeAlgorithm(Of TVertex, TEdge).FindSolution method" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2_FindSolution.htm" />
+  <HelpKINode Title="IMinimumSpanningTreeAlgorithm&lt;TVertex, TEdge&gt; interface">
+    <HelpKINode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="about IMinimumSpanningTreeAlgorithm&lt;TVertex, TEdge&gt; interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IMinimumSpanningTreeAlgorithm&lt;TVertex, TEdge&gt;.FindSolution method" Url="html/M_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2_FindSolution.htm" />
+  <HelpKINode Title="IncidentEdges method">
+    <HelpKINode Title="Graph(TVertex, TEdge).IncidentEdges Method " Url="html/M_Npruehs_GrabBag_Graphs_Graph_2_IncidentEdges.htm" />
+    <HelpKINode Title="GraphF.IncidentEdges Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphF_IncidentEdges.htm" />
+    <HelpKINode Title="GraphI.IncidentEdges Method " Url="html/M_Npruehs_GrabBag_Graphs_GraphI_IncidentEdges.htm" />
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge).IncidentEdges Method " Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_IncidentEdges.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Index property">
+    <HelpKINode Title="AStarNode.Index Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_Index.htm" />
+    <HelpKINode Title="DijkstraNode.Index Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode_Index.htm" />
+    <HelpKINode Title="IntVertex.Index Property " Url="html/P_Npruehs_GrabBag_Graphs_IntVertex_Index.htm" />
+    <HelpKINode Title="IVertex.Index Property " Url="html/P_Npruehs_GrabBag_Graphs_IVertex_Index.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Inequality operator">
+    <HelpKINode Title="Vector2F.Inequality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Inequality.htm" />
+    <HelpKINode Title="Vector2I.Inequality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Inequality.htm" />
+    <HelpKINode Title="Vector3F.Inequality Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Inequality.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Input property">
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput).Input Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Input.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput).Input Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Input.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Insert method">
+    <HelpKINode Title="FibonacciHeap(T).Insert Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Insert.htm" />
+    <HelpKINode Title="IPriorityQueue(T).Insert Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Insert.htm" />
+    <HelpKINode Title="PriorityQueue(T).Insert Method " Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Insert.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Intersects method">
+    <HelpKINode Title="BoxF.Intersects Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_Intersects.htm" />
+    <HelpKINode Title="RectangleF.Intersects Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Intersects.htm" />
+    <HelpKINode Title="RectangleI.Intersects Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_Intersects.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntVertex class">
+    <HelpKINode Title="IntVertex Class" Url="html/T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+    <HelpKINode Title="IntVertex Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+    <HelpKINode Title="about IntVertex class" Url="html/T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Graphs_IntVertex__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IntVertex.Index property" Url="html/P_Npruehs_GrabBag_Graphs_IntVertex_Index.htm" />
+  <HelpKINode Title="IntVertex.IntVertex constructor" Url="html/M_Npruehs_GrabBag_Graphs_IntVertex__ctor.htm" />
+  <HelpKINode Title="IPriorityQueue(Of T) interface">
+    <HelpKINode Title="IPriorityQueue(T) Interface" Url="html/T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="IPriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="about IPriorityQueue(Of T) interface" Url="html/T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPriorityQueue(Of T).Clear method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Clear.htm" />
+  <HelpKINode Title="IPriorityQueue(Of T).Count property" Url="html/P_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Count.htm" />
+  <HelpKINode Title="IPriorityQueue(Of T).DecreaseKey method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DecreaseKey.htm" />
+  <HelpKINode Title="IPriorityQueue(Of T).DecreaseKeyTo method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DecreaseKeyTo.htm" />
+  <HelpKINode Title="IPriorityQueue(Of T).Delete method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Delete.htm" />
+  <HelpKINode Title="IPriorityQueue(Of T).DeleteMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DeleteMin.htm" />
+  <HelpKINode Title="IPriorityQueue(Of T).Empty property" Url="html/P_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Empty.htm" />
+  <HelpKINode Title="IPriorityQueue(Of T).FindMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_FindMin.htm" />
+  <HelpKINode Title="IPriorityQueue(Of T).Insert method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Insert.htm" />
+  <HelpKINode Title="IPriorityQueue&lt;T&gt; interface">
+    <HelpKINode Title="IPriorityQueue(T) Interface" Url="html/T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="IPriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="about IPriorityQueue&lt;T&gt; interface" Url="html/T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPriorityQueue&lt;T&gt;.Clear method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Clear.htm" />
+  <HelpKINode Title="IPriorityQueue&lt;T&gt;.Count property" Url="html/P_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Count.htm" />
+  <HelpKINode Title="IPriorityQueue&lt;T&gt;.DecreaseKey method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DecreaseKey.htm" />
+  <HelpKINode Title="IPriorityQueue&lt;T&gt;.DecreaseKeyTo method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DecreaseKeyTo.htm" />
+  <HelpKINode Title="IPriorityQueue&lt;T&gt;.Delete method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Delete.htm" />
+  <HelpKINode Title="IPriorityQueue&lt;T&gt;.DeleteMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_DeleteMin.htm" />
+  <HelpKINode Title="IPriorityQueue&lt;T&gt;.Empty property" Url="html/P_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Empty.htm" />
+  <HelpKINode Title="IPriorityQueue&lt;T&gt;.FindMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_FindMin.htm" />
+  <HelpKINode Title="IPriorityQueue&lt;T&gt;.Insert method" Url="html/M_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1_Insert.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTree(Of TConfiguration, TInput) interface">
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="about IRapidlyExploringRandomTree(Of TConfiguration, TInput) interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRapidlyExploringRandomTree(Of TConfiguration, TInput).Edges property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_Edges.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTree(Of TConfiguration, TInput).GrowTree method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_GrowTree.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTree(Of TConfiguration, TInput).Vertices property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_Vertices.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTree&lt;TConfiguration, TInput&gt; interface">
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="about IRapidlyExploringRandomTree&lt;TConfiguration, TInput&gt; interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRapidlyExploringRandomTree&lt;TConfiguration, TInput&gt;.Edges property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_Edges.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTree&lt;TConfiguration, TInput&gt;.GrowTree method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_GrowTree.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTree&lt;TConfiguration, TInput&gt;.Vertices property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_Vertices.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTreeEdge(Of TConfiguration, TInput) interface">
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="about IRapidlyExploringRandomTreeEdge(Of TConfiguration, TInput) interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRapidlyExploringRandomTreeEdge(Of TConfiguration, TInput).Input property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Input.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTreeEdge(Of TConfiguration, TInput).Source property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Source.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTreeEdge(Of TConfiguration, TInput).Target property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Target.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt; interface">
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="about IRapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt; interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IRapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt;.Input property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Input.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt;.Source property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Source.htm" />
+  <HelpKINode Title="IRapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt;.Target property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Target.htm" />
+  <HelpKINode Title="IsWalkable property">
+    <HelpKINode Title="AStarNode.IsWalkable Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_IsWalkable.htm" />
+    <HelpKINode Title="IAStarNode.IsWalkable Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_IsWalkable.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Item property">
+    <HelpKINode Title="FibonacciHeapItem(T).Item Property " Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1_Item.htm" />
+    <HelpKINode Title="Graph(TVertex, TEdge).Item Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Item.htm" />
+    <HelpKINode Title="PackingLevel.Item Property " Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Item.htm" />
+    <HelpKINode Title="UnionFindNode(T).Item Property " Url="html/P_Npruehs_GrabBag_UnionFind_UnionFindNode_1_Item.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Items property" Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Items.htm" />
+  <HelpKINode Title="IUnionFind(Of T) interface">
+    <HelpKINode Title="IUnionFind(T) Interface" Url="html/T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="IUnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="about IUnionFind(Of T) interface" Url="html/T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IUnionFind(Of T).Find method" Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_Find.htm" />
+  <HelpKINode Title="IUnionFind(Of T).MakeSet method" Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_MakeSet.htm" />
+  <HelpKINode Title="IUnionFind(Of T).Union method" Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_Union.htm" />
+  <HelpKINode Title="IUnionFind&lt;T&gt; interface">
+    <HelpKINode Title="IUnionFind(T) Interface" Url="html/T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="IUnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="about IUnionFind&lt;T&gt; interface" Url="html/T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IUnionFind&lt;T&gt;.Find method" Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_Find.htm" />
+  <HelpKINode Title="IUnionFind&lt;T&gt;.MakeSet method" Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_MakeSet.htm" />
+  <HelpKINode Title="IUnionFind&lt;T&gt;.Union method" Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_Union.htm" />
+  <HelpKINode Title="IVertex interface">
+    <HelpKINode Title="IVertex Interface" Url="html/T_Npruehs_GrabBag_Graphs_IVertex.htm" />
+    <HelpKINode Title="IVertex Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IVertex.htm" />
+    <HelpKINode Title="about IVertex interface" Url="html/T_Npruehs_GrabBag_Graphs_IVertex.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IVertex.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IVertex.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IVertex.Index property" Url="html/P_Npruehs_GrabBag_Graphs_IVertex_Index.htm" />
+  <HelpKINode Title="IWeightedGraph(Of TVertex, TEdge) interface">
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="about IWeightedGraph(Of TVertex, TEdge) interface" Url="html/T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IWeightedGraph(Of TVertex, TEdge).AddDirectedEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddDirectedEdge.htm" />
+  <HelpKINode Title="IWeightedGraph(Of TVertex, TEdge).AddEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddEdge.htm" />
+  <HelpKINode Title="IWeightedGraph(Of TVertex, TEdge).Edges property" Url="html/P_Npruehs_GrabBag_Graphs_IWeightedGraph_2_Edges.htm" />
+  <HelpKINode Title="IWeightedGraph(Of TVertex, TEdge).GetEdge method" Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_GetEdge.htm" />
+  <HelpKINode Title="IWeightedGraph(Of TVertex, TEdge).IncidentEdges method" Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_IncidentEdges.htm" />
+  <HelpKINode Title="IWeightedGraph&lt;TVertex, TEdge&gt; interface">
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="about IWeightedGraph&lt;TVertex, TEdge&gt; interface" Url="html/T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IWeightedGraph&lt;TVertex, TEdge&gt;.AddDirectedEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddDirectedEdge.htm" />
+  <HelpKINode Title="IWeightedGraph&lt;TVertex, TEdge&gt;.AddEdge method" Url="html/Overload_Npruehs_GrabBag_Graphs_IWeightedGraph_2_AddEdge.htm" />
+  <HelpKINode Title="IWeightedGraph&lt;TVertex, TEdge&gt;.Edges property" Url="html/P_Npruehs_GrabBag_Graphs_IWeightedGraph_2_Edges.htm" />
+  <HelpKINode Title="IWeightedGraph&lt;TVertex, TEdge&gt;.GetEdge method" Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_GetEdge.htm" />
+  <HelpKINode Title="IWeightedGraph&lt;TVertex, TEdge&gt;.IncidentEdges method" Url="html/M_Npruehs_GrabBag_Graphs_IWeightedGraph_2_IncidentEdges.htm" />
+  <HelpKINode Title="Key property" Url="html/P_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1_Key.htm" />
+  <HelpKINode Title="Left property">
+    <HelpKINode Title="BoxF.Left Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Left.htm" />
+    <HelpKINode Title="RectangleF.Left Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Left.htm" />
+    <HelpKINode Title="RectangleI.Left Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Left.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Length property">
+    <HelpKINode Title="Vector2F.Length Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_Length.htm" />
+    <HelpKINode Title="Vector2I.Length Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_Length.htm" />
+    <HelpKINode Title="Vector3F.Length Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_Length.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LengthSquared property">
+    <HelpKINode Title="Vector2F.LengthSquared Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_LengthSquared.htm" />
+    <HelpKINode Title="Vector2I.LengthSquared Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_LengthSquared.htm" />
+    <HelpKINode Title="Vector3F.LengthSquared Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_LengthSquared.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Lerp method">
+    <HelpKINode Title="Math2.Lerp Method " Url="html/M_Npruehs_GrabBag_Math_Math2_Lerp.htm" />
+    <HelpKINode Title="Vector2F.Lerp Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Lerp.htm" />
+    <HelpKINode Title="Vector3F.Lerp Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Lerp.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Levels property" Url="html/P_Npruehs_GrabBag_Packing_PackingAlgorithm_Levels.htm" />
+  <HelpKINode Title="Link method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode_Link.htm" />
+  <HelpKINode Title="ListUtils class">
+    <HelpKINode Title="ListUtils Class" Url="html/T_Npruehs_GrabBag_Util_ListUtils.htm" />
+    <HelpKINode Title="ListUtils Members" Url="html/AllMembers_T_Npruehs_GrabBag_Util_ListUtils.htm" />
+    <HelpKINode Title="about ListUtils class" Url="html/T_Npruehs_GrabBag_Util_ListUtils.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Util_ListUtils.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Util_ListUtils__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Util_ListUtils.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListUtils.ListUtils constructor" Url="html/M_Npruehs_GrabBag_Util_ListUtils__ctor.htm" />
+  <HelpKINode Title="ListUtils.RadixSort method" Url="html/Overload_Npruehs_GrabBag_Util_ListUtils_RadixSort.htm" />
+  <HelpKINode Title="ListUtils.Swap(Of T) method" Url="html/M_Npruehs_GrabBag_Util_ListUtils_Swap__1.htm" />
+  <HelpKINode Title="ListUtils.Swap&lt;T&gt; method" Url="html/M_Npruehs_GrabBag_Util_ListUtils_Swap__1.htm" />
+  <HelpKINode Title="MakeSet method">
+    <HelpKINode Title="IUnionFind(T).MakeSet Method " Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_MakeSet.htm" />
+    <HelpKINode Title="UnionFind(T).MakeSet Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_MakeSet.htm" />
+    <HelpKINode Title="UnionFindStructure(T).MakeSet Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_MakeSet.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Math2 class">
+    <HelpKINode Title="Math2 Class" Url="html/T_Npruehs_GrabBag_Math_Math2.htm" />
+    <HelpKINode Title="Math2 Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Math2.htm" />
+    <HelpKINode Title="about Math2 class" Url="html/T_Npruehs_GrabBag_Math_Math2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Math2.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Npruehs_GrabBag_Math_Math2.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Math2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Math2.Ceil method" Url="html/M_Npruehs_GrabBag_Math_Math2_Ceil.htm" />
+  <HelpKINode Title="Math2.Clamp(Of T) method" Url="html/M_Npruehs_GrabBag_Math_Math2_Clamp__1.htm" />
+  <HelpKINode Title="Math2.Clamp&lt;T&gt; method" Url="html/M_Npruehs_GrabBag_Math_Math2_Clamp__1.htm" />
+  <HelpKINode Title="Math2.DegreesToRadians method" Url="html/M_Npruehs_GrabBag_Math_Math2_DegreesToRadians.htm" />
+  <HelpKINode Title="Math2.Floor method" Url="html/M_Npruehs_GrabBag_Math_Math2_Floor.htm" />
+  <HelpKINode Title="Math2.GetBit method" Url="html/M_Npruehs_GrabBag_Math_Math2_GetBit.htm" />
+  <HelpKINode Title="Math2.Lerp method" Url="html/M_Npruehs_GrabBag_Math_Math2_Lerp.htm" />
+  <HelpKINode Title="Math2.Pi field" Url="html/F_Npruehs_GrabBag_Math_Math2_Pi.htm" />
+  <HelpKINode Title="Math2.PiOverFour field" Url="html/F_Npruehs_GrabBag_Math_Math2_PiOverFour.htm" />
+  <HelpKINode Title="Math2.PiOverTwo field" Url="html/F_Npruehs_GrabBag_Math_Math2_PiOverTwo.htm" />
+  <HelpKINode Title="Math2.Round method" Url="html/M_Npruehs_GrabBag_Math_Math2_Round.htm" />
+  <HelpKINode Title="Math2.Sin45 field" Url="html/F_Npruehs_GrabBag_Math_Math2_Sin45.htm" />
+  <HelpKINode Title="Math2.Sqrt method" Url="html/M_Npruehs_GrabBag_Math_Math2_Sqrt.htm" />
+  <HelpKINode Title="Math2.Truncate method" Url="html/M_Npruehs_GrabBag_Math_Math2_Truncate.htm" />
+  <HelpKINode Title="Math2.TwoPi field" Url="html/F_Npruehs_GrabBag_Math_Math2_TwoPi.htm" />
+  <HelpKINode Title="Meld method" Url="html/M_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_Meld.htm" />
+  <HelpKINode Title="Multiply method">
+    <HelpKINode Title="Vector2F.Multiply Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Multiply.htm" />
+    <HelpKINode Title="Vector2I.Multiply Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Multiply.htm" />
+    <HelpKINode Title="Vector3F.Multiply Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Multiply.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Multiply operator">
+    <HelpKINode Title="Vector2F.Multiply Operator " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Multiply.htm" />
+    <HelpKINode Title="Vector2I.Multiply Operator " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Multiply.htm" />
+    <HelpKINode Title="Vector3F.Multiply Operator " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Multiply.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NewState method">
+    <HelpKINode Title="ConfigurationSpace2I.NewState Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I_NewState.htm" />
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput).NewState Method " Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2_NewState.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NextDouble method" Url="html/M_Npruehs_GrabBag_Util_Random2_NextDouble.htm" />
+  <HelpKINode Title="NextFloat method" Url="html/M_Npruehs_GrabBag_Util_Random2_NextFloat.htm" />
+  <HelpKINode Title="NextInt32 method" Url="html/Overload_Npruehs_GrabBag_Util_Random2_NextInt32.htm" />
+  <HelpKINode Title="NextInt64 method" Url="html/Overload_Npruehs_GrabBag_Util_Random2_NextInt64.htm" />
+  <HelpKINode Title="Normalize method">
+    <HelpKINode Title="Vector2F.Normalize Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Normalize.htm" />
+    <HelpKINode Title="Vector3F.Normalize Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Normalize.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs namespace" Url="html/N_Npruehs_GrabBag_Graphs.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.FloatEdge class">
+    <HelpKINode Title="FloatEdge Class" Url="html/T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+    <HelpKINode Title="FloatEdge Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_FloatEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.Graph(Of TVertex, TEdge) class">
+    <HelpKINode Title="Graph(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="Graph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.Graph&lt;TVertex, TEdge&gt; class">
+    <HelpKINode Title="Graph(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+    <HelpKINode Title="Graph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_Graph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.GraphF class">
+    <HelpKINode Title="GraphF Class" Url="html/T_Npruehs_GrabBag_Graphs_GraphF.htm" />
+    <HelpKINode Title="GraphF Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_GraphF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.GraphI class">
+    <HelpKINode Title="GraphI Class" Url="html/T_Npruehs_GrabBag_Graphs_GraphI.htm" />
+    <HelpKINode Title="GraphI Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_GraphI.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.IGraph(Of TVertex) interface">
+    <HelpKINode Title="IGraph(TVertex) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="IGraph(TVertex) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.IGraph&lt;TVertex&gt; interface">
+    <HelpKINode Title="IGraph(TVertex) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+    <HelpKINode Title="IGraph(TVertex) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IGraph_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.IntVertex class">
+    <HelpKINode Title="IntVertex Class" Url="html/T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+    <HelpKINode Title="IntVertex Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IntVertex.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.IVertex interface">
+    <HelpKINode Title="IVertex Interface" Url="html/T_Npruehs_GrabBag_Graphs_IVertex.htm" />
+    <HelpKINode Title="IVertex Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IVertex.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.IWeightedGraph(Of TVertex, TEdge) interface">
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Graphs.IWeightedGraph&lt;TVertex, TEdge&gt; interface">
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+    <HelpKINode Title="IWeightedGraph(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_Graphs_IWeightedGraph_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Math namespace" Url="html/N_Npruehs_GrabBag_Math.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.Math.Bresenham class">
+    <HelpKINode Title="Bresenham Class" Url="html/T_Npruehs_GrabBag_Math_Bresenham.htm" />
+    <HelpKINode Title="Bresenham Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Bresenham.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Math.Geometry namespace" Url="html/N_Npruehs_GrabBag_Math_Geometry.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.Math.Geometry.BoxF class">
+    <HelpKINode Title="BoxF Class" Url="html/T_Npruehs_GrabBag_Math_Geometry_BoxF.htm" />
+    <HelpKINode Title="BoxF Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_BoxF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Math.Geometry.RectangleF class">
+    <HelpKINode Title="RectangleF Class" Url="html/T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm" />
+    <HelpKINode Title="RectangleF Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Math.Geometry.RectangleI class">
+    <HelpKINode Title="RectangleI Class" Url="html/T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm" />
+    <HelpKINode Title="RectangleI Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Math.Math2 class">
+    <HelpKINode Title="Math2 Class" Url="html/T_Npruehs_GrabBag_Math_Math2.htm" />
+    <HelpKINode Title="Math2 Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Math2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Math.Vectors namespace" Url="html/N_Npruehs_GrabBag_Math_Vectors.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.Math.Vectors.Vector2F structure">
+    <HelpKINode Title="Vector2F Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+    <HelpKINode Title="Vector2F Structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Math.Vectors.Vector2I structure">
+    <HelpKINode Title="Vector2I Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+    <HelpKINode Title="Vector2I Structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Math.Vectors.Vector3F structure">
+    <HelpKINode Title="Vector3F Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+    <HelpKINode Title="Vector3F Structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.MinimumSpanningTrees namespace" Url="html/N_Npruehs_GrabBag_MinimumSpanningTrees.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.MinimumSpanningTrees.Algorithms namespace" Url="html/N_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.MinimumSpanningTrees.Algorithms.FredmanTarjan(Of TVertex, TEdge) class">
+    <HelpKINode Title="FredmanTarjan(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="FredmanTarjan(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.MinimumSpanningTrees.Algorithms.FredmanTarjan&lt;TVertex, TEdge&gt; class">
+    <HelpKINode Title="FredmanTarjan(TVertex, TEdge) Class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+    <HelpKINode Title="FredmanTarjan(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjan_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.MinimumSpanningTrees.Algorithms.FredmanTarjanEdge class">
+    <HelpKINode Title="FredmanTarjanEdge Class" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+    <HelpKINode Title="FredmanTarjanEdge Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_FredmanTarjanEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.MinimumSpanningTrees.Algorithms.IFredmanTarjanEdge interface">
+    <HelpKINode Title="IFredmanTarjanEdge Interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm" />
+    <HelpKINode Title="IFredmanTarjanEdge Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.MinimumSpanningTrees.IMinimumSpanningTreeAlgorithm(Of TVertex, TEdge) interface">
+    <HelpKINode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.MinimumSpanningTrees.IMinimumSpanningTreeAlgorithm&lt;TVertex, TEdge&gt; interface">
+    <HelpKINode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Interface" Url="html/T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+    <HelpKINode Title="IMinimumSpanningTreeAlgorithm(TVertex, TEdge) Members" Url="html/AllMembers_T_Npruehs_GrabBag_MinimumSpanningTrees_IMinimumSpanningTreeAlgorithm_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Packing namespace" Url="html/N_Npruehs_GrabBag_Packing.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.Packing.Algorithms namespace" Url="html/N_Npruehs_GrabBag_Packing_Algorithms.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.Packing.Algorithms.EpsteinVanStee class">
+    <HelpKINode Title="EpsteinVanStee Class" Url="html/T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+    <HelpKINode Title="EpsteinVanStee Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_Algorithms_EpsteinVanStee.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Packing.Algorithms.FirstFitDecreasingHeight class">
+    <HelpKINode Title="FirstFitDecreasingHeight Class" Url="html/T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+    <HelpKINode Title="FirstFitDecreasingHeight Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_Algorithms_FirstFitDecreasingHeight.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Packing.PackingAlgorithm class">
+    <HelpKINode Title="PackingAlgorithm Class" Url="html/T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm" />
+    <HelpKINode Title="PackingAlgorithm Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Packing.PackingItem class">
+    <HelpKINode Title="PackingItem Class" Url="html/T_Npruehs_GrabBag_Packing_PackingItem.htm" />
+    <HelpKINode Title="PackingItem Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Packing.PackingLevel class">
+    <HelpKINode Title="PackingLevel Class" Url="html/T_Npruehs_GrabBag_Packing_PackingLevel.htm" />
+    <HelpKINode Title="PackingLevel Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingLevel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues namespace" Url="html/N_Npruehs_GrabBag_PriorityQueues.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.FibonacciHeap(Of T) class">
+    <HelpKINode Title="FibonacciHeap(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="FibonacciHeap(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.FibonacciHeap(Of T).TreeNode class">
+    <HelpKINode Title="FibonacciHeap(T).TreeNode Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="FibonacciHeap(T).TreeNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.FibonacciHeap&lt;T&gt; class">
+    <HelpKINode Title="FibonacciHeap(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+    <HelpKINode Title="FibonacciHeap(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.FibonacciHeap&lt;T&gt;.TreeNode class">
+    <HelpKINode Title="FibonacciHeap(T).TreeNode Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+    <HelpKINode Title="FibonacciHeap(T).TreeNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeap_1_TreeNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.FibonacciHeapItem(Of T) class">
+    <HelpKINode Title="FibonacciHeapItem(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="FibonacciHeapItem(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.FibonacciHeapItem&lt;T&gt; class">
+    <HelpKINode Title="FibonacciHeapItem(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+    <HelpKINode Title="FibonacciHeapItem(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_FibonacciHeapItem_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.IPriorityQueue(Of T) interface">
+    <HelpKINode Title="IPriorityQueue(T) Interface" Url="html/T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="IPriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.IPriorityQueue&lt;T&gt; interface">
+    <HelpKINode Title="IPriorityQueue(T) Interface" Url="html/T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+    <HelpKINode Title="IPriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_IPriorityQueue_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.PriorityQueue(Of T) class">
+    <HelpKINode Title="PriorityQueue(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="PriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.PriorityQueues.PriorityQueue&lt;T&gt; class">
+    <HelpKINode Title="PriorityQueue(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="PriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees namespace" Url="html/N_Npruehs_GrabBag_RapidlyExploringRandomTrees.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.ConfigurationSpace2I class">
+    <HelpKINode Title="ConfigurationSpace2I Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm" />
+    <HelpKINode Title="ConfigurationSpace2I Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_ConfigurationSpace2I.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.IConfigurationSpace(Of TConfiguration, TInput) interface">
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.IConfigurationSpace&lt;TConfiguration, TInput&gt; interface">
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+    <HelpKINode Title="IConfigurationSpace(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IConfigurationSpace_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.IRapidlyExploringRandomTree(Of TConfiguration, TInput) interface">
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.IRapidlyExploringRandomTree&lt;TConfiguration, TInput&gt; interface">
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.IRapidlyExploringRandomTreeEdge(Of TConfiguration, TInput) interface">
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.IRapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt; interface">
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Interface" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.RapidlyExploringRandomTree(Of TConfiguration, TInput) class">
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.RapidlyExploringRandomTree&lt;TConfiguration, TInput&gt; class">
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.RapidlyExploringRandomTreeEdge(Of TConfiguration, TInput) class">
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.RapidlyExploringRandomTrees.RapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt; class">
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.ShortestPaths.AStar namespace" Url="html/N_Npruehs_GrabBag_ShortestPaths_AStar.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.ShortestPaths.AStar.AStar class">
+    <HelpKINode Title="AStar Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" />
+    <HelpKINode Title="AStar Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_AStar.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.ShortestPaths.AStar.AStarNode class">
+    <HelpKINode Title="AStarNode Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm" />
+    <HelpKINode Title="AStarNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.ShortestPaths.AStar.IAStarNode interface">
+    <HelpKINode Title="IAStarNode Interface" Url="html/T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm" />
+    <HelpKINode Title="IAStarNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.ShortestPaths.Dijkstra namespace" Url="html/N_Npruehs_GrabBag_ShortestPaths_Dijkstra.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.ShortestPaths.Dijkstra.Dijkstra class">
+    <HelpKINode Title="Dijkstra Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm" />
+    <HelpKINode Title="Dijkstra Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_Dijkstra.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.ShortestPaths.Dijkstra.DijkstraNode class">
+    <HelpKINode Title="DijkstraNode Class" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+    <HelpKINode Title="DijkstraNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.ShortestPaths.Dijkstra.IDijkstraNode interface">
+    <HelpKINode Title="IDijkstraNode Interface" Url="html/T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm" />
+    <HelpKINode Title="IDijkstraNode Members" Url="html/AllMembers_T_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.UnionFind namespace" Url="html/N_Npruehs_GrabBag_UnionFind.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.UnionFind.IUnionFind(Of T) interface">
+    <HelpKINode Title="IUnionFind(T) Interface" Url="html/T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="IUnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.UnionFind.IUnionFind&lt;T&gt; interface">
+    <HelpKINode Title="IUnionFind(T) Interface" Url="html/T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+    <HelpKINode Title="IUnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_IUnionFind_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.UnionFind.UnionFind(Of T) class">
+    <HelpKINode Title="UnionFind(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="UnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.UnionFind.UnionFind&lt;T&gt; class">
+    <HelpKINode Title="UnionFind(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="UnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.UnionFind.UnionFindNode(Of T) class">
+    <HelpKINode Title="UnionFindNode(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="UnionFindNode(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.UnionFind.UnionFindNode&lt;T&gt; class">
+    <HelpKINode Title="UnionFindNode(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="UnionFindNode(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.UnionFind.UnionFindStructure(Of T) class">
+    <HelpKINode Title="UnionFindStructure(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="UnionFindStructure(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.UnionFind.UnionFindStructure&lt;T&gt; class">
+    <HelpKINode Title="UnionFindStructure(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="UnionFindStructure(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Util namespace" Url="html/N_Npruehs_GrabBag_Util.htm" />
+  <HelpKINode Title="Npruehs.GrabBag.Util.ListUtils class">
+    <HelpKINode Title="ListUtils Class" Url="html/T_Npruehs_GrabBag_Util_ListUtils.htm" />
+    <HelpKINode Title="ListUtils Members" Url="html/AllMembers_T_Npruehs_GrabBag_Util_ListUtils.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Npruehs.GrabBag.Util.Random2 class">
+    <HelpKINode Title="Random2 Class" Url="html/T_Npruehs_GrabBag_Util_Random2.htm" />
+    <HelpKINode Title="Random2 Members" Url="html/AllMembers_T_Npruehs_GrabBag_Util_Random2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="One field">
+    <HelpKINode Title="Vector2F.One Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2F_One.htm" />
+    <HelpKINode Title="Vector2I.One Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2I_One.htm" />
+    <HelpKINode Title="Vector3F.One Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector3F_One.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PackingAlgorithm class">
+    <HelpKINode Title="PackingAlgorithm Class" Url="html/T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm" />
+    <HelpKINode Title="PackingAlgorithm Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm" />
+    <HelpKINode Title="about PackingAlgorithm class" Url="html/T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_PackingAlgorithm.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PackingAlgorithm.AddLevel method" Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_AddLevel.htm" />
+  <HelpKINode Title="PackingAlgorithm.ComputeValue method" Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_ComputeValue.htm" />
+  <HelpKINode Title="PackingAlgorithm.FindSolution method" Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_FindSolution.htm" />
+  <HelpKINode Title="PackingAlgorithm.GetEnumerator method" Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_GetEnumerator.htm" />
+  <HelpKINode Title="PackingAlgorithm.IEnumerable.GetEnumerator explicitly implemented method" Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm_System_Collections_IEnumerable_GetEnumerator.htm" />
+  <HelpKINode Title="PackingAlgorithm.Levels property" Url="html/P_Npruehs_GrabBag_Packing_PackingAlgorithm_Levels.htm" />
+  <HelpKINode Title="PackingAlgorithm.PackingAlgorithm constructor" Url="html/M_Npruehs_GrabBag_Packing_PackingAlgorithm__ctor.htm" />
+  <HelpKINode Title="PackingItem class">
+    <HelpKINode Title="PackingItem Class" Url="html/T_Npruehs_GrabBag_Packing_PackingItem.htm" />
+    <HelpKINode Title="PackingItem Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingItem.htm" />
+    <HelpKINode Title="about PackingItem class" Url="html/T_Npruehs_GrabBag_Packing_PackingItem.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingItem.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Npruehs_GrabBag_Packing_PackingItem__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_PackingItem.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_PackingItem.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PackingItem.Equals method" Url="html/Overload_Npruehs_GrabBag_Packing_PackingItem_Equals.htm" />
+  <HelpKINode Title="PackingItem.Id property" Url="html/P_Npruehs_GrabBag_Packing_PackingItem_Id.htm" />
+  <HelpKINode Title="PackingItem.PackingItem constructor" Url="html/Overload_Npruehs_GrabBag_Packing_PackingItem__ctor.htm" />
+  <HelpKINode Title="PackingItem.Rectangle property" Url="html/P_Npruehs_GrabBag_Packing_PackingItem_Rectangle.htm" />
+  <HelpKINode Title="PackingItem.Rotate method" Url="html/M_Npruehs_GrabBag_Packing_PackingItem_Rotate.htm" />
+  <HelpKINode Title="PackingItem.Rotated property" Url="html/P_Npruehs_GrabBag_Packing_PackingItem_Rotated.htm" />
+  <HelpKINode Title="PackingItem.ToString method" Url="html/M_Npruehs_GrabBag_Packing_PackingItem_ToString.htm" />
+  <HelpKINode Title="PackingLevel class">
+    <HelpKINode Title="PackingLevel Class" Url="html/T_Npruehs_GrabBag_Packing_PackingLevel.htm" />
+    <HelpKINode Title="PackingLevel Members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingLevel.htm" />
+    <HelpKINode Title="about PackingLevel class" Url="html/T_Npruehs_GrabBag_Packing_PackingLevel.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Packing_PackingLevel.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Npruehs_GrabBag_Packing_PackingLevel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Packing_PackingLevel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Packing_PackingLevel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PackingLevel.AddItem method" Url="html/M_Npruehs_GrabBag_Packing_PackingLevel_AddItem.htm" />
+  <HelpKINode Title="PackingLevel.Item property" Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Item.htm" />
+  <HelpKINode Title="PackingLevel.Items property" Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Items.htm" />
+  <HelpKINode Title="PackingLevel.PackingLevel constructor" Url="html/Overload_Npruehs_GrabBag_Packing_PackingLevel__ctor.htm" />
+  <HelpKINode Title="PackingLevel.Width property" Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Width.htm" />
+  <HelpKINode Title="PackingLevel.Y property" Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Y.htm" />
+  <HelpKINode Title="ParentNode property">
+    <HelpKINode Title="AStarNode.ParentNode Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_ParentNode.htm" />
+    <HelpKINode Title="IAStarNode.ParentNode Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_ParentNode.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Pi field" Url="html/F_Npruehs_GrabBag_Math_Math2_Pi.htm" />
+  <HelpKINode Title="PiOverFour field" Url="html/F_Npruehs_GrabBag_Math_Math2_PiOverFour.htm" />
+  <HelpKINode Title="PiOverTwo field" Url="html/F_Npruehs_GrabBag_Math_Math2_PiOverTwo.htm" />
+  <HelpKINode Title="Plot method" Url="html/M_Npruehs_GrabBag_Math_Bresenham_Plot.htm" />
+  <HelpKINode Title="Position property">
+    <HelpKINode Title="BoxF.Position Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Position.htm" />
+    <HelpKINode Title="RectangleF.Position Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Position.htm" />
+    <HelpKINode Title="RectangleI.Position Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Position.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Predecessor property">
+    <HelpKINode Title="DijkstraNode.Predecessor Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_Dijkstra_DijkstraNode_Predecessor.htm" />
+    <HelpKINode Title="IDijkstraNode.Predecessor Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_Dijkstra_IDijkstraNode_Predecessor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PriorityQueue(Of T) class">
+    <HelpKINode Title="PriorityQueue(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="PriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="about PriorityQueue(Of T) class" Url="html/T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PriorityQueue(Of T).Clear method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Clear.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).Count property" Url="html/P_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Count.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).DecreaseKey method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DecreaseKey.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).DecreaseKeyTo method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DecreaseKeyTo.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).Delete method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Delete.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).DeleteMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DeleteMin.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).Empty property" Url="html/P_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Empty.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).FindMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_FindMin.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).GetEnumerator method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_GetEnumerator.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).IEnumerable.GetEnumerator explicitly implemented method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_System_Collections_IEnumerable_GetEnumerator.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).Insert method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Insert.htm" />
+  <HelpKINode Title="PriorityQueue(Of T).PriorityQueue constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1__ctor.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt; class">
+    <HelpKINode Title="PriorityQueue(T) Class" Url="html/T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="PriorityQueue(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="about PriorityQueue&lt;T&gt; class" Url="html/T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.Clear method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Clear.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.Count property" Url="html/P_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Count.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.DecreaseKey method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DecreaseKey.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.DecreaseKeyTo method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DecreaseKeyTo.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.Delete method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Delete.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.DeleteMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_DeleteMin.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.Empty property" Url="html/P_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Empty.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.FindMin method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_FindMin.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.GetEnumerator method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_GetEnumerator.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.IEnumerable.GetEnumerator explicitly implemented method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_System_Collections_IEnumerable_GetEnumerator.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.Insert method" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1_Insert.htm" />
+  <HelpKINode Title="PriorityQueue&lt;T&gt;.PriorityQueue constructor" Url="html/M_Npruehs_GrabBag_PriorityQueues_PriorityQueue_1__ctor.htm" />
+  <HelpKINode Title="RadixSort method" Url="html/Overload_Npruehs_GrabBag_Util_ListUtils_RadixSort.htm" />
+  <HelpKINode Title="Random2 class">
+    <HelpKINode Title="Random2 Class" Url="html/T_Npruehs_GrabBag_Util_Random2.htm" />
+    <HelpKINode Title="Random2 Members" Url="html/AllMembers_T_Npruehs_GrabBag_Util_Random2.htm" />
+    <HelpKINode Title="about Random2 class" Url="html/T_Npruehs_GrabBag_Util_Random2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Util_Random2.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Npruehs_GrabBag_Util_Random2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Util_Random2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Util_Random2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Random2.NextDouble method" Url="html/M_Npruehs_GrabBag_Util_Random2_NextDouble.htm" />
+  <HelpKINode Title="Random2.NextFloat method" Url="html/M_Npruehs_GrabBag_Util_Random2_NextFloat.htm" />
+  <HelpKINode Title="Random2.NextInt32 method" Url="html/Overload_Npruehs_GrabBag_Util_Random2_NextInt32.htm" />
+  <HelpKINode Title="Random2.NextInt64 method" Url="html/Overload_Npruehs_GrabBag_Util_Random2_NextInt64.htm" />
+  <HelpKINode Title="Random2.Random2 constructor" Url="html/Overload_Npruehs_GrabBag_Util_Random2__ctor.htm" />
+  <HelpKINode Title="Random2.Seed property" Url="html/P_Npruehs_GrabBag_Util_Random2_Seed.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTree(Of TConfiguration, TInput) class">
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="about RapidlyExploringRandomTree(Of TConfiguration, TInput) class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RapidlyExploringRandomTree(Of TConfiguration, TInput).Edges property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_Edges.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTree(Of TConfiguration, TInput).GrowTree method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_GrowTree.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTree(Of TConfiguration, TInput).RapidlyExploringRandomTree constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2__ctor.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTree(Of TConfiguration, TInput).Vertices property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_Vertices.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTree&lt;TConfiguration, TInput&gt; class">
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="about RapidlyExploringRandomTree&lt;TConfiguration, TInput&gt; class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RapidlyExploringRandomTree&lt;TConfiguration, TInput&gt;.Edges property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_Edges.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTree&lt;TConfiguration, TInput&gt;.GrowTree method" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_GrowTree.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTree&lt;TConfiguration, TInput&gt;.RapidlyExploringRandomTree constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2__ctor.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTree&lt;TConfiguration, TInput&gt;.Vertices property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_Vertices.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge(Of TConfiguration, TInput) class">
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="about RapidlyExploringRandomTreeEdge(Of TConfiguration, TInput) class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge(Of TConfiguration, TInput).Input property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Input.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge(Of TConfiguration, TInput).RapidlyExploringRandomTreeEdge constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2__ctor.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge(Of TConfiguration, TInput).Source property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Source.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge(Of TConfiguration, TInput).Target property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Target.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt; class">
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput) Members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="about RapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt; class" Url="html/T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt;.Input property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Input.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt;.RapidlyExploringRandomTreeEdge constructor" Url="html/M_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2__ctor.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt;.Source property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Source.htm" />
+  <HelpKINode Title="RapidlyExploringRandomTreeEdge&lt;TConfiguration, TInput&gt;.Target property" Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Target.htm" />
+  <HelpKINode Title="Rectangle property" Url="html/P_Npruehs_GrabBag_Packing_PackingItem_Rectangle.htm" />
+  <HelpKINode Title="RectangleF class">
+    <HelpKINode Title="RectangleF Class" Url="html/T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm" />
+    <HelpKINode Title="RectangleF Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm" />
+    <HelpKINode Title="about RectangleF class" Url="html/T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleF__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Geometry_RectangleF.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RectangleF.Area property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Area.htm" />
+  <HelpKINode Title="RectangleF.Bottom property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Bottom.htm" />
+  <HelpKINode Title="RectangleF.BottomLeft property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_BottomLeft.htm" />
+  <HelpKINode Title="RectangleF.BottomRight property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_BottomRight.htm" />
+  <HelpKINode Title="RectangleF.Center property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Center.htm" />
+  <HelpKINode Title="RectangleF.Contains method" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleF_Contains.htm" />
+  <HelpKINode Title="RectangleF.Equals method" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleF_Equals.htm" />
+  <HelpKINode Title="RectangleF.GetHashCode method" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_GetHashCode.htm" />
+  <HelpKINode Title="RectangleF.Height property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Height.htm" />
+  <HelpKINode Title="RectangleF.Intersects method" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Intersects.htm" />
+  <HelpKINode Title="RectangleF.Left property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Left.htm" />
+  <HelpKINode Title="RectangleF.Position property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Position.htm" />
+  <HelpKINode Title="RectangleF.RectangleF constructor" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleF__ctor.htm" />
+  <HelpKINode Title="RectangleF.Right property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Right.htm" />
+  <HelpKINode Title="RectangleF.Size property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Size.htm" />
+  <HelpKINode Title="RectangleF.Top property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Top.htm" />
+  <HelpKINode Title="RectangleF.TopLeft property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_TopLeft.htm" />
+  <HelpKINode Title="RectangleF.TopRight property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_TopRight.htm" />
+  <HelpKINode Title="RectangleF.ToString method" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_ToString.htm" />
+  <HelpKINode Title="RectangleF.Union method" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Union.htm" />
+  <HelpKINode Title="RectangleF.Width property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Width.htm" />
+  <HelpKINode Title="RectangleF.X property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_X.htm" />
+  <HelpKINode Title="RectangleF.Y property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Y.htm" />
+  <HelpKINode Title="RectangleI class">
+    <HelpKINode Title="RectangleI Class" Url="html/T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm" />
+    <HelpKINode Title="RectangleI Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm" />
+    <HelpKINode Title="about RectangleI class" Url="html/T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleI__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Geometry_RectangleI.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RectangleI.Area property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Area.htm" />
+  <HelpKINode Title="RectangleI.Bottom property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Bottom.htm" />
+  <HelpKINode Title="RectangleI.BottomLeft property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_BottomLeft.htm" />
+  <HelpKINode Title="RectangleI.BottomRight property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_BottomRight.htm" />
+  <HelpKINode Title="RectangleI.Center property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Center.htm" />
+  <HelpKINode Title="RectangleI.Contains method" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleI_Contains.htm" />
+  <HelpKINode Title="RectangleI.Equals method" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleI_Equals.htm" />
+  <HelpKINode Title="RectangleI.GetHashCode method" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_GetHashCode.htm" />
+  <HelpKINode Title="RectangleI.Height property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Height.htm" />
+  <HelpKINode Title="RectangleI.Intersects method" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_Intersects.htm" />
+  <HelpKINode Title="RectangleI.Left property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Left.htm" />
+  <HelpKINode Title="RectangleI.Position property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Position.htm" />
+  <HelpKINode Title="RectangleI.RectangleI constructor" Url="html/Overload_Npruehs_GrabBag_Math_Geometry_RectangleI__ctor.htm" />
+  <HelpKINode Title="RectangleI.Right property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Right.htm" />
+  <HelpKINode Title="RectangleI.Size property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Size.htm" />
+  <HelpKINode Title="RectangleI.Top property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Top.htm" />
+  <HelpKINode Title="RectangleI.TopLeft property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_TopLeft.htm" />
+  <HelpKINode Title="RectangleI.TopRight property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_TopRight.htm" />
+  <HelpKINode Title="RectangleI.ToString method" Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_ToString.htm" />
+  <HelpKINode Title="RectangleI.Width property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Width.htm" />
+  <HelpKINode Title="RectangleI.X property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_X.htm" />
+  <HelpKINode Title="RectangleI.Y property" Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Y.htm" />
+  <HelpKINode Title="Right property">
+    <HelpKINode Title="BoxF.Right Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Right.htm" />
+    <HelpKINode Title="RectangleF.Right Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Right.htm" />
+    <HelpKINode Title="RectangleI.Right Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Right.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Rotate method" Url="html/M_Npruehs_GrabBag_Packing_PackingItem_Rotate.htm" />
+  <HelpKINode Title="Rotated property" Url="html/P_Npruehs_GrabBag_Packing_PackingItem_Rotated.htm" />
+  <HelpKINode Title="Round method" Url="html/M_Npruehs_GrabBag_Math_Math2_Round.htm" />
+  <HelpKINode Title="Seed property" Url="html/P_Npruehs_GrabBag_Util_Random2_Seed.htm" />
+  <HelpKINode Title="Sin45 field" Url="html/F_Npruehs_GrabBag_Math_Math2_Sin45.htm" />
+  <HelpKINode Title="Size property">
+    <HelpKINode Title="BoxF.Size Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Size.htm" />
+    <HelpKINode Title="RectangleF.Size Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Size.htm" />
+    <HelpKINode Title="RectangleI.Size Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Size.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Source property">
+    <HelpKINode Title="FloatEdge.Source Property " Url="html/P_Npruehs_GrabBag_Graphs_FloatEdge_Source.htm" />
+    <HelpKINode Title="IFredmanTarjanEdge.Source Property " Url="html/P_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge_Source.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput).Source Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Source.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput).Source Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Source.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Sqrt method" Url="html/M_Npruehs_GrabBag_Math_Math2_Sqrt.htm" />
+  <HelpKINode Title="Subtract method">
+    <HelpKINode Title="Vector2F.Subtract Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Subtract.htm" />
+    <HelpKINode Title="Vector2I.Subtract Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Subtract.htm" />
+    <HelpKINode Title="Vector3F.Subtract Method " Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Subtract.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Subtraction operator">
+    <HelpKINode Title="Vector2F.Subtraction Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Subtraction.htm" />
+    <HelpKINode Title="Vector2I.Subtraction Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Subtraction.htm" />
+    <HelpKINode Title="Vector3F.Subtraction Operator " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Subtraction.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Swap(Of T) method" Url="html/M_Npruehs_GrabBag_Util_ListUtils_Swap__1.htm" />
+  <HelpKINode Title="Swap&lt;T&gt; method" Url="html/M_Npruehs_GrabBag_Util_ListUtils_Swap__1.htm" />
+  <HelpKINode Title="Target property">
+    <HelpKINode Title="FloatEdge.Target Property " Url="html/P_Npruehs_GrabBag_Graphs_FloatEdge_Target.htm" />
+    <HelpKINode Title="IFredmanTarjanEdge.Target Property " Url="html/P_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge_Target.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTreeEdge(TConfiguration, TInput).Target Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTreeEdge_2_Target.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTreeEdge(TConfiguration, TInput).Target Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTreeEdge_2_Target.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Top property">
+    <HelpKINode Title="BoxF.Top Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Top.htm" />
+    <HelpKINode Title="RectangleF.Top Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Top.htm" />
+    <HelpKINode Title="RectangleI.Top Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Top.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TopLeft property">
+    <HelpKINode Title="RectangleF.TopLeft Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_TopLeft.htm" />
+    <HelpKINode Title="RectangleI.TopLeft Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_TopLeft.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TopRight property">
+    <HelpKINode Title="RectangleF.TopRight Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_TopRight.htm" />
+    <HelpKINode Title="RectangleI.TopRight Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_TopRight.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="BoxF.ToString Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_BoxF_ToString.htm" />
+    <HelpKINode Title="PackingItem.ToString Method " Url="html/M_Npruehs_GrabBag_Packing_PackingItem_ToString.htm" />
+    <HelpKINode Title="RectangleF.ToString Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_ToString.htm" />
+    <HelpKINode Title="RectangleI.ToString Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleI_ToString.htm" />
+    <HelpKINode Title="Vector2F.ToString Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_ToString.htm" />
+    <HelpKINode Title="Vector2I.ToString Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_ToString.htm" />
+    <HelpKINode Title="Vector3F.ToString Method " Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_ToString.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Truncate method" Url="html/M_Npruehs_GrabBag_Math_Math2_Truncate.htm" />
+  <HelpKINode Title="TwoPi field" Url="html/F_Npruehs_GrabBag_Math_Math2_TwoPi.htm" />
+  <HelpKINode Title="Union method">
+    <HelpKINode Title="IUnionFind(T).Union Method " Url="html/M_Npruehs_GrabBag_UnionFind_IUnionFind_1_Union.htm" />
+    <HelpKINode Title="RectangleF.Union Method " Url="html/M_Npruehs_GrabBag_Math_Geometry_RectangleF_Union.htm" />
+    <HelpKINode Title="UnionFind(T).Union Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_Union.htm" />
+    <HelpKINode Title="UnionFindStructure(T).Union Method " Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_Union.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnionFind(Of T) class">
+    <HelpKINode Title="UnionFind(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="UnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="about UnionFind(Of T) class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnionFind(Of T).Find method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_Find.htm" />
+  <HelpKINode Title="UnionFind(Of T).GetEnumerator method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_GetEnumerator.htm" />
+  <HelpKINode Title="UnionFind(Of T).IEnumerable.GetEnumerator explicitly implemented method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_System_Collections_IEnumerable_GetEnumerator.htm" />
+  <HelpKINode Title="UnionFind(Of T).MakeSet method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_MakeSet.htm" />
+  <HelpKINode Title="UnionFind(Of T).Union method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_Union.htm" />
+  <HelpKINode Title="UnionFind(Of T).UnionFind constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1__ctor.htm" />
+  <HelpKINode Title="UnionFind&lt;T&gt; class">
+    <HelpKINode Title="UnionFind(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="UnionFind(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="about UnionFind&lt;T&gt; class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_UnionFind_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnionFind&lt;T&gt;.Find method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_Find.htm" />
+  <HelpKINode Title="UnionFind&lt;T&gt;.GetEnumerator method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_GetEnumerator.htm" />
+  <HelpKINode Title="UnionFind&lt;T&gt;.IEnumerable.GetEnumerator explicitly implemented method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_System_Collections_IEnumerable_GetEnumerator.htm" />
+  <HelpKINode Title="UnionFind&lt;T&gt;.MakeSet method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_MakeSet.htm" />
+  <HelpKINode Title="UnionFind&lt;T&gt;.Union method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1_Union.htm" />
+  <HelpKINode Title="UnionFind&lt;T&gt;.UnionFind constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFind_1__ctor.htm" />
+  <HelpKINode Title="UnionFindNode(Of T) class">
+    <HelpKINode Title="UnionFindNode(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="UnionFindNode(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="about UnionFindNode(Of T) class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindNode_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnionFindNode(Of T).Item property" Url="html/P_Npruehs_GrabBag_UnionFind_UnionFindNode_1_Item.htm" />
+  <HelpKINode Title="UnionFindNode(Of T).UnionFindNode constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindNode_1__ctor.htm" />
+  <HelpKINode Title="UnionFindNode&lt;T&gt; class">
+    <HelpKINode Title="UnionFindNode(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="UnionFindNode(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="about UnionFindNode&lt;T&gt; class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindNode_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_UnionFind_UnionFindNode_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnionFindNode&lt;T&gt;.Item property" Url="html/P_Npruehs_GrabBag_UnionFind_UnionFindNode_1_Item.htm" />
+  <HelpKINode Title="UnionFindNode&lt;T&gt;.UnionFindNode constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindNode_1__ctor.htm" />
+  <HelpKINode Title="UnionFindStructure(Of T) class">
+    <HelpKINode Title="UnionFindStructure(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="UnionFindStructure(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="about UnionFindStructure(Of T) class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnionFindStructure(Of T).Find method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_Find.htm" />
+  <HelpKINode Title="UnionFindStructure(Of T).MakeSet method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_MakeSet.htm" />
+  <HelpKINode Title="UnionFindStructure(Of T).Union method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_Union.htm" />
+  <HelpKINode Title="UnionFindStructure(Of T).UnionFindStructure constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1__ctor.htm" />
+  <HelpKINode Title="UnionFindStructure&lt;T&gt; class">
+    <HelpKINode Title="UnionFindStructure(T) Class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="UnionFindStructure(T) Members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="about UnionFindStructure&lt;T&gt; class" Url="html/T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_UnionFind_UnionFindStructure_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UnionFindStructure&lt;T&gt;.Find method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_Find.htm" />
+  <HelpKINode Title="UnionFindStructure&lt;T&gt;.MakeSet method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_MakeSet.htm" />
+  <HelpKINode Title="UnionFindStructure&lt;T&gt;.Union method" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1_Union.htm" />
+  <HelpKINode Title="UnionFindStructure&lt;T&gt;.UnionFindStructure constructor" Url="html/M_Npruehs_GrabBag_UnionFind_UnionFindStructure_1__ctor.htm" />
+  <HelpKINode Title="Vector2F structure">
+    <HelpKINode Title="Vector2F Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+    <HelpKINode Title="Vector2F Structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+    <HelpKINode Title="about Vector2F structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+    <HelpKINode Title="operators" Url="html/Operators_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Vectors_Vector2F.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Vector2F.Add method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Add.htm" />
+  <HelpKINode Title="Vector2F.Addition operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Addition.htm" />
+  <HelpKINode Title="Vector2F.Distance method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Distance.htm" />
+  <HelpKINode Title="Vector2F.DistanceSquared method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_DistanceSquared.htm" />
+  <HelpKINode Title="Vector2F.Divide method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Divide.htm" />
+  <HelpKINode Title="Vector2F.Division operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Division.htm" />
+  <HelpKINode Title="Vector2F.Dot method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Dot.htm" />
+  <HelpKINode Title="Vector2F.Equality operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Equality.htm" />
+  <HelpKINode Title="Vector2F.Equals method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Equals.htm" />
+  <HelpKINode Title="Vector2F.GetHashCode method" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_GetHashCode.htm" />
+  <HelpKINode Title="Vector2F.Inequality operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Inequality.htm" />
+  <HelpKINode Title="Vector2F.Length property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_Length.htm" />
+  <HelpKINode Title="Vector2F.LengthSquared property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_LengthSquared.htm" />
+  <HelpKINode Title="Vector2F.Lerp method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Lerp.htm" />
+  <HelpKINode Title="Vector2F.Multiply method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Multiply.htm" />
+  <HelpKINode Title="Vector2F.Multiply operator" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Multiply.htm" />
+  <HelpKINode Title="Vector2F.Normalize method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Normalize.htm" />
+  <HelpKINode Title="Vector2F.One field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2F_One.htm" />
+  <HelpKINode Title="Vector2F.Subtract method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2F_Subtract.htm" />
+  <HelpKINode Title="Vector2F.Subtraction operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_op_Subtraction.htm" />
+  <HelpKINode Title="Vector2F.ToString method" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F_ToString.htm" />
+  <HelpKINode Title="Vector2F.Vector2F constructor" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2F__ctor.htm" />
+  <HelpKINode Title="Vector2F.X property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_X.htm" />
+  <HelpKINode Title="Vector2F.Y property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_Y.htm" />
+  <HelpKINode Title="Vector2F.Zero field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2F_Zero.htm" />
+  <HelpKINode Title="Vector2I structure">
+    <HelpKINode Title="Vector2I Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+    <HelpKINode Title="Vector2I Structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+    <HelpKINode Title="about Vector2I structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+    <HelpKINode Title="operators" Url="html/Operators_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Vectors_Vector2I.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Vector2I.Add method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Add.htm" />
+  <HelpKINode Title="Vector2I.Addition operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Addition.htm" />
+  <HelpKINode Title="Vector2I.Distance method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Distance.htm" />
+  <HelpKINode Title="Vector2I.DistanceSquared method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_DistanceSquared.htm" />
+  <HelpKINode Title="Vector2I.Divide method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Divide.htm" />
+  <HelpKINode Title="Vector2I.Division operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Division.htm" />
+  <HelpKINode Title="Vector2I.Dot method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Dot.htm" />
+  <HelpKINode Title="Vector2I.Equality operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Equality.htm" />
+  <HelpKINode Title="Vector2I.Equals method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Equals.htm" />
+  <HelpKINode Title="Vector2I.GetHashCode method" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_GetHashCode.htm" />
+  <HelpKINode Title="Vector2I.Inequality operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Inequality.htm" />
+  <HelpKINode Title="Vector2I.Length property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_Length.htm" />
+  <HelpKINode Title="Vector2I.LengthSquared property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_LengthSquared.htm" />
+  <HelpKINode Title="Vector2I.Multiply method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Multiply.htm" />
+  <HelpKINode Title="Vector2I.Multiply operator" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Multiply.htm" />
+  <HelpKINode Title="Vector2I.One field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2I_One.htm" />
+  <HelpKINode Title="Vector2I.Subtract method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector2I_Subtract.htm" />
+  <HelpKINode Title="Vector2I.Subtraction operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_op_Subtraction.htm" />
+  <HelpKINode Title="Vector2I.ToString method" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I_ToString.htm" />
+  <HelpKINode Title="Vector2I.Vector2I constructor" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector2I__ctor.htm" />
+  <HelpKINode Title="Vector2I.X property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_X.htm" />
+  <HelpKINode Title="Vector2I.Y property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_Y.htm" />
+  <HelpKINode Title="Vector2I.Zero field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2I_Zero.htm" />
+  <HelpKINode Title="Vector3F structure">
+    <HelpKINode Title="Vector3F Members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+    <HelpKINode Title="Vector3F Structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+    <HelpKINode Title="about Vector3F structure" Url="html/T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+    <HelpKINode Title="operators" Url="html/Operators_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Npruehs_GrabBag_Math_Vectors_Vector3F.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Vector3F.Add method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Add.htm" />
+  <HelpKINode Title="Vector3F.Addition operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Addition.htm" />
+  <HelpKINode Title="Vector3F.Cross method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Cross.htm" />
+  <HelpKINode Title="Vector3F.Distance method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Distance.htm" />
+  <HelpKINode Title="Vector3F.DistanceSquared method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_DistanceSquared.htm" />
+  <HelpKINode Title="Vector3F.Divide method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Divide.htm" />
+  <HelpKINode Title="Vector3F.Division operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Division.htm" />
+  <HelpKINode Title="Vector3F.Dot method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Dot.htm" />
+  <HelpKINode Title="Vector3F.Equality operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Equality.htm" />
+  <HelpKINode Title="Vector3F.Equals method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Equals.htm" />
+  <HelpKINode Title="Vector3F.GetHashCode method" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_GetHashCode.htm" />
+  <HelpKINode Title="Vector3F.Inequality operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Inequality.htm" />
+  <HelpKINode Title="Vector3F.Length property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_Length.htm" />
+  <HelpKINode Title="Vector3F.LengthSquared property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_LengthSquared.htm" />
+  <HelpKINode Title="Vector3F.Lerp method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Lerp.htm" />
+  <HelpKINode Title="Vector3F.Multiply method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Multiply.htm" />
+  <HelpKINode Title="Vector3F.Multiply operator" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Multiply.htm" />
+  <HelpKINode Title="Vector3F.Normalize method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Normalize.htm" />
+  <HelpKINode Title="Vector3F.One field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector3F_One.htm" />
+  <HelpKINode Title="Vector3F.Subtract method" Url="html/Overload_Npruehs_GrabBag_Math_Vectors_Vector3F_Subtract.htm" />
+  <HelpKINode Title="Vector3F.Subtraction operator" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_op_Subtraction.htm" />
+  <HelpKINode Title="Vector3F.ToString method" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F_ToString.htm" />
+  <HelpKINode Title="Vector3F.Vector3F constructor" Url="html/M_Npruehs_GrabBag_Math_Vectors_Vector3F__ctor.htm" />
+  <HelpKINode Title="Vector3F.X property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_X.htm" />
+  <HelpKINode Title="Vector3F.Y property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_Y.htm" />
+  <HelpKINode Title="Vector3F.Z property" Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_Z.htm" />
+  <HelpKINode Title="Vector3F.Zero field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector3F_Zero.htm" />
+  <HelpKINode Title="VertexCount property">
+    <HelpKINode Title="Graph(TVertex, TEdge).VertexCount Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_VertexCount.htm" />
+    <HelpKINode Title="GraphF.VertexCount Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphF_VertexCount.htm" />
+    <HelpKINode Title="GraphI.VertexCount Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphI_VertexCount.htm" />
+    <HelpKINode Title="IGraph(TVertex).VertexCount Property " Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_VertexCount.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Vertices property">
+    <HelpKINode Title="Graph(TVertex, TEdge).Vertices Property " Url="html/P_Npruehs_GrabBag_Graphs_Graph_2_Vertices.htm" />
+    <HelpKINode Title="GraphF.Vertices Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphF_Vertices.htm" />
+    <HelpKINode Title="GraphI.Vertices Property " Url="html/P_Npruehs_GrabBag_Graphs_GraphI_Vertices.htm" />
+    <HelpKINode Title="IGraph(TVertex).Vertices Property " Url="html/P_Npruehs_GrabBag_Graphs_IGraph_1_Vertices.htm" />
+    <HelpKINode Title="IRapidlyExploringRandomTree(TConfiguration, TInput).Vertices Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_IRapidlyExploringRandomTree_2_Vertices.htm" />
+    <HelpKINode Title="RapidlyExploringRandomTree(TConfiguration, TInput).Vertices Property " Url="html/P_Npruehs_GrabBag_RapidlyExploringRandomTrees_RapidlyExploringRandomTree_2_Vertices.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Visited property">
+    <HelpKINode Title="AStarNode.Visited Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_AStarNode_Visited.htm" />
+    <HelpKINode Title="IAStarNode.Visited Property " Url="html/P_Npruehs_GrabBag_ShortestPaths_AStar_IAStarNode_Visited.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Volume property" Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Volume.htm" />
+  <HelpKINode Title="Weight property">
+    <HelpKINode Title="FloatEdge.Weight Property " Url="html/P_Npruehs_GrabBag_Graphs_FloatEdge_Weight.htm" />
+    <HelpKINode Title="IFredmanTarjanEdge.Weight Property " Url="html/P_Npruehs_GrabBag_MinimumSpanningTrees_Algorithms_IFredmanTarjanEdge_Weight.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Width property">
+    <HelpKINode Title="BoxF.Width Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Width.htm" />
+    <HelpKINode Title="PackingLevel.Width Property " Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Width.htm" />
+    <HelpKINode Title="RectangleF.Width Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Width.htm" />
+    <HelpKINode Title="RectangleI.Width Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Width.htm" />
+  </HelpKINode>
+  <HelpKINode Title="X property">
+    <HelpKINode Title="BoxF.X Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_X.htm" />
+    <HelpKINode Title="RectangleF.X Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_X.htm" />
+    <HelpKINode Title="RectangleI.X Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_X.htm" />
+    <HelpKINode Title="Vector2F.X Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_X.htm" />
+    <HelpKINode Title="Vector2I.X Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_X.htm" />
+    <HelpKINode Title="Vector3F.X Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_X.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Y property">
+    <HelpKINode Title="BoxF.Y Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Y.htm" />
+    <HelpKINode Title="PackingLevel.Y Property " Url="html/P_Npruehs_GrabBag_Packing_PackingLevel_Y.htm" />
+    <HelpKINode Title="RectangleF.Y Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleF_Y.htm" />
+    <HelpKINode Title="RectangleI.Y Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_RectangleI_Y.htm" />
+    <HelpKINode Title="Vector2F.Y Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2F_Y.htm" />
+    <HelpKINode Title="Vector2I.Y Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector2I_Y.htm" />
+    <HelpKINode Title="Vector3F.Y Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_Y.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Z property">
+    <HelpKINode Title="BoxF.Z Property " Url="html/P_Npruehs_GrabBag_Math_Geometry_BoxF_Z.htm" />
+    <HelpKINode Title="Vector3F.Z Property " Url="html/P_Npruehs_GrabBag_Math_Vectors_Vector3F_Z.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Zero field">
+    <HelpKINode Title="Vector2F.Zero Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2F_Zero.htm" />
+    <HelpKINode Title="Vector2I.Zero Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector2I_Zero.htm" />
+    <HelpKINode Title="Vector3F.Zero Field" Url="html/F_Npruehs_GrabBag_Math_Vectors_Vector3F_Zero.htm" />
+  </HelpKINode>
+</HelpKI>
