@@ -3,7 +3,6 @@
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
-
 namespace Npruehs.GrabBag.Math
 {
     using System;
@@ -101,6 +100,42 @@ namespace Npruehs.GrabBag.Math
         public static float DegreesToRadians(float degrees)
         {
             return degrees * (Pi / 180.0f);
+        }
+
+        /// <summary>
+        /// Checks whether the two passed numbers are equal, with respect
+        ///     to possible loss of precision caused by rounding values.
+        /// </summary>
+        /// <param name="f">
+        /// First number to compare.
+        /// </param>
+        /// <param name="g">
+        /// Second number to compare.
+        /// </param>
+        /// <returns>
+        /// <c>true</c>, if both numbers are equal, and <c>false</c> otherwise.
+        /// </returns>
+        public static bool Equals(float f, float g)
+        {
+            return Math.Abs(f - g) < float.Epsilon;
+        }
+
+        /// <summary>
+        /// Checks whether the two passed numbers are equal, with respect
+        ///     to possible loss of precision caused by rounding values.
+        /// </summary>
+        /// <param name="d">
+        /// First number to compare.
+        /// </param>
+        /// <param name="e">
+        /// Second number to compare.
+        /// </param>
+        /// <returns>
+        /// <c>true</c>, if both numbers are equal, and <c>false</c> otherwise.
+        /// </returns>
+        public static bool Equals(double d, double e)
+        {
+            return Math.Abs(d - e) < double.Epsilon;
         }
 
         /// <summary>

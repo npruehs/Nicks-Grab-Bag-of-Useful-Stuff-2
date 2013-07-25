@@ -3,7 +3,6 @@
 //   Copyright 2013 Nick Pruehs.
 // </copyright>
 // --------------------------------------------------------------------------------------------------------------------
-
 namespace Npruehs.GrabBag.Packing.Tests
 {
     using System;
@@ -75,7 +74,7 @@ namespace Npruehs.GrabBag.Packing.Tests
         {
             var epsteinVanStee = new EpsteinVanStee();
             epsteinVanStee.FindSolution(EpsteinVanStee.AssumedStripWidth, this.testInstance);
-            this.CheckSolution(EpsteinVanStee.AssumedStripWidth, epsteinVanStee);
+            CheckSolution(EpsteinVanStee.AssumedStripWidth, epsteinVanStee);
         }
 
         /// <summary>
@@ -135,7 +134,7 @@ namespace Npruehs.GrabBag.Packing.Tests
         {
             var ffdh = new FirstFitDecreasingHeight();
             ffdh.FindSolution(1.0f, this.testInstance);
-            this.CheckSolution(1.0f, ffdh);
+            CheckSolution(1.0f, ffdh);
         }
 
         /// <summary>
@@ -180,6 +179,25 @@ namespace Npruehs.GrabBag.Packing.Tests
         }
 
         /// <summary>
+        /// Fails if any two different items in the specified solution overlap,
+        /// or if any item in the specified solution exceeds the strip width,
+        /// and writes the solution to the debug console.
+        /// </summary>
+        /// <param name="stripWidth">
+        /// Strip width to check.
+        /// </param>
+        /// <param name="result">
+        /// Packing algorithm solution to check.
+        /// </param>
+        private static void CheckSolution(float stripWidth, PackingAlgorithm result)
+        {
+            PrintSolution(result);
+
+            CheckStripWidthExceeded(stripWidth, result);
+            CheckItemsOverlap(result);
+        }
+
+        /// <summary>
         /// Fails if any item in the specified solution exceeds the strip width.
         /// </summary>
         /// <param name="stripWidth">
@@ -208,25 +226,6 @@ namespace Npruehs.GrabBag.Packing.Tests
             {
                 Debug.WriteLine(item.ToString());
             }
-        }
-
-        /// <summary>
-        /// Fails if any two different items in the specified solution overlap,
-        /// or if any item in the specified solution exceeds the strip width,
-        /// and writes the solution to the debug console.
-        /// </summary>
-        /// <param name="stripWidth">
-        /// Strip width to check.
-        /// </param>
-        /// <param name="result">
-        /// Packing algorithm solution to check.
-        /// </param>
-        private void CheckSolution(float stripWidth, PackingAlgorithm result)
-        {
-            PrintSolution(result);
-
-            CheckStripWidthExceeded(stripWidth, result);
-            CheckItemsOverlap(result);
         }
 
         #endregion

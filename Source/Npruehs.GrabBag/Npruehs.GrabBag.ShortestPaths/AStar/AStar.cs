@@ -39,7 +39,7 @@ namespace Npruehs.GrabBag.ShortestPaths.AStar
         /// and null otherwise.
         /// </returns>
         public static List<T> FindPath<T>(IWeightedGraph<T, int> graph, T start, T finish)
-            where T : IAStarNode
+            where T : class, IAStarNode
         {
             IList<T> visitedNodes;
             return FindPath(graph, start, finish, out visitedNodes);
@@ -70,7 +70,7 @@ namespace Npruehs.GrabBag.ShortestPaths.AStar
         /// List of nodes representing the shortest path, if there is one,
         /// and null otherwise.
         /// </returns>
-        public static List<T> FindPath<T>(IWeightedGraph<T, int> graph, T start, T finish, out IList<T> visitedNodes) where T : IAStarNode
+        public static List<T> FindPath<T>(IWeightedGraph<T, int> graph, T start, T finish, out IList<T> visitedNodes) where T : class, IAStarNode
         {
             if (graph == null)
             {

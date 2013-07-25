@@ -276,7 +276,7 @@ namespace Npruehs.GrabBag.Math.Vectors
         public static Vector2F Normalize(Vector2F v)
         {
             var lengthSquared = v.LengthSquared;
-            if (lengthSquared == 0 || lengthSquared == 1)
+            if (Math2.Equals(lengthSquared, 0f) || Math2.Equals(lengthSquared, 1f))
             {
                 return v;
             }

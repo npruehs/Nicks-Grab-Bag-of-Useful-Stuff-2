@@ -212,12 +212,12 @@ namespace Npruehs.GrabBag.Math.Geometry
             {
                 if (value.X < 0)
                 {
-                    throw new ArgumentOutOfRangeException("Width", "Width must be non-negative.");
+                    throw new ArgumentOutOfRangeException("value", "Width must be non-negative.");
                 }
 
                 if (value.Y < 0)
                 {
-                    throw new ArgumentOutOfRangeException("Height", "Height must be non-negative.");
+                    throw new ArgumentOutOfRangeException("value", "Height must be non-negative.");
                 }
 
                 this.size = value;
