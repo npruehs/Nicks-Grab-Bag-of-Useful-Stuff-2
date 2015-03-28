@@ -43,6 +43,8 @@ at Github and/or provide a unit test yourself for helping me fix the issue as
 soon as possible. Invalid arguments or states are communicated by clear
 exception messages that help you isolate the problem.
 
+Public API documentation is available at [http://npruehs.de/Nicks-Grab-Bag-of-Useful-Stuff-2/api/2.0/](http://npruehs.de/Nicks-Grab-Bag-of-Useful-Stuff-2/api/2.0/).
+
 Special thanks go to [Alexander Graefenstein](http://www.ginie.eu),
 [Denis Vaz Alves](http://www.xing.com/profile/Denis_VazAlves) and
 [Christian Oeing](http://oeing.eu) for the permission to share the code we've
