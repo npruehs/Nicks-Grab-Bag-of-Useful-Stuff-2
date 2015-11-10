@@ -349,7 +349,7 @@ namespace Npruehs.GrabBag.Math.Geometry
         {
             return (this.Left <= other.Left && this.Right >= other.Right)
                    && (this.Top <= other.Top && this.Bottom >= other.Bottom)
-                   && (this.Front <= other.Front && this.Back >= other.Front);
+                   && (this.Front <= other.Front && this.Back >= other.Back);
         }
 
         /// <summary>
